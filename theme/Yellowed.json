@@ -391,6 +391,7 @@
         "punctuation.definition.heading.markdown",
         "punctuation.definition.list.begin.markdown",
         "punctuation.definition.raw.markdown",
+        "support.function.builtin.shell",
         "storage.modifier.cs"
       ],
       "settings": {

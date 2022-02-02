@@ -6,6 +6,11 @@
 
 ---
 
+### 🖼️ Screenshots
+![](./screenshots/screenshot1.png)
+![](./screenshots/screenshot2.png)
+![](./screenshots/screenshot3.png)
+
 ### ⚙️ Color palet
 
 - Grey   - #6b6b6b
