@@ -372,9 +372,9 @@
         "keyword.operator",
         "keyword.operator.logical",
         "markup.quote.markdown",
-        "storage.type",
         "storage.modifier.import",
-        "storage.modifier.package"
+        "storage.modifier.package",
+        "storage.type"
       ],
       "settings": {
         "foreground": "#ffd900"
@@ -392,7 +392,9 @@
         "punctuation.definition.list.begin.markdown",
         "punctuation.definition.raw.markdown",
         "support.function.builtin.shell",
-        "storage.modifier.cs"
+        "storage.type.function.python",
+        "storage.modifier.cs",
+        "storage.modifier.java"
       ],
       "settings": {
         "foreground": "#ffd900",
