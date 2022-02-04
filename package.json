@@ -5,7 +5,7 @@
 	"homepage": "",
 	"version": "0.0.1",
 	"author": "gael-lopes-da-silva",
-	"publisher": "Gaël Lopes Da Silva",
+	"publisher": "Gaël",
   "license": "MIT",
 	"engines": {
 		"vscode": "^1.13.0"
