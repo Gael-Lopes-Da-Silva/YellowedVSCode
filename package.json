@@ -4,8 +4,8 @@
 	"description": "A lemon like theme for vscode.",
 	"homepage": "",
 	"version": "0.0.1",
-	"author": "gael-lopes-da-silva",
-	"publisher": "gael-lopes-da-silva",
+	"author": "Gaël Lopes Da Silva",
+	"publisher": "Gaël Lopes Da Silva",
   "license": "MIT",
 	"engines": {
 		"vscode": "^1.13.0"
