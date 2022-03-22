@@ -1,35 +1,31 @@
 {
-	"name": "yellowed",
-	"displayName": "Yellowed",
-	"description": "A lemon like theme for vscode.",
-	"homepage": "",
-	"version": "0.0.1",
-	"author": "gael-lopes-da-silva",
-	"publisher": "Gaël",
-  "license": "MIT",
-	"engines": {
-		"vscode": "^1.13.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Yellowed",
-				"uiTheme": "vs-dark",
-				"path": "./theme/Yellowed.json"
-			}
-		]
-	},
+  "name": "yellowed",
+  "displayName": "Yellowed",
+  "description": "A lemon like theme for vscode.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Yellowed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Yellowed-color-theme.json"
+      }
+    ]
+  },
   "icon": "./icon/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Gael-Lopes-Da-Silva/Yellowed"
   },
-	"keywords": [
-		"dark",
-		"material",
-		"yellow"
-	]
+  "keywords": [
+    "dark",
+    "material",
+    "yellow"
+  ]
 }
