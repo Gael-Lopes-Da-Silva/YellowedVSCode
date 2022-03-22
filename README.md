@@ -7,9 +7,9 @@
 ---
 
 ### 🖼️ Screenshots
-![](https://raw.githubusercontent.com/Gael-Lopes-Da-Silva/Yellowed/main/screenshots/screenshot1.png)
-![](https://raw.githubusercontent.com/Gael-Lopes-Da-Silva/Yellowed/main/screenshots/screenshot2.png)
-![](https://raw.githubusercontent.com/Gael-Lopes-Da-Silva/Yellowed/main/screenshots/screenshot3.png)
+![](https://cdn.discordapp.com/attachments/594977170850447411/955861490651496509/screenshot1.png)
+![](https://cdn.discordapp.com/attachments/594977170850447411/955861491100295238/screenshot2.png)
+![](https://cdn.discordapp.com/attachments/594977170850447411/955861491364532284/screenshot3.png)
 
 ### ⚙️ Color palet
 

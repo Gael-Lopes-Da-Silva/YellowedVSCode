@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "publisher": "gael-lopes-da-silva",
   "license": "./LICENSE.md",
+  "markdown": "github",
   "engines": {
     "vscode": "^1.65.0"
   },
