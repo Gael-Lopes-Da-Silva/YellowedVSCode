@@ -2,7 +2,7 @@
 
 ---
 
-<p align="center">⚙️ Yellowed is a theme for vscode focused on the golden yellow color. Its syntax is inspired by the <a href="https://github.com/rexim/gruber-darker-theme">gruber-darker</a> theme on emacs but changed a bit.</p>
+<p align="center">⚙️ Yellowed is a theme for vscode focused on the golden yellow color. Its syntax is inspired by the <a href="https://github.com/rexim/gruber-darker-theme">gruber-darker</a> theme on emacs but changed a bit. And it's color was inspired by some monokai themes.</p>
 
 ---
 
