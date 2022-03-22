@@ -17,15 +17,5 @@
         "path": "./themes/Yellowed-color-theme.json"
       }
     ]
-  },
-  "icon": "./icon/icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Gael-Lopes-Da-Silva/Yellowed"
-  },
-  "keywords": [
-    "dark",
-    "material",
-    "yellow"
-  ]
+  }
 }

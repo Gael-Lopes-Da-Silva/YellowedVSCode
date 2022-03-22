@@ -7,9 +7,9 @@
 ---
 
 ### 🖼️ Screenshots
-![](./screenshots/screenshot1.png)
-![](./screenshots/screenshot2.png)
-![](./screenshots/screenshot3.png)
+![](https://raw.githubusercontent.com/Gael-Lopes-Da-Silva/Yellowed/main/screenshots/screenshot1.png)
+![](https://raw.githubusercontent.com/Gael-Lopes-Da-Silva/Yellowed/main/screenshots/screenshot2.png)
+![](https://raw.githubusercontent.com/Gael-Lopes-Da-Silva/Yellowed/main/screenshots/screenshot3.png)
 
 ### ⚙️ Color palet
 
