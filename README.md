@@ -13,12 +13,15 @@
 
 ### ⚙️ Color palet
 
-- Grey   - #6b6b6b
-- Green  - #378b1d
-- Purple - #ff80f4
-- Yellow - #ffd900
-- White  - #ffffff
+#### 🖼️ Interface
+- Blue      - #1050b5
+- Gray      - #2a2a2a
+- Dark Gray - #242424
+- For all colors see [here](./themes/Yellowed-color-theme.json)
 
-### ❓ How to install the theme
-
-To install the theme just do `cd $HOME\.vscode\extensions\` and `git clone https://github.com/Gael-Lopes-Da-Silva` or just find the folder where the vscode extensions are stored and put the Yellowed folder in it.
+#### ⌨️ Syntaxe
+- Grey      - #6b6b6b
+- Green     - #378b1d
+- Purple    - #ff80f4
+- Yellow    - #ffd900
+- White     - #ffffff
