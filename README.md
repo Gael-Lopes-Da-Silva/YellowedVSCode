@@ -14,14 +14,16 @@
 ### ⚙️ Color palet
 ~~~
 🖼️ Interface
-Blue      - #1050b5
-Gray      - #2a2a2a
-Dark Gray - #242424
+Blue      - [#1050b5]
+Gray      - [#2a2a2a]
+Dark Gray - [#242424]
 
 ⌨️ Syntaxe
-Grey      - #6b6b6b
-Green     - #378b1d
-Purple    - #ff80f4
-Yellow    - #ffd900
-White     - #ffffff
+Grey      - [#6b6b6b]
+Green     - [#378b1d]
+Purple    - [#ff80f4]
+Yellow    - [#ffd900]
+White     - [#ffffff]
 ~~~
+
+(you can find my vscode configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyVscodeConfig))
