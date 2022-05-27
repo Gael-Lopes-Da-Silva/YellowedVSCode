@@ -29,3 +29,8 @@
 ## 0.5.0
 
 - Added more syntax support
+
+
+## 0.6.0
+
+- I published this version without wanting to :(
