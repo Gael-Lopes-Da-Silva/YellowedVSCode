@@ -34,3 +34,8 @@
 ## 0.6.0
 
 - I published this version without wanting to :(
+
+
+## 0.7.0
+
+- Some change in the C# highlighting
