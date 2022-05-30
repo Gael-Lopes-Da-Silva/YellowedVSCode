@@ -6,6 +6,16 @@
 
 ---
 
+### 1.1.0
+
+- I don't know what I'm doing anymore
+
+
+### 0.9.0 - 1.0.0
+
+- Added javascript support
+
+
 ### 0.8.0
 
 - Updated the screenshots

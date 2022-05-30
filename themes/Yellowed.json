@@ -317,6 +317,8 @@
                 "punctuation.definition.char.rust",
                 "punctuation.definition.string.begin",
                 "punctuation.definition.string.end",
+                "punctuation.definition.string.template.begin.js",
+                "punctuation.definition.string.template.end.js",
                 "punctuation.definition.string.rust",
                 "string.comment"
             ],
@@ -350,6 +352,8 @@
                 "constant.other",
                 "punctuation.definition.interpolation.begin.cs",
                 "punctuation.definition.interpolation.end.cs",
+                "punctuation.definition.template-expression.begin.js",
+                "punctuation.definition.template-expression.end.js",
                 "punctuation.section.embedded.begin.ruby",
                 "punctuation.section.embedded.end.ruby",
                 "variable.parameter.dart"
