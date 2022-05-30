@@ -1,8 +1,8 @@
-<h3 align="center">Yellowed theme for vscode</h3>
+<h3 align="center">Yellowed</h3>
 
 ---
 
-<p align="center">⚙️ Yellowed is a theme for vscode focused on the golden yellow color. Its syntax is inspired by the <a href="https://github.com/rexim/gruber-darker-theme">gruber-darker</a> theme on emacs but changed a bit. And it's color was inspired by some monokai themes.</p>
+<p align="center">⚙️ Yellowed is a simple material dark theme for Visual Studio Code wich focus his syntax color on the golden yellow. Its syntax is inspired by the <a href="https://github.com/rexim/gruber-darker-theme">gruber-darker</a> theme for emacs, but changed a bit. The interface color is clearly stealed (maybe not :p) from the <a href="https://marketplace.visualstudio.com/items?itemName=tw.monokai-accent">Accent Monokai</a> theme, the blue one.</p>
 
 ---
 
@@ -26,4 +26,4 @@ Yellow    - [#ffd900]
 White     - [#ffffff]
 ~~~
 
-(you can find my vscode configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyVscodeConfig))
+(you can find my Visual Studio Code configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyVscodeConfig))
