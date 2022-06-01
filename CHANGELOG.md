@@ -6,6 +6,11 @@
 
 ---
 
+### 1.2.0
+
+- Added support for haxe language
+
+
 ### 1.1.0
 
 - I don't know what I'm doing anymore

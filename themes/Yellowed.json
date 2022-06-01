@@ -350,6 +350,8 @@
                 "constant.character",
                 "constant.language",
                 "constant.other",
+                "punctuation.definition.block.begin.hx",
+                "punctuation.definition.block.end.hx",
                 "punctuation.definition.interpolation.begin.cs",
                 "punctuation.definition.interpolation.end.cs",
                 "punctuation.definition.template-expression.begin.js",
@@ -380,6 +382,7 @@
                 "storage.modifier.import",
                 "storage.modifier.package",
                 "storage.type",
+                "support.class.builtin.hx",
                 "support.class.dart",
                 "support.type.julia",
                 "support.type.swift"
@@ -411,7 +414,9 @@
                 "punctuation.definition.raw.markdown",
                 "punctuation.definition.strikethrough.markdown",
                 "support.function.builtin.shell",
+                "storage.type.class.hx",
                 "storage.type.extension.swift",
+                "storage.type.function.hx",
                 "storage.type.function.js",
                 "storage.type.function.kotlin",
                 "storage.type.function.matlab",
@@ -422,6 +427,7 @@
                 "storage.type.package.kotlin",
                 "storage.type.variable.kotlin",
                 "storage.modifier.cs",
+                "storage.modifier.hx",
                 "storage.modifier.java"
             ],
             "settings": {
