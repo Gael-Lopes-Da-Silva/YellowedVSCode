@@ -6,6 +6,11 @@
 
 ---
 
+### 1.3.0
+
+- Better support for C#
+
+
 ### 1.2.0
 
 - Added support for haxe language
