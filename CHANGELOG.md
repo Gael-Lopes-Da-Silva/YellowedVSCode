@@ -6,6 +6,11 @@
 
 ---
 
+### 1.7.0
+
+- Better interface color
+
+
 ### 1.6.0
 
 - Used a vector software to recreate the logo
