@@ -4,6 +4,8 @@
 
 <p align="center">⚙️ Yellowed is a simple material dark theme for Visual Studio Code wich focus his syntax color on the golden yellow. Its syntax is inspired by the <a href="https://github.com/rexim/gruber-darker-theme">gruber-darker</a> theme for emacs, but changed a bit. The interface color is clearly stealed (maybe not :p) from the <a href="https://marketplace.visualstudio.com/items?itemName=tw.monokai-accent">Accent Monokai</a> theme, the blue one.</p>
 
+<p align="center">⚠️ If you find any weird syntax highlighting, please report it on the github page. This would help me a lot since I can't cover all the languages.</p>
+
 ---
 
 ### 🖼️ Screenshots

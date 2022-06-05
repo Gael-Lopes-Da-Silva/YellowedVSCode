@@ -6,7 +6,13 @@
 
 ---
 
-### 1.4.0
+### 1.6.0
+
+- Used a vector software to recreate the logo
+- Added better support for many languages
+
+
+### 1.4.0 - 1.5.0
 
 - Don't know
 
