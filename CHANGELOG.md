@@ -6,6 +6,11 @@
 
 ---
 
+### 1.8.0
+
+- Better c support
+
+
 ### 1.7.0
 
 - Better interface color
