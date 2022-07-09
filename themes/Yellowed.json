@@ -360,6 +360,7 @@
             "scope": [
                 "constant.character",
                 "constant.language",
+                "constant.language.c",
                 "constant.other",
                 "punctuation.definition.block.begin.hx",
                 "punctuation.definition.block.end.hx",
