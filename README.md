@@ -9,9 +9,9 @@
 ---
 
 ### 🖼️ Screenshots
-![](https://cdn.discordapp.com/attachments/594977170850447411/980089463218778112/screenshot1.png)
-![](https://cdn.discordapp.com/attachments/594977170850447411/980089463499784192/screenshot2.png)
-![](https://cdn.discordapp.com/attachments/594977170850447411/980089462954541098/screenshot3.png)
+![](https://cdn.discordapp.com/attachments/594977170850447411/1002193478329061428/Capture_decran_2022-07-28_143318.png)
+![](https://cdn.discordapp.com/attachments/594977170850447411/1002193478719127633/Capture_decran_2022-07-28_143446.png)
+![](https://cdn.discordapp.com/attachments/594977170850447411/1002193479138545734/Capture_decran_2022-07-28_143710.png)
 
 ### ⚙️ Color palet
 ~~~
