@@ -15,7 +15,7 @@
 
 ### 🧱 Build
 
-If you want a build of Yellowed you can find it in the <a href="./build/">Build</a> folder.
+If you want a build of Yellowed you can find it in the <a href="./Build/">Build</a> folder.
 
 ### ⚙️ Color palet
 ~~~
