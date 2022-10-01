@@ -13,6 +13,10 @@
 ![](https://cdn.discordapp.com/attachments/594977170850447411/1002193478719127633/Capture_decran_2022-07-28_143446.png)
 ![](https://cdn.discordapp.com/attachments/594977170850447411/1002193479138545734/Capture_decran_2022-07-28_143710.png)
 
+### 🧱 Build
+
+If you want a build of Yellowed you can find it in the <a href="./build/">Build</a> folder.
+
 ### ⚙️ Color palet
 ~~~
 🖼️ Interface
