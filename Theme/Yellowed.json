@@ -471,8 +471,6 @@
                 "constant.numeric.line-number.find-in-files - match",
                 "entity.name.class",
                 "entity.name.filename.find-in-files",
-                "entity.name.function",
-                "entity.name.function-call",
                 "entity.name.module",
                 "entity.name.tag.class",
                 "entity.name.tag.id",
@@ -566,7 +564,6 @@
                 "unit.sass",
                 "variable.language",
                 "variable.other",
-                "variable.other.object",
                 "variable.other.constant",
                 "variable.other.global",
                 "variable.other.block",
@@ -593,6 +590,8 @@
         {
             "name": "White: Bold",
             "scope": [
+                "entity.name.function",
+                "entity.name.function-call",
                 "markup.heading.markdown",
                 "markup.heading.1.markdown",
                 "markup.heading.2.markdown",
@@ -600,7 +599,8 @@
                 "punctuation.definition.link.description.end.markdown",
                 "punctuation.definition.link.title.begin.markdown",
                 "punctuation.definition.link.title.end.markdown",
-                "punctuation.definition.metadata.markdown"
+                "punctuation.definition.metadata.markdown",
+                "variable.other.object"
             ],
             "settings": {
                 "foreground": "#ffffff",
