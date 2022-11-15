@@ -6,6 +6,10 @@
 
 ---
 
+### 2.0.0
+
+- Added output color support for code runner
+
 ### 1.9.0
 
 - Another better c support
