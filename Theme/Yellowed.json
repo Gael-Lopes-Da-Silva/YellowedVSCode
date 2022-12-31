@@ -371,7 +371,6 @@
                 "punctuation.definition.variable.shell",
                 "punctuation.section.embedded.begin.ruby",
                 "punctuation.section.embedded.end.ruby",
-                "token.debug-token",
                 "variable.parameter.dart"
             ],
             "settings": {
@@ -400,6 +399,7 @@
                 "storage.modifier.import",
                 "storage.modifier.package",
                 "storage.type",
+                "storage.type.built-in.primitive.c",
                 "support.class.builtin.hx",
                 "support.class.dart",
                 "support.type.julia",
@@ -460,7 +460,9 @@
                 "storage.type.package.kotlin",
                 "storage.type.variable.kotlin",
                 "support.function.builtin.shell",
-                "token.info-token"
+                "variable.other.readwrite.cs",
+                "invalid.illegal.stray-elif.c",
+                "invalid.illegal.stray-endif.c"
             ],
             "settings": {
                 "foreground": "#ffd900",
