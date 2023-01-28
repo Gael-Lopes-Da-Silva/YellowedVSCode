@@ -460,7 +460,6 @@
                 "storage.type.package.kotlin",
                 "storage.type.variable.kotlin",
                 "support.function.builtin.shell",
-                "variable.other.readwrite.cs",
                 "invalid.illegal.stray-elif.c",
                 "invalid.illegal.stray-endif.c"
             ],
