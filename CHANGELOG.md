@@ -6,6 +6,10 @@
 
 ---
 
+### 2.0.3 +
+
+- Added better support for c, php and zig
+
 ### 2.0.0
 
 - Added output color support for code runner
