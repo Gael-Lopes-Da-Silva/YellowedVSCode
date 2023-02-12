@@ -497,6 +497,7 @@
                 "invalid",
                 "invalid.deprecated",
                 "keyword.operator.access.dot.rust",
+                "keyword.other.common.function.nim",
                 "keyword.operator.namespace.rust",
                 "keyword.operator.relation.types.julia",
                 "keyword.operator.sizeof.c",
