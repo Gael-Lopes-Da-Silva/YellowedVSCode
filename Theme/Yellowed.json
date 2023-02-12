@@ -399,6 +399,7 @@
                 "meta.parameter-clause.swift",
                 "meta.while.matlab",
                 "punctuation.brackets.attribute.rust",
+                "punctuation.definition.annotation.java",
                 "storage.modifier.import",
                 "storage.modifier.package",
                 "storage.type",
