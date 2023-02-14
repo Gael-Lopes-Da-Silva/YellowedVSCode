@@ -20,10 +20,10 @@
 ![](https://cdn.discordapp.com/attachments/594977170850447411/1002193479138545734/Capture_decran_2022-07-28_143710.png)
 
 ### 🧱 How to build ?
-If you want a build of Yellowed you can find it in the <a href="./Build/">Build</a> folder.
+If you want a build of Yellowed you can find it in the [build](./build/) folder.
 
 ### ❓ How to install ?
-To install, open visual studio code and go to the extention menu. Click on the three dots and click on `Install from VSIX` and choose the `Yellowed-X.X.X.vsix` file.
+To install, open visual studio code and go to the extention menu. Click on the three dots and click on `Install from VSIX` and choose the `yellowed-X.X.X.vsix` file.
 
 ### ⚙️ Color palet
 ~~~

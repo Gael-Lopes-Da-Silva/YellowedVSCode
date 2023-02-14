@@ -4,7 +4,7 @@
     "description": "A lemon like theme for vscode.",
     "version": "2.0.5",
     "publisher": "gael-lopes-da-silva",
-    "icon": "Resources/icon.png",
+    "icon": "resources/icon.png",
     "license": "LICENSE.md",
     "markdown": "standard",
     "engines": {
@@ -18,7 +18,7 @@
             {
                 "label": "Yellowed",
                 "uiTheme": "vs-dark",
-                "path": "./Theme/Yellowed.json"
+                "path": "./theme/yellowed.json"
             }
         ]
     },

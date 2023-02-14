@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-    :page_with_curl: All changes related to Yellowed will be writen here.
+    🗒️ All changes related to Yellowed will be writen here.
 </p>
 
 ---
