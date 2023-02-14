@@ -1,0 +1,5 @@
+{
+    "command-runner.commands": {
+        "Build": "cd ${workspaceFolder} && wsl vsce package --out ./Build/",
+    }
+}
