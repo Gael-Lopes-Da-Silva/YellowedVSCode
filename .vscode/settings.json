@@ -1,5 +1,10 @@
 {
+    "files.trimTrailingWhitespace": true,
     "command-runner.commands": {
-        "Build": "cd ${workspaceFolder} && wsl vsce package --out ./Build/",
+        "Package": "cd ${workspaceFolder} && wsl vsce package --out ./Build/",
+        "Publish": "cd ${workspaceFolder} && wsl vsce publish",
+    },
+    "[yaml]": {
+        "editor.renderWhitespace": "boundary",
     }
 }

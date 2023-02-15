@@ -1,18 +1,28 @@
 {
     "name": "yellowed",
+    "version": "2.0.6",
     "displayName": "Yellowed",
     "description": "A lemon like theme for vscode.",
-    "version": "2.0.5",
     "publisher": "gael-lopes-da-silva",
     "icon": "resources/icon.png",
     "license": "LICENSE.md",
     "markdown": "standard",
     "engines": {
-        "vscode": "^1.67.2"
+        "vscode": "^1.13.2"
     },
     "categories": [
         "Themes"
     ],
+    "maintainers": [
+        "Gael Lopes Da Silva"
+    ],
+    "scripts": {
+        "build": "node ./scripts/build.js",
+        "lint": "node ./scripts/lint.js",
+        "package": "vsce package -o ./bin/dracula.vsix",
+        "vscode:prepublish": "npm run build",
+        "vsce-publish": "vsce publish"
+    },
     "contributes": {
         "themes": [
             {
@@ -25,6 +35,14 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/Gael-Lopes-Da-Silva/Yellowed"
+    },
+    "devDependencies": {
+        "js-yaml": "^4.1.0",
+        "vsce": "^2.7.0"
+    },
+    "galleryBanner": {
+        "color": "#ffd900",
+        "theme": "dark"
     },
     "homepage": "https://github.com/Gael-Lopes-Da-Silva/Yellowed",
     "keywords": [

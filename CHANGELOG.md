@@ -8,6 +8,10 @@
 
 ---
 
+### 2.0.6
+- Full rewrite in yaml and use of javascript build method inspired by dracula theme
+- Better support for many langagues
+
 ### 2.0.5
 - Added better support for nim and typescript
 
