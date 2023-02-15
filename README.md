@@ -14,7 +14,6 @@
 
 ---
 
-### 🎫 Badges
 <!-- https://shields.io/ -->
 ![](https://img.shields.io/visual-studio-marketplace/r/gael-lopes-da-silva.yellowed?style=for-the-badge)
 ![](https://img.shields.io/visual-studio-marketplace/d/gael-lopes-da-silva.yellowed?style=for-the-badge)
