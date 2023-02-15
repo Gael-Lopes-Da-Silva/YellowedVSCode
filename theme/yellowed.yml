@@ -693,6 +693,7 @@ tokenColors:
       - storage.modifier.implements.java
       - storage.modifier.mut.rust
       - storage.type.built-in.primitive.c
+      - storage.type.java
       - storage.type.js
       - support.class.builtin.hx
       - support.class.dart

@@ -14,10 +14,20 @@
 
 ---
 
+### 🎫 Badges
+<!-- https://shields.io/ -->
+![](https://img.shields.io/visual-studio-marketplace/r/gael-lopes-da-silva.yellowed?style=for-the-badge)
+![](https://img.shields.io/visual-studio-marketplace/d/gael-lopes-da-silva.yellowed?style=for-the-badge)
+![](https://img.shields.io/visual-studio-marketplace/v/gael-lopes-da-silva.yellowed?style=for-the-badge)
+[![](https://img.shields.io/badge/license-BSD%203--Clause-blue?style=for-the-badge)](https://github.com/Gael-Lopes-Da-Silva/Yellowed/blob/2da0d81f7d7a42d4f61ffb623159e874eae777ca/LICENSE.md)
+[![](https://img.shields.io/badge/preview-vscode.dev-blue?style=for-the-badge)](https://vscode.dev/theme/gael-lopes-da-silva.Yellowed)
+
 ### 🖼️ Screenshots
-![](https://cdn.discordapp.com/attachments/594977170850447411/1002193478329061428/Capture_decran_2022-07-28_143318.png)
-![](https://cdn.discordapp.com/attachments/594977170850447411/1002193478719127633/Capture_decran_2022-07-28_143446.png)
-![](https://cdn.discordapp.com/attachments/594977170850447411/1002193479138545734/Capture_decran_2022-07-28_143710.png)
+![](https://github.com/Gael-Lopes-Da-Silva/Yellowed/blob/5486fccb6685e7339403db535a4e35b5025511e7/screenshots/syntaxe.png?raw=true)
+
+![](https://github.com/Gael-Lopes-Da-Silva/Yellowed/blob/5486fccb6685e7339403db535a4e35b5025511e7/screenshots/screenshot1.png?raw=true)
+![](https://github.com/Gael-Lopes-Da-Silva/Yellowed/blob/5486fccb6685e7339403db535a4e35b5025511e7/screenshots/screenshot2.png?raw=true)
+![](https://github.com/Gael-Lopes-Da-Silva/Yellowed/blob/5486fccb6685e7339403db535a4e35b5025511e7/screenshots/screenshot3.png?raw=true)
 
 ### 🧱 How to build ?
 If you want a build of Yellowed you can find it in the [build](./build/) folder.
