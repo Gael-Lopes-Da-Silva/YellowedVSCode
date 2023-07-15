@@ -620,16 +620,12 @@ tokenColors:
       - punctuation.definition.string.rust
       - punctuation.definition.string.template.begin.js
       - punctuation.definition.string.template.end.js
-      - string.quoted.double.zig
-      - string.quoted.single.zig
     settings:
       foreground: *GRAY
 
   - name: Gray Bold
     scope:
       - punctuation.definition.comment.ini
-      - comment.line.documentation.zig
-      - comment.line.double-slash.zig
     settings:
       foreground: *GRAY
       fontStyle: bold

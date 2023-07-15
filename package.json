@@ -1,6 +1,6 @@
 {
     "name": "yellowed",
-    "version": "2.0.8",
+    "version": "2.0.9",
     "displayName": "Yellowed",
     "description": "A lemon like theme for vscode.",
     "publisher": "gael-lopes-da-silva",
@@ -38,7 +38,7 @@
     },
     "devDependencies": {
         "js-yaml": "^4.1.0",
-        "vsce": "^2.7.0"
+        "vsce": "^1.97.0"
     },
     "galleryBanner": {
         "color": "#ffd900",

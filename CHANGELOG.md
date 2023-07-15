@@ -8,7 +8,7 @@
 
 ---
 
-### 2.0.7 - 2.0.8
+### 2.0.7 - 2.0.9
 - Better support for some languages like Zig
 
 ### 2.0.6

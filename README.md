@@ -30,6 +30,7 @@
 
 ### 🧱 How to build ?
 If you want a build of Yellowed you can find it in the [build](./build/) folder.
+Else, use the `build.js` file to build the theme.
 
 ### ❓ How to install ?
 To install, open visual studio code and go to the extention menu. Click on the three dots and click on `Install from VSIX` and choose the `yellowed-X.X.X.vsix` file.
