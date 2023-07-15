@@ -39,6 +39,14 @@ colors:
   terminal.ansiWhite: '#f7f1ff'
   terminalCursor.foreground: '#b6b6b6'
 
+  # Inlay Hint Colors
+  editorInlayHint.background: '#383838'
+  editorInlayHint.foreground: '#a9a8a7'
+  editorInlayHint.typeBackground: '#383838'
+  editorInlayHint.typeForeground: '#a9a8a7'
+  editorInlayHint.parameterBackground: '#383838'
+  editorInlayHint.parameterForeground: '#a9a8a7'
+
   # Contrast Colors
   contrastBorder:
   contrastActiveBorder:
@@ -579,7 +587,6 @@ tokenColors:
     scope:
       - entity.name.function
       - entity.name.function-call
-      - variable.other.object
     settings:
       foreground: *WHITE
       fontStyle: bold
@@ -613,12 +620,16 @@ tokenColors:
       - punctuation.definition.string.rust
       - punctuation.definition.string.template.begin.js
       - punctuation.definition.string.template.end.js
+      - string.quoted.double.zig
+      - string.quoted.single.zig
     settings:
       foreground: *GRAY
 
   - name: Gray Bold
     scope:
       - punctuation.definition.comment.ini
+      - comment.line.documentation.zig
+      - comment.line.double-slash.zig
     settings:
       foreground: *GRAY
       fontStyle: bold
@@ -682,6 +693,7 @@ tokenColors:
       - keyword.control.rust
       - keyword.operator.nim
       - keyword.type.cs
+      - keyword.type.zig
       - markup.quote.markdown
       - meta.if.declaration.matlab
       - meta.parameter-clause.swift
@@ -787,6 +799,7 @@ tokenColors:
     scope:
       - constant.other.symbol.hashkey.parameter.function.ruby
       - constant.other.symbol.hashkey.ruby
+      - entity.name.tag.yaml
       - entity.name.type.cs
       - function.css
       - function.less

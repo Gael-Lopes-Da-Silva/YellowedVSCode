@@ -8,6 +8,9 @@
 
 ---
 
+### 2.0.7 - 2.0.8
+- Better support for some languages like Zig
+
 ### 2.0.6
 - Full rewrite in yaml and use of javascript build method inspired by dracula theme
 - Better support for many langagues

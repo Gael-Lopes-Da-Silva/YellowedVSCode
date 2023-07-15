@@ -1,6 +1,3 @@
 # ignore
 node_modules/
-samples/
-model/
-.vs/
 package-lock.json
