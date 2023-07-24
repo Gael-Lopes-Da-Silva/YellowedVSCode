@@ -7,6 +7,7 @@ using Xunit;
 
 namespace MyNamespace
 {
+    /// test
     public class MyClass
     {
         public MyClass()

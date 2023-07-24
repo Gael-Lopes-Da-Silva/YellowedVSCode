@@ -460,7 +460,9 @@ tokenColors:
   # Default ##############################################################
   - name: Gray
     scope:
-      - comment
+      - comment.block
+      - comment.block.documentation
+      - comment.line
       - emphasis
       - markup.inline.raw.string.markdown
       - punctuation.definition.comment
@@ -504,9 +506,7 @@ tokenColors:
     scope:
       - constant.numeric
       - entity.name.tag
-      - keyword
-      - keyword.operator
-      - keyword.operator.logical
+      - keyword.operator.assignment
       - keyword.type
       - storage.modifier.import
       - storage.modifier.package
@@ -606,7 +606,6 @@ tokenColors:
     settings:
       foreground: *WHITE
       fontStyle: italic underline
-
 
   # Languages ############################################################
   - name: Gray
@@ -797,7 +796,6 @@ tokenColors:
       - constant.other.symbol.hashkey.ruby
       - entity.name.tag.yaml
       - entity.name.type.cs
-      - punctuation.accessor.cs
       - function.css
       - function.less
       - function.sass
@@ -817,6 +815,7 @@ tokenColors:
       - meta.embedded.line.ruby
       - meta.paragraph.markdown
       - meta.template.expression.nim
+      - punctuation.accessor.cs
       - punctuation.bracket.haskell
       - punctuation.curlybrace.close.cs
       - punctuation.curlybrace.open.cs
