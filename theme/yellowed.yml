@@ -797,6 +797,7 @@ tokenColors:
       - constant.other.symbol.hashkey.ruby
       - entity.name.tag.yaml
       - entity.name.type.cs
+      - punctuation.accessor.cs
       - function.css
       - function.less
       - function.sass

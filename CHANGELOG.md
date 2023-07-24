@@ -8,6 +8,9 @@
 
 ---
 
+### 2.1.0
+- Better C# support
+
 ### 2.0.7 - 2.0.9
 - Better support for some languages like Zig
 
