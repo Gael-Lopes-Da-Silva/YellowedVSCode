@@ -1,6 +1,6 @@
 {
     "name": "yellowed",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "displayName": "Yellowed",
     "description": "A lemon like theme for vscode.",
     "publisher": "gael-lopes-da-silva",
@@ -34,7 +34,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Gael-Lopes-Da-Silva/Yellowed"
+        "url": "https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode"
     },
     "devDependencies": {
         "js-yaml": "^4.1.0",
@@ -44,7 +44,7 @@
         "color": "#ffd900",
         "theme": "dark"
     },
-    "homepage": "https://github.com/Gael-Lopes-Da-Silva/Yellowed",
+    "homepage": "https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode",
     "keywords": [
         "amogus",
         "yellowed",
