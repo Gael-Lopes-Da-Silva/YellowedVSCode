@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-    :exclamation: If you find any weird syntax highlighting, please report it on the <a href="https://github.com/Gael-Lopes-Da-Silva/Yellowed">github</a> or the <a href="https://gitlab.com/Gael-Lopes-Da-Silva/Yellowed">gitlab</a> page. This would help me a lot since I can't cover all the languages.
+    :exclamation: If you find any weird syntax highlighting, please report it <a href="https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose">here</a>. This would help me a lot since I can't cover all the languages.
 </p>
 
 ---
