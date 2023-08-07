@@ -13,11 +13,17 @@
 
 ---
 
-![](https://img.shields.io/visual-studio-marketplace/r/gael-lopes-da-silva.yellowed?style=for-the-badge)
-![](https://img.shields.io/visual-studio-marketplace/d/gael-lopes-da-silva.yellowed?style=for-the-badge)
-![](https://img.shields.io/visual-studio-marketplace/v/gael-lopes-da-silva.yellowed?style=for-the-badge)
-[![](https://img.shields.io/badge/license-BSD%203--Clause-blue?style=for-the-badge)](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/blob/2da0d81f7d7a42d4f61ffb623159e874eae777ca/LICENSE.md)
-[![](https://img.shields.io/badge/preview-vscode.dev-blue?style=for-the-badge)](https://vscode.dev/theme/gael-lopes-da-silva.Yellowed)
+<div align="center">
+    <img src="https://img.shields.io/visual-studio-marketplace/r/gael-lopes-da-silva.yellowed?style=for-the-badge" alt="">
+    <img src="https://img.shields.io/visual-studio-marketplace/d/gael-lopes-da-silva.yellowed?style=for-the-badge" alt="">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/gael-lopes-da-silva.yellowed?style=for-the-badge" alt="">
+    <a href="https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/blob/2da0d81f7d7a42d4f61ffb623159e874eae777ca/LICENSE.md">
+        <img src="https://img.shields.io/badge/license-BSD%203--Clause-blue?style=for-the-badge" alt="">
+    </a>
+    <a href="https://vscode.dev/theme/gael-lopes-da-silva.Yellowed">
+        <img src="https://img.shields.io/badge/preview-vscode.dev-blue?style=for-the-badge" alt="">
+    </a>
+</div>
 
 ### :framed_picture: Screenshots
 ![](./screenshots/syntaxe.png)
