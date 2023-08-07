@@ -49,4 +49,4 @@ White     - [#ffffff]
 ~~~
 
 > [!NOTE]
-> (you can find my Visual Studio Code configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyVscodeConfig))
+> You can find my Visual Studio Code configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyVscodeConfig).
