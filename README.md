@@ -1,17 +1,12 @@
-<h3 align="center">
+<h1 align="center">
     Yellowed
-</h3>
-
----
+</h1>
 
 > [!NOTE]
 > Yellowed is a simple material dark theme wich focus his syntax color on the golden yellow. Its syntax is inspired by the [gruber-darker](https://github.com/rexim/gruber-darker-theme) theme for emacs, but changed a bit. The interface color is clearly stealed (maybe not :p) from the [Accent Monokai](https://marketplace.visualstudio.com/items?itemName=tw.monokai-accent) theme, the blue one.
 
-
 > [!IMPORTANT]
 > If you find any weird syntax highlighting, please report it [here](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose). This would help me a lot since I can't cover all the languages.
-
----
 
 <div align="center">
     <img src="https://img.shields.io/visual-studio-marketplace/r/gael-lopes-da-silva.yellowed?style=for-the-badge" alt="">
@@ -25,21 +20,21 @@
     </a>
 </div>
 
-### :framed_picture: Screenshots
+## 🖼️ Screenshots
 ![](./screenshots/syntaxe.png)
 
 ![](./screenshots/screenshot1.png)
 ![](./screenshots/screenshot2.png)
 ![](./screenshots/screenshot3.png)
 
-### :bricks: How to build ?
+## 🧱 How to build ?
 If you want a build of Yellowed you can find it in the [build](./build/) folder.
 Else, use the `build.js` file to build the theme.
 
-### :question: How to install ?
+## ❓ How to install ?
 To install, open visual studio code and go to the extention menu. Click on the three dots and click on `Install from VSIX` and choose the `yellowed-X.X.X.vsix` file.
 
-### :gear: Color palet
+## ⚙️ Color palet
 ~~~
 Interface
 Blue      - [#1050b5]
