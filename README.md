@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/visual-studio-marketplace/r/gael-lopes-da-silva.yellowed?style=for-the-badge&labelColor=000000" alt="">
     <img src="https://img.shields.io/visual-studio-marketplace/d/gael-lopes-da-silva.yellowed?style=for-the-badge&labelColor=000000" alt="">
     <img src="https://img.shields.io/visual-studio-marketplace/v/gael-lopes-da-silva.yellowed?style=for-the-badge&labelColor=000000" alt="">
-    <a href="https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/blob/2da0d81f7d7a42d4f61ffb623159e874eae777ca/LICENSE.md">
+    <a href="./LICENSE.md">
         <img src="https://img.shields.io/badge/license-BSD%203--Clause-blue?style=for-the-badge&labelColor=000000" alt="">
     </a>
     <a href="https://vscode.dev/theme/gael-lopes-da-silva.Yellowed">
