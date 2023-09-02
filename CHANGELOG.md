@@ -8,6 +8,12 @@
 
 ---
 
+### 2.1.6
+- Birth of Yellowed Reborn 👌
+
+### 2.1.2 - 2.1.5
+- Amazing track of changes ...
+
 ### 2.1.0 - 2.1.1
 - Better C# support
 

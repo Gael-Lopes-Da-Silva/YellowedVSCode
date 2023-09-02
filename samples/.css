@@ -1,0 +1,71 @@
+/**
+ * Checkout this CSS File.
+ */
+
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+
+/* body */
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Cascadia Mono', sans-serif;
+}
+
+.theme {
+	display: table;
+	width: 100%;
+	color: #b362ff;
+}
+
+a {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+a:hover {
+	opacity: 1;
+}
+
+.css-class {
+	display: grid;
+	width: 100%;
+	color: #bada55;
+}
+
+#css-id {
+	display: inline;
+	padding: 5rem;
+	background: goldenrod;
+}
+
+p:first-letter{
+	display:block;
+	margin:5px 0 0 5px;
+	float:left;
+	color:#FF3366;
+	font-size:60px;
+	font-family:Georgia;
+}
+
+p {
+    margin: 10px;
+}
+
+.class {
+    margin: 10px;
+}
+
+/* horizontal responsivness */
+@media all and (max-width: 1200px) {
+    #birthday_3 {
+        right: 20px;
+    }
+    
+    #birthday_4 {
+        left: 20px;
+    }
+}

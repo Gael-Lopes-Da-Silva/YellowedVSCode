@@ -1,0 +1,52 @@
+query($teamName: String!) {
+	teamsJson(teamName: { eq: $teamName }) {
+		name
+		categories
+		user {
+			userName
+			displayName
+		}
+		facts {
+			statisticName
+			value
+		}
+		versions {
+			files
+		}
+	}
+}
+
+const bookData = [
+    {
+        id: 3,
+        title: 'Harry Potter and the Chamber of Secrets',
+        author: 300,
+        totalPages: 364,
+    },
+    {
+        id: 4,
+        title: 'Lieutenant Versiga',
+        author: 301,
+        totalPages: 224,
+    }
+]
+
+const movieData = [
+    {
+        id: 100,
+        title: 'Titanic',
+        director : 10,
+        runTime: 160,
+    },
+    {
+        id: 101,
+        title: 'Forrest Gump',
+        director : 11,
+        runTime: 140,
+    }
+]
+
+const mediaData = [
+    ...bookData,
+    ...movieData
+]
