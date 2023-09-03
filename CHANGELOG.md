@@ -8,6 +8,9 @@
 
 ---
 
+### 2.1.8
+- Updated screenshots for the theme front page
+
 ### 2.1.7
 - Minor change in markdown
 
