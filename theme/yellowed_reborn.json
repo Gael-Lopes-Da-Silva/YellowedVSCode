@@ -197,6 +197,10 @@
                 "punctuation.definition.string.begin",
                 "punctuation.definition.string.end",
 
+                // Markdown
+                "fenced_code.block.language.markdown",
+                "markup.inline.raw.string.markdown",
+
                 // Csharp
                 "punctuation.definition.char.begin.cs",
                 "punctuation.definition.char.end.cs",
@@ -204,10 +208,6 @@
                 // Javascript
                 "punctuation.definition.string.template.begin.js",
                 "punctuation.definition.string.template.end.js",
-
-                // Markdown
-                "punctuation.definition.markdown",
-                "punctuation.definition.raw.markdown",
 
                 // Rust
                 "punctuation.definition.char.rust",
@@ -341,7 +341,9 @@
                 "punctuation.definition.heading.markdown",
                 "punctuation.definition.italic.markdown",
                 "punctuation.definition.list.begin.markdown",
+                "punctuation.definition.markdown",
                 "punctuation.definition.quote.begin.markdown",
+                "punctuation.definition.raw.markdown",
                 "punctuation.definition.strikethrough.markdown",
 
                 // Shell
@@ -384,8 +386,6 @@
                 "support.function.any-method.lua",
 
                 // Markdown
-                "fenced_code.block.language.markdown",
-                "markup.inline.raw.string.markdown",
                 "punctuation.definition.link.description.begin.markdown",
                 "punctuation.definition.link.description.end.markdown",
                 "punctuation.definition.link.title.begin.markdown",
