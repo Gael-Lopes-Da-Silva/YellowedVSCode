@@ -9,8 +9,8 @@
     <a href="./LICENSE.md">
         <img src="https://img.shields.io/badge/license-BSD%203--Clause-blue?style=for-the-badge&labelColor=000000" alt="">
     </a>
-    <a href="https://vscode.dev/theme/gael-lopes-da-silva.Yellowed">
-        <img src="https://img.shields.io/badge/preview-vscode.dev-blue?style=for-the-badge&labelColor=000000" alt="">
+    <a href="https://vscodethemes.com/e/gael-lopes-da-silva.yellowed/yellowed-reborn?language=javascript">
+        <img src="https://img.shields.io/badge/preview-click_here_to_see_a_web_preview-blue?style=for-the-badge&labelColor=000000" alt="">
     </a>
 </div>
 
