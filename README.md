@@ -23,12 +23,14 @@
 > If you find any weird syntax highlighting, try disabling semantic highlighting. If it doesn't work then please report it [here](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose). This would help me a lot since I can't cover all the languages.
 
 ## 🖼️ Screenshots
-### Yellowed
-![](./screenshots/yellowed_syntax.png)
-![](./screenshots/yellowed.png)
 ### Yellowed Reborn
 ![](./screenshots/yellowed_reborn_syntax.png)
-![](./screenshots/yellowed_reborn.png)
+![](./screenshots/yellowed_reborn1.png)
+![](./screenshots/yellowed_reborn2.png)
+### Yellowed
+![](./screenshots/yellowed_syntax.png)
+![](./screenshots/yellowed1.png)
+![](./screenshots/yellowed2.png)
 
 ## 🧱 How to build ?
 If you want a build of Yellowed you can find it in the [build](./build/) folder.
