@@ -1,1 +1,1 @@
-[ ] add "punctuation.definition.annotation.java" to yellow color
+[x] add "punctuation.definition.annotation.java" to yellow color

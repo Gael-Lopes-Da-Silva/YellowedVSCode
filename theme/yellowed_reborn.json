@@ -292,7 +292,10 @@
                 "entity.name.type.numeric.rust",
                 "punctuation.brackets.attribute.rust",
                 "punctuation.definition.attribute.rust",
-                "storage.modifier.mut.rust"
+                "storage.modifier.mut.rust",
+
+                // Java
+                "punctuation.definition.annotation.java"
             ],
             "settings": {
                 "foreground": "#ffd900",
