@@ -13,8 +13,11 @@
 - [ ] add "support.function.json.php" to light gray color
 - [ ] add "support.function.construct.output.php" to light gray color
 - [ ] add "support.function.php_pcre.php" to light gray color
+- [ ] add "support.function.errorfunc.php" to light gray color
+- [ ] add "support.function.network.php" to light gray color
 - [ ] add "keyword.other.type.php" to yellow color
 - [ ] add "support.constant.core.php" to purple bold color
+- [ ] try to find something like "support.function" or "support.function.php" to reduce lines added
 
 # Xml
 - [ ] add "entity.other.attribute-name.xml" to light gray color
