@@ -12,6 +12,7 @@
 - [ ] add "support.function.file.php" to light gray color
 - [ ] add "support.function.json.php" to light gray color
 - [ ] add "support.function.construct.output.php" to light gray color
+- [ ] add "support.function.php_pcre.php" to light gray color
 - [ ] add "keyword.other.type.php" to yellow color
 - [ ] add "support.constant.core.php" to purple bold color
 
