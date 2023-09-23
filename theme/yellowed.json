@@ -50,7 +50,7 @@
         "editor.findMatchHighlightBackground": "#0d56ca66",
         "editor.findRangeHighlightBackground": "#0d56ca22",
         "editor.focusedStackFrameHighlightBackground": "#7bd88f22",
-        "editor.foreground": "#f6f6f6",
+        "editor.foreground": "#FFFFFF",
         "editor.hoverHighlightBackground": "#0d56ca33",
         "editor.lineHighlightBackground": "#303030",
         "editor.rangeHighlightBackground": "#0d56ca22",
@@ -405,7 +405,10 @@
         {
             "name": "Purple bold",
             "scope": [
-                "constant.other"
+                "constant.other",
+
+                // Php
+                "support.constant.core.php"
             ],
             "settings": {
                 "foreground": "#ff80f4",
@@ -430,14 +433,16 @@
                 "punctuation.definition.block.tag.ldoc",
 
                 // Php
-                "punctuation.section.embedded.begin.php",
-                "punctuation.section.embedded.end.php",
+                "keyword.other.type.php",
 
                 // Rust
                 "entity.name.type.numeric.rust",
                 "punctuation.brackets.attribute.rust",
                 "punctuation.definition.attribute.rust",
-                "storage.modifier.mut.rust"
+                "storage.modifier.mut.rust",
+
+                // Java
+                "punctuation.definition.annotation.java"
             ],
             "settings": {
                 "foreground": "#ffd900",
@@ -475,6 +480,8 @@
                 "storage.type.function.js",
 
                 // Php
+                "punctuation.section.embedded.begin.php",
+                "punctuation.section.embedded.end.php",
                 "storage.type.class.php",
                 "storage.type.function.php",
 
@@ -505,22 +512,10 @@
             }
         },
         {
-            "name": "Light Gray Bold",
-            "scope": [
-                
-            ],
-            "settings": {
-                "foreground": "#9b9b9b",
-                "fontStyle": "bold"
-            }
-        },
-        {
             "name": "White",
             "scope": [
-                "source",
                 "storage.modifier.import",
                 "storage.modifier.package",
-                "text",
 
                 // EditorConfig
                 "meta.section.editorconfig",
@@ -551,7 +546,9 @@
             "scope": [
                 "entity.name.function-call",
                 "entity.name.function",
-
+                "entity.other.attribute-name",
+                "support.function",
+                
                 // Css
                 "meta.property-value.css",
                 "support.constant.property-value.css",
