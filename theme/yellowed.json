@@ -341,19 +341,15 @@
                 "punctuation.definition.comment",
                 "punctuation.definition.string.begin",
                 "punctuation.definition.string.end",
-
                 // Markdown
                 "fenced_code.block.language.markdown",
                 "markup.inline.raw.string.markdown",
-
                 // Csharp
                 "punctuation.definition.char.begin.cs",
                 "punctuation.definition.char.end.cs",
-
                 // Javascript
                 "punctuation.definition.string.template.begin.js",
                 "punctuation.definition.string.template.end.js",
-
                 // Rust
                 "punctuation.definition.char.rust",
                 "punctuation.definition.string.rust"
@@ -368,7 +364,6 @@
             "scope": [
                 "string.template",
                 "string",
-
                 // Css
                 "entity.other.attribute-name.pseudo-class.css",
                 "entity.other.attribute-name.pseudo-element.css"
@@ -384,18 +379,18 @@
                 "constant.character",
                 "constant.language",
                 "constant.regexp",
-
                 // Csharp
                 "punctuation.definition.interpolation.begin.cs",
                 "punctuation.definition.interpolation.end.cs",
-
                 // Javascript
                 "punctuation.definition.template-expression.begin.js",
                 "punctuation.definition.template-expression.end.js",
-
                 // Ruby
                 "punctuation.section.embedded.begin.ruby",
-                "punctuation.section.embedded.end.ruby"
+                "punctuation.section.embedded.end.ruby",
+                // Zig
+                "keyword.constant.bool.zig",
+                "keyword.constant.default.zig"
             ],
             "settings": {
                 "foreground": "#ff80f4",
@@ -406,7 +401,6 @@
             "name": "Purple bold",
             "scope": [
                 "constant.other",
-
                 // Php
                 "support.constant.core.php"
             ],
@@ -422,25 +416,19 @@
                 "entity.name.tag",
                 "keyword",
                 "storage.type",
-
                 // EditorConfig
                 "punctuation.separator.key-value.editorconfig",
-
                 // Html
                 "punctuation.separator.key-value.html",
-
                 // Lua
                 "punctuation.definition.block.tag.ldoc",
-
                 // Php
                 "keyword.other.type.php",
-
                 // Rust
                 "entity.name.type.numeric.rust",
                 "punctuation.brackets.attribute.rust",
                 "punctuation.definition.attribute.rust",
                 "storage.modifier.mut.rust",
-
                 // Java
                 "punctuation.definition.annotation.java"
             ],
@@ -456,35 +444,28 @@
                 "keyword.operator.constructor",
                 "keyword.other",
                 "storage.modifier",
-
                 // C
                 "storage.type.enum.c",
                 "storage.type.struct.c",
-
                 // Dart
                 "keyword.declaration.dart",
-
                 // Go
                 "keyword.const.go",
                 "keyword.function.go",
                 "keyword.import.go",
                 "keyword.package.go",
                 "keyword.type.go",
-
                 // Python
                 "entity.name.function.decorator.python",
                 "storage.type.class.python",
                 "storage.type.function.python",
-
                 // Javascript
                 "storage.type.function.js",
-
                 // Php
                 "punctuation.section.embedded.begin.php",
                 "punctuation.section.embedded.end.php",
                 "storage.type.class.php",
                 "storage.type.function.php",
-
                 // Markdown
                 "markup.heading.setext.1.markdown",
                 "markup.heading.setext.2.markdown",
@@ -497,11 +478,9 @@
                 "punctuation.definition.quote.begin.markdown",
                 "punctuation.definition.raw.markdown",
                 "punctuation.definition.strikethrough.markdown",
-
                 // Shell
                 "storage.type.alias.shell",
                 "storage.type.function.shell",
-
                 // Zig
                 "keyword.storage.zig",
                 "storage.type.function.zig"
@@ -516,23 +495,17 @@
             "scope": [
                 "storage.modifier.import",
                 "storage.modifier.package",
-
                 // EditorConfig
                 "meta.section.editorconfig",
-
                 // Csharp
                 "meta.interpolation.cs",
-
                 // Javascript
                 "meta.embedded.line.js",
-
                 // Json
                 "support.type.property-name.json",
-
                 // Markdown
                 "markup.underline.link.image.markdown",
                 "punctuation.definition.metadata.markdown",
-
                 // Ruby
                 "constant.language.symbol.hashkey.ruby"
             ],
@@ -548,28 +521,22 @@
                 "entity.name.function",
                 "entity.other.attribute-name",
                 "support.function",
-                
                 // Css
                 "meta.property-value.css",
                 "support.constant.property-value.css",
-                
                 // Go
                 "entity.name.package.go",
                 "support.function.builtin.go",
                 "support.function.go",
-
                 // Python
                 "meta.function-call.generic.python",
                 "support.function.builtin.python",
                 "support.function.magic.python",
-
                 // Html
                 "entity.other.attribute-name.html",
                 "invalid.deprecated.entity.other.attribute-name.html",
-
                 // Lua
                 "support.function.any-method.lua",
-
                 // Markdown
                 "entity.name.section.markdown",
                 "punctuation.definition.constant.markdown",
@@ -577,13 +544,10 @@
                 "punctuation.definition.link.description.end.markdown",
                 "punctuation.definition.link.title.begin.markdown",
                 "punctuation.definition.link.title.end.markdown",
-
                 // Ruby
                 "support.function.kernel.ruby",
-
                 // Yaml
                 "entity.name.tag.yaml",
-
                 // Zig
                 "entity.name.type.zig",
                 "support.function.builtin.zig"
@@ -598,7 +562,6 @@
             "scope": [
                 "entity.name.variable.parameter",
                 "variable.parameter",
-
                 // Ruby
                 "constant.other.symbol.hashkey.parameter.function.ruby"
             ],

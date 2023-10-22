@@ -1,6 +1,6 @@
 {
     "name": "yellowed",
-    "version": "2.1.9",
+    "version": "2.2.0",
     "displayName": "Yellowed",
     "description": "A lemon like theme for vscode.",
     "publisher": "gael-lopes-da-silva",
@@ -18,7 +18,7 @@
     ],
     "scripts": {
         "publish": "vsce publish",
-        "package": "vsce package"
+        "package": "vsce package -o build"
     },
     "contributes": {
         "themes": [

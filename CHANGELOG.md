@@ -8,6 +8,9 @@
 
 ---
 
+### 2.2.0
+- Better Zig support
+
 ### 2.1.9
 - Better Php and Xml support
 
