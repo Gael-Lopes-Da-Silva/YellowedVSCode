@@ -8,6 +8,11 @@
 
 ---
 
+### 2.2.1
+- Better support for embeded string code like in Php or Typescript
+- Better Typescript support
+- Little change in Rust
+
 ### 2.2.0
 - Better Zig support
 

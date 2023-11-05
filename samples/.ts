@@ -68,6 +68,22 @@ export function activate(context: vscode.ExtensionContext) {
 })(angular);
 
 
+let age: number = 25;
+let name: string = "John";
+let isStudent: boolean = false;
+let scores: number[] = [98, 76, 89];
+let person: { name: string, age: number } = { name: "John", age: 25 };
+
+// Properly annotating function parameter and return types
+function greet(name: string): string {
+  return "Hello, " + name;
+}
+
+function add(a: number, b: number): number {
+  return a + b;
+}
+
+
 const options = {
 	method: 'GET',
 	uri: 'https://api.github.com/com/search/repositores',
