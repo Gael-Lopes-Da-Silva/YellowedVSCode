@@ -427,6 +427,7 @@
 				"punctuation.definition.metadata.markdown",
 				// Php
 				"meta.embedded.block.php",
+				"meta.embedded.line.php",
 				// Ruby
 				"constant.language.symbol.hashkey.ruby",
 				// Typescript
