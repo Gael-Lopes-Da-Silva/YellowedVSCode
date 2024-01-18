@@ -24,13 +24,17 @@
 
 ## 🖼️ Screenshots
 <details> <summary> <h3>Yellowed Reborn</h3> </summary>
+
 ![](./screenshots/yellowed_reborn_1.png)
 ![](./screenshots/yellowed_reborn_2.png)
+
 </details>
 
 <details> <summary> <h3>Yellowed</h3> </summary>
+
 ![](./screenshots/yellowed_1.png)
 ![](./screenshots/yellowed_2.png)
+
 </details>
 
 
