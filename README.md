@@ -23,14 +23,14 @@
 > If you find any weird syntax highlighting, try disabling semantic highlighting. If it doesn't work then please report it [here](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose). This would help me a lot since I can't cover all the languages.
 
 ## 🖼️ Screenshots
-<details> <summary> <h3>Yellowed Reborn</h3> </summary>
+<details> <summary>Yellowed Reborn</summary>
 
 ![](./screenshots/yellowed_reborn_1.png)
 ![](./screenshots/yellowed_reborn_2.png)
 
 </details>
 
-<details> <summary> <h3>Yellowed</h3> </summary>
+<details> <summary>Yellowed</summary>
 
 ![](./screenshots/yellowed_1.png)
 ![](./screenshots/yellowed_2.png)
