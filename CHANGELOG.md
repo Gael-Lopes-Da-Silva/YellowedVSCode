@@ -8,7 +8,7 @@
 
 ---
 
-### 2.2.2
+### 2.2.2 - 2.2.3
 - Better support for embeded string in Php
 
 ### 2.2.1

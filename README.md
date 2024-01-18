@@ -14,12 +14,12 @@
     </a>
 </div>
 
-<!-- > [!NOTE] -->
-> 🗒️
+<!-- > 🗒️ -->
+> [!NOTE]
 > Yellowed is a simple material dark theme wich focus his syntax color on the golden yellow. Its syntax is inspired by the [gruber-darker](https://github.com/rexim/gruber-darker-theme) theme for emacs, but changed a bit.
 
-<!-- > [!IMPORTANT] -->
-> ❗
+<!-- > ❗ -->
+> [!IMPORTANT]
 > If you find any weird syntax highlighting, try disabling semantic highlighting. If it doesn't work then please report it [here](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose). This would help me a lot since I can't cover all the languages.
 
 ## 🖼️ Screenshots
@@ -68,6 +68,6 @@ keywords     = "#FFD900"
 function     = "#9B9B9B"
 ~~~
 
-<!-- > [!NOTE] -->
-> 🗒️
+<!-- > 🗒️ -->
+> [!NOTE]
 > You can find my Visual Studio Code configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyVscodeConfig).
