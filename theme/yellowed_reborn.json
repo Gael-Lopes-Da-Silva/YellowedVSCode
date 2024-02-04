@@ -414,6 +414,8 @@
 			"scope": [
 				"storage.modifier.import",
 				"storage.modifier.package",
+				// Dart
+				"string.interpolated.expression.dart",
 				// EditorConfig
 				"meta.section.editorconfig",
 				// Csharp

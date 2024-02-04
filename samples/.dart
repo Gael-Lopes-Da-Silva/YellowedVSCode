@@ -28,4 +28,5 @@ main() async {
 
   print('greg $gregsLastName');
   print('steve $stevesLastName');
+  print('steve ${1 + 4}');
 }
