@@ -1,0 +1,324 @@
+{
+	"iconDefinitions": {
+		"folder": {
+			"iconPath": "./emojis/assets/File folder/Flat/file_folder_flat.svg"
+		},
+		"folder_open": {
+			"iconPath": "./emojis/assets/Open file folder/Flat/open_file_folder_flat.svg"
+		},
+		"file": {
+			"iconPath": "./emojis/assets/Page facing up/Flat/page_facing_up_flat.svg"
+		},
+		// extention
+		"c": {
+			"iconPath": "./emojis/assets/Infinity/Flat/infinity_flat.svg"
+		},
+		"python": {
+			"iconPath": "./emojis/assets/Snake/Flat/snake_flat.svg"
+		},
+		"brainfuck": {
+			"iconPath": "./emojis/assets/Brain/Flat/brain_flat.svg"
+		},
+		"dart": {
+			"iconPath": "./emojis/assets/Luggage/Flat/luggage_flat.svg"
+		},
+		"go": {
+			"iconPath": "./emojis/assets/Billed cap/Flat/billed_cap_flat.svg"
+		},
+		"html": {
+			"iconPath": "./emojis/assets/Orange book/Flat/orange_book_flat.svg"
+		},
+		"css": {
+			"iconPath": "./emojis/assets/Blue book/Flat/blue_book_flat.svg"
+		},
+		"javascript": {
+			"iconPath": "./emojis/assets/Ledger/Flat/ledger_flat.svg"
+		},
+		"haxe": {
+			"iconPath": "./emojis/assets/Anger symbol/Flat/anger_symbol_flat.svg"
+		},
+		"zig": {
+			"iconPath": "./emojis/assets/High voltage/Flat/high_voltage_flat.svg"
+		},
+		"nim": {
+			"iconPath": "./emojis/assets/Crown/Flat/crown_flat.svg"
+		},
+		"markdown": {
+			"iconPath": "./emojis/assets/Newspaper/Flat/newspaper_flat.svg"
+		},
+		"json": {
+			"iconPath": "./emojis/assets/Scroll/Flat/scroll_flat.svg"
+		},
+		"img": {
+			"iconPath": "./emojis/assets/Framed picture/Flat/framed_picture_flat.svg"
+		},
+		"pdf": {
+			"iconPath": "./emojis/assets/Closed book/Flat/closed_book_flat.svg"
+		},
+		"log": {
+			"iconPath": "./emojis/assets/Wood/Flat/wood_flat.svg"
+		},
+		"dll": {
+			"iconPath": "./emojis/assets/Gear/Flat/gear_flat.svg"
+		},
+		"jar": {
+			"iconPath": "./emojis/assets/Funeral urn/Flat/funeral_urn_flat.svg"
+		},
+		"java": {
+			"iconPath": "./emojis/assets/Hot beverage/Flat/hot_beverage_flat.svg"
+		},
+		"lua": {
+			"iconPath": "./emojis/assets/Full moon/Flat/full_moon_flat.svg"
+		},
+		"csharp": {
+			"iconPath": "./emojis/assets/Keycap hashtag/Flat/keycap_hashtag_flat.svg"
+		},
+		"pug": {
+			"iconPath": "./emojis/assets/Dog face/Flat/dog_face_flat.svg"
+		},
+		"php": {
+			"iconPath": "./emojis/assets/Elephant/Flat/elephant_flat.svg"
+		},
+		"ruby": {
+			"iconPath": "./emojis/assets/Gem stone/Flat/gem_stone_flat.svg"
+		},
+		"rust": {
+			"iconPath": "./emojis/assets/Crab/Flat/crab_flat.svg"
+		},
+		"sql": {
+			"iconPath": "./emojis/assets/Card file box/Flat/card_file_box_flat.svg"
+		},
+		"shell": {
+			"iconPath": "./emojis/assets/Floppy disk/Flat/floppy_disk_flat.svg"
+		},
+		"haskell": {
+			"iconPath": "./emojis/assets/Screwdriver/Flat/screwdriver_flat.svg"
+		},
+		"vsix": {
+			"iconPath": "./emojis/assets/Puzzle piece/Flat/puzzle_piece_flat.svg"
+		},
+		"ttf": {
+			"iconPath": "./emojis/assets/Black nib/Flat/black_nib_flat.svg"
+		},
+		"sketch": {
+			"iconPath": "./emojis/assets/Artist palette/Flat/artist_palette_flat.svg"
+		},
+		"vue": {
+			"iconPath": "./emojis/assets/Japanese symbol for beginner/Flat/japanese_symbol_for_beginner_flat.svg"
+		},
+		"zip": {
+			"iconPath": "./emojis/assets/Card index dividers/Flat/card_index_dividers_flat.svg"
+		},
+		"gradle": {
+			"iconPath": "./emojis/assets/Mammoth/Flat/mammoth_flat.svg"
+		},
+		"kotlin": {
+			"iconPath": "./emojis/assets/Cupcake/Flat/cupcake_flat.svg"
+		},
+		"typescript": {
+			"iconPath": "./emojis/assets/Bucket/Flat/bucket_flat.svg"
+		},
+		"handlebars": {
+			"iconPath": "./emojis/assets/Top hat/Flat/top_hat_flat.svg"
+		},
+		"import": {
+			"iconPath": "./emojis/assets/Inbox tray/Flat/inbox_tray_flat.svg"
+		},
+		"tscn": {
+			"iconPath": "./emojis/assets/Clapper board/Flat/clapper_board_flat.svg"
+		},
+		"git": {
+			"iconPath": "./emojis/assets/Pushpin/Flat/pushpin_flat.svg"
+		},
+		"exe": {
+			"iconPath": "./emojis/assets/Toolbox/Flat/toolbox_flat.svg"
+		},
+		"htaccess": {
+			"iconPath": "./emojis/assets/Feather/Flat/feather_flat.svg"
+		},
+		"vscodeignore": {
+			"iconPath": "./emojis/assets/Pushpin/Flat/pushpin_flat.svg"
+		},
+		// file
+		"package": {
+			"iconPath": "./emojis/assets/Package/Flat/package_flat.svg"
+		},
+		"dockerfile": {
+			"iconPath": "./emojis/assets/Whale/Flat/whale_flat.svg"
+		},
+		"readme": {
+			"iconPath": "./emojis/assets/Memo/Flat/memo_flat.svg"
+		},
+		"license": {
+			"iconPath": "./emojis/assets/Key/Flat/key_flat.svg"
+		},
+		"changelog": {
+			"iconPath": "./emojis/assets/Watch/Flat/watch_flat.svg"
+		},
+		"authors": {
+			"iconPath": "./emojis/assets/Identification card/Flat/identification_card_flat.svg"
+		},
+		"support": {
+			"iconPath": "./emojis/assets/Dollar banknote/Flat/dollar_banknote_flat.svg"
+		},
+		"security": {
+			"iconPath": "./emojis/assets/Shield/Flat/shield_flat.svg"
+		},
+		"code_of_conduct": {
+			"iconPath": "./emojis/assets/Passport control/Flat/passport_control_flat.svg"
+		},
+		"settings": {
+			"iconPath": "./emojis/assets/Gear/Flat/gear_flat.svg"
+		},
+		"android": {
+			"iconPath": "./emojis/assets/Robot/Flat/robot_flat.svg"
+		},
+		"spark": {
+			"iconPath": "./emojis/assets/High voltage/Flat/high_voltage_flat.svg"
+		},
+		"composer": {
+			"iconPath": "./emojis/assets/Violin/Flat/violin_flat.svg"
+		},
+		// folder
+		"docs": {
+			"iconPath": "./emojis/assets/Blue book/Flat/blue_book_flat.svg"
+		},
+		// open folder
+		"docs_open": {
+			"iconPath": "./emojis/assets/Open book/Flat/open_book_flat.svg"
+		}
+	},
+	"file": "file",
+	"folder": "folder",
+	"folderExpanded": "folder_open",
+	"fileExtensions": {
+		"c": "c",
+		"h": "c",
+		"cpp": "c",
+		"hpp": "c",
+		"cs": "csharp",
+		"sql": "sql",
+		"graphql": "sql",
+		"sh": "shell",
+		"bat": "shell",
+		"ps1": "shell",
+		"lua": "lua",
+		"vsix": "vsix",
+		"sketch": "sketch",
+		"htaccess": "htaccess",
+		"exe": "exe",
+		"pug": "pug",
+		"php": "php",
+		"rb": "ruby",
+		"rs": "rust",
+		"b": "brainfuck",
+		"py": "python",
+		"ipynb": "python",
+		"hbs": "handlebars",
+		"hs": "haskell",
+		"go": "go",
+		"mod": "go",
+		"dart": "dart",
+		"html": "html",
+		"css": "css",
+		"less": "css",
+		"scss": "css",
+		"js": "javascript",
+		"jsx": "javascript",
+		"hx": "haxe",
+		"hxml": "haxe",
+		"zig": "zig",
+		"zon": "zig",
+		"nim": "nim",
+		"nims": "nim",
+		"jar": "jar",
+		"java": "java",
+		"md": "markdown",
+		"json": "json",
+		"toml": "json",
+		"yml": "json",
+		"iml": "json",
+		"lock": "json",
+		"yaml": "json",
+		"dist": "json",
+		"xml": "json",
+		"properties": "json",
+		"png": "img",
+		"jpg": "img",
+		"jpeg": "img",
+		"gif": "img",
+		"svg": "img",
+		"ico": "img",
+		"webp": "img",
+		"pdf": "pdf",
+		"log": "log",
+		"dll": "dll",
+		"env": "dll",
+		"ini": "dll",
+		"bin": "dll",
+		"dill": "dll",
+		"apk": "dll",
+		"zip": "zip",
+		"rar": "zip",
+		"7z": "zip",
+		"tar": "zip",
+		"gz": "zip",
+		"wim": "zip",
+		"ttf": "ttf",
+		"otf": "ttf",
+		"woff": "ttf",
+		"woff2": "ttf",
+		"kt": "kotlin",
+		"gradle": "gradle",
+		"vue": "vue",
+		"ts": "typescript",
+		"tsx": "typescript",
+		"godot": "android",
+		"tscn": "tscn",
+		"editorconfig": "dll",
+		"a": "dll",
+		"import": "import",
+		"gitignore": "git",
+		"gitattributes": "git",
+		"gitkeep": "git",
+		"vscodeignore": "vscodeignore"
+	},
+	"fileNames": {
+		"composer.json": "composer",
+		"composer.lock": "composer",
+		"spark": "spark",
+		"dockerfile": "dockerfile",
+		"AndroidManifest.json": "android",
+		"package.json": "package",
+		"settings.json": "settings",
+		"launch.json": "settings",
+		"task.json": "settings",
+		"README": "readme",
+		"README.md": "readme",
+		"README.txt": "readme",
+		"LICENSE": "license",
+		"LICENSE.md": "license",
+		"LICENSE.txt": "license",
+		"CHANGELOG": "changelog",
+		"CHANGELOG.md": "changelog",
+		"CHANGELOG.txt": "changelog",
+		"AUTHORS": "authors",
+		"AUTHORS.md": "authors",
+		"AUTHORS.txt": "authors",
+		"SUPPORT": "support",
+		"SUPPORT.md": "support",
+		"SUPPORT.txt": "support",
+		"SECURITY": "security",
+		"SECURITY.md": "security",
+		"SECURITY.txt": "security",
+		"CODE_OF_CONDUCT": "code_of_conduct",
+		"CODE_OF_CONDUCT.md": "code_of_conduct",
+		"CODE_OF_CONDUCT.txt": "code_of_conduct",
+	},
+	"folderNames": {
+		"docs": "docs"
+	},
+	"folderNamesExpanded": {
+		"docs": "docs_open"
+	}
+}
