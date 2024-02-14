@@ -1,55 +1,62 @@
 {
-    "name": "yellowed",
-    "displayName": "Yellowed",
-    "version": "2.2.4",
-    "description": "A lemon like theme for vscode.",
-    "publisher": "gael-lopes-da-silva",
-    "icon": "resources/icon.png",
-    "license": "LICENSE.md",
-    "homepage": "https://raw.githubusercontent.com/Gael-Lopes-Da-Silva/YellowedVSCode/main/README.md",
-    "markdown": "github",
-    "engines": {
-        "vscode": "^1.81.1"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "scripts": {
-        "publish": "vsce publish",
-        "package": "vsce package -o build"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Yellowed",
-                "uiTheme": "vs-dark",
-                "path": "./theme/yellowed.json"
-            },
-            {
-                "label": "Yellowed Reborn",
-                "uiTheme": "vs-dark",
-                "path": "./theme/yellowed_reborn.json"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode"
-    },
-    "galleryBanner": {
-        "color": "#ffd900",
-        "theme": "dark"
-    },
-    "keywords": [
-        "yellowed",
-        "yellow",
-        "dark",
-        "material",
-        "minimalist",
-        "minimal",
-        "gruber",
-        "jaune",
-        "golden",
-        "gold"
-    ]
+	"name": "yellowed",
+	"displayName": "Yellowed",
+	"version": "2.2.6",
+	"description": "A lemon like theme for vscode.",
+	"publisher": "gael-lopes-da-silva",
+	"icon": "resources/icon.png",
+	"license": "LICENSE.md",
+	"homepage": "https://raw.githubusercontent.com/Gael-Lopes-Da-Silva/YellowedVSCode/main/README.md",
+	"markdown": "github",
+	"engines": {
+		"vscode": "^1.81.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"scripts": {
+		"publish": "vsce publish",
+		"package": "vsce package -o build"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Yellowed",
+				"uiTheme": "vs-dark",
+				"path": "./themes/yellowed.json"
+			},
+			{
+				"label": "Yellowed Reborn",
+				"uiTheme": "vs-dark",
+				"path": "./themes/yellowed_reborn.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"label": "Yellowed Icons",
+				"id": "yellowed_icons",
+				"path": "./icons/yellowed_icons.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode"
+	},
+	"galleryBanner": {
+		"color": "#ffd900",
+		"theme": "dark"
+	},
+	"keywords": [
+		"yellowed",
+		"yellow",
+		"dark",
+		"material",
+		"minimalist",
+		"minimal",
+		"gruber",
+		"jaune",
+		"golden",
+		"gold"
+	]
 }

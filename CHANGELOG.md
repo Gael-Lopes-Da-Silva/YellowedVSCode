@@ -8,6 +8,13 @@
 
 ---
 
+### 2.2.6
+- Added icons to Yellowed Icons
+
+### 2.2.5
+- Added Yellowed Icons
+- Better Haxe support
+
 ### 2.2.2 - 2.2.4
 - Better support for embeded string in Php and Dart
 

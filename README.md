@@ -14,13 +14,17 @@
     </a>
 </div>
 
-<!-- > [!NOTE] -->
-> 🗒️
+<!-- > 🗒️ -->
+> [!NOTE]
 > Yellowed is a simple material dark theme wich focus his syntax color on the golden yellow. Its syntax is inspired by the [gruber-darker](https://github.com/rexim/gruber-darker-theme) theme for emacs, but changed a bit.
 
-<!-- > [!IMPORTANT] -->
-> ❗
+<!-- > ❗ -->
+> [!IMPORTANT]
 > If you find any weird syntax highlighting, try disabling semantic highlighting. If it doesn't work then please report it [here](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose). This would help me a lot since I can't cover all the languages.
+
+<!-- > ❗ -->
+> [!IMPORTANT]
+> If you want to help me add more icons, you can suggest it to me [here](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose).
 
 ## 🖼️ Screenshots
 <details> <summary>Yellowed Reborn</summary>
@@ -39,7 +43,7 @@
 
 
 ## 🧱 How to build ?
-If you want a build of Yellowed you can find it in the [build](./build/) folder. Else use `vsce package` in the project folder.
+If you want a build of Yellowed you can find it in the release section. Else use `vsce package` in the project folder.
 
 ## ❓ How to install ?
 To install, open visual studio code and go to the extention menu. Click on the three dots and click on `Install from VSIX` and choose the `yellowed-X.X.X.vsix` file. Or just install it on the market place.
@@ -68,6 +72,6 @@ keywords     = "#FFD900"
 function     = "#9B9B9B"
 ~~~
 
-<!-- > [!NOTE] -->
-> 🗒️
+<!-- > 🗒️ -->
+> [!NOTE]
 > You can find my Visual Studio Code configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyVscodeConfig).

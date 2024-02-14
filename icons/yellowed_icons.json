@@ -280,6 +280,7 @@
 		"import": "import",
 		"gitignore": "git",
 		"gitattributes": "git",
+		"gitmodules": "git",
 		"gitkeep": "git",
 		"vscodeignore": "vscodeignore"
 	},
