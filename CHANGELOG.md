@@ -8,7 +8,7 @@
 
 ---
 
-### 2.2.6
+### 2.2.6 - 2.2.8
 - Added icons to Yellowed Icons
 
 ### 2.2.5

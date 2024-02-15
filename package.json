@@ -1,52 +1,39 @@
 {
-	"name": "yellowed",
-	"displayName": "Yellowed",
-	"version": "2.2.6",
-	"description": "A lemon like theme for vscode.",
-	"publisher": "gael-lopes-da-silva",
-	"icon": "resources/icon.png",
-	"license": "LICENSE.md",
-	"homepage": "https://raw.githubusercontent.com/Gael-Lopes-Da-Silva/YellowedVSCode/main/README.md",
-	"markdown": "github",
-	"engines": {
-		"vscode": "^1.81.1"
-	},
 	"categories": [
 		"Themes"
 	],
-	"scripts": {
-		"publish": "vsce publish",
-		"package": "vsce package -o build"
-	},
 	"contributes": {
+		"iconThemes": [
+			{
+				"id": "yellowed_icons",
+				"label": "Yellowed Icons",
+				"path": "./icons/yellowed_icons.json"
+			}
+		],
 		"themes": [
 			{
 				"label": "Yellowed",
-				"uiTheme": "vs-dark",
-				"path": "./themes/yellowed.json"
+				"path": "./themes/yellowed.json",
+				"uiTheme": "vs-dark"
 			},
 			{
 				"label": "Yellowed Reborn",
-				"uiTheme": "vs-dark",
-				"path": "./themes/yellowed_reborn.json"
-			}
-		],
-		"iconThemes": [
-			{
-				"label": "Yellowed Icons",
-				"id": "yellowed_icons",
-				"path": "./icons/yellowed_icons.json"
+				"path": "./themes/yellowed_reborn.json",
+				"uiTheme": "vs-dark"
 			}
 		]
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode"
+	"description": "A lemon like theme for vscode.",
+	"displayName": "Yellowed",
+	"engines": {
+		"vscode": "^1.81.1"
 	},
 	"galleryBanner": {
 		"color": "#ffd900",
 		"theme": "dark"
 	},
+	"homepage": "https://raw.githubusercontent.com/Gael-Lopes-Da-Silva/YellowedVSCode/main/README.md",
+	"icon": "resources/icon.png",
 	"keywords": [
 		"yellowed",
 		"yellow",
@@ -58,5 +45,18 @@
 		"jaune",
 		"golden",
 		"gold"
-	]
+	],
+	"license": "LICENSE.md",
+	"markdown": "github",
+	"name": "yellowed",
+	"publisher": "gael-lopes-da-silva",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode"
+	},
+	"scripts": {
+		"package": "vsce package -o build",
+		"publish": "vsce publish"
+	},
+	"version": "2.2.8"
 }

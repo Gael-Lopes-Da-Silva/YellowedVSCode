@@ -1,325 +1,415 @@
 {
-	"iconDefinitions": {
-		"folder": {
-			"iconPath": "./emojis/assets/File folder/Flat/file_folder_flat.svg"
-		},
-		"folder_open": {
-			"iconPath": "./emojis/assets/Open file folder/Flat/open_file_folder_flat.svg"
-		},
-		"file": {
-			"iconPath": "./emojis/assets/Page facing up/Flat/page_facing_up_flat.svg"
-		},
-		// extention
-		"c": {
-			"iconPath": "./emojis/assets/Infinity/Flat/infinity_flat.svg"
-		},
-		"python": {
-			"iconPath": "./emojis/assets/Snake/Flat/snake_flat.svg"
-		},
-		"brainfuck": {
-			"iconPath": "./emojis/assets/Brain/Flat/brain_flat.svg"
-		},
-		"dart": {
-			"iconPath": "./emojis/assets/Luggage/Flat/luggage_flat.svg"
-		},
-		"go": {
-			"iconPath": "./emojis/assets/Billed cap/Flat/billed_cap_flat.svg"
-		},
-		"html": {
-			"iconPath": "./emojis/assets/Orange book/Flat/orange_book_flat.svg"
-		},
-		"css": {
-			"iconPath": "./emojis/assets/Blue book/Flat/blue_book_flat.svg"
-		},
-		"javascript": {
-			"iconPath": "./emojis/assets/Ledger/Flat/ledger_flat.svg"
-		},
-		"haxe": {
-			"iconPath": "./emojis/assets/Anger symbol/Flat/anger_symbol_flat.svg"
-		},
-		"zig": {
-			"iconPath": "./emojis/assets/High voltage/Flat/high_voltage_flat.svg"
-		},
-		"nim": {
-			"iconPath": "./emojis/assets/Crown/Flat/crown_flat.svg"
-		},
-		"markdown": {
-			"iconPath": "./emojis/assets/Newspaper/Flat/newspaper_flat.svg"
-		},
-		"json": {
-			"iconPath": "./emojis/assets/Scroll/Flat/scroll_flat.svg"
-		},
-		"img": {
-			"iconPath": "./emojis/assets/Framed picture/Flat/framed_picture_flat.svg"
-		},
-		"pdf": {
-			"iconPath": "./emojis/assets/Closed book/Flat/closed_book_flat.svg"
-		},
-		"log": {
-			"iconPath": "./emojis/assets/Wood/Flat/wood_flat.svg"
-		},
-		"dll": {
-			"iconPath": "./emojis/assets/Gear/Flat/gear_flat.svg"
-		},
-		"jar": {
-			"iconPath": "./emojis/assets/Funeral urn/Flat/funeral_urn_flat.svg"
-		},
-		"java": {
-			"iconPath": "./emojis/assets/Hot beverage/Flat/hot_beverage_flat.svg"
-		},
-		"lua": {
-			"iconPath": "./emojis/assets/Full moon/Flat/full_moon_flat.svg"
-		},
-		"csharp": {
-			"iconPath": "./emojis/assets/Keycap hashtag/Flat/keycap_hashtag_flat.svg"
-		},
-		"pug": {
-			"iconPath": "./emojis/assets/Dog face/Flat/dog_face_flat.svg"
-		},
-		"php": {
-			"iconPath": "./emojis/assets/Elephant/Flat/elephant_flat.svg"
-		},
-		"ruby": {
-			"iconPath": "./emojis/assets/Gem stone/Flat/gem_stone_flat.svg"
-		},
-		"rust": {
-			"iconPath": "./emojis/assets/Crab/Flat/crab_flat.svg"
-		},
-		"sql": {
-			"iconPath": "./emojis/assets/Card file box/Flat/card_file_box_flat.svg"
-		},
-		"shell": {
-			"iconPath": "./emojis/assets/Floppy disk/Flat/floppy_disk_flat.svg"
-		},
-		"haskell": {
-			"iconPath": "./emojis/assets/Screwdriver/Flat/screwdriver_flat.svg"
-		},
-		"vsix": {
-			"iconPath": "./emojis/assets/Puzzle piece/Flat/puzzle_piece_flat.svg"
-		},
-		"ttf": {
-			"iconPath": "./emojis/assets/Black nib/Flat/black_nib_flat.svg"
-		},
-		"sketch": {
-			"iconPath": "./emojis/assets/Artist palette/Flat/artist_palette_flat.svg"
-		},
-		"vue": {
-			"iconPath": "./emojis/assets/Japanese symbol for beginner/Flat/japanese_symbol_for_beginner_flat.svg"
-		},
-		"zip": {
-			"iconPath": "./emojis/assets/Card index dividers/Flat/card_index_dividers_flat.svg"
-		},
-		"gradle": {
-			"iconPath": "./emojis/assets/Mammoth/Flat/mammoth_flat.svg"
-		},
-		"kotlin": {
-			"iconPath": "./emojis/assets/Cupcake/Flat/cupcake_flat.svg"
-		},
-		"typescript": {
-			"iconPath": "./emojis/assets/Bucket/Flat/bucket_flat.svg"
-		},
-		"handlebars": {
-			"iconPath": "./emojis/assets/Top hat/Flat/top_hat_flat.svg"
-		},
-		"import": {
-			"iconPath": "./emojis/assets/Inbox tray/Flat/inbox_tray_flat.svg"
-		},
-		"tscn": {
-			"iconPath": "./emojis/assets/Clapper board/Flat/clapper_board_flat.svg"
-		},
-		"git": {
-			"iconPath": "./emojis/assets/Pushpin/Flat/pushpin_flat.svg"
-		},
-		"exe": {
-			"iconPath": "./emojis/assets/Toolbox/Flat/toolbox_flat.svg"
-		},
-		"htaccess": {
-			"iconPath": "./emojis/assets/Feather/Flat/feather_flat.svg"
-		},
-		"vscodeignore": {
-			"iconPath": "./emojis/assets/Pushpin/Flat/pushpin_flat.svg"
-		},
-		// file
-		"package": {
-			"iconPath": "./emojis/assets/Package/Flat/package_flat.svg"
-		},
-		"dockerfile": {
-			"iconPath": "./emojis/assets/Whale/Flat/whale_flat.svg"
-		},
-		"readme": {
-			"iconPath": "./emojis/assets/Memo/Flat/memo_flat.svg"
-		},
-		"license": {
-			"iconPath": "./emojis/assets/Key/Flat/key_flat.svg"
-		},
-		"changelog": {
-			"iconPath": "./emojis/assets/Watch/Flat/watch_flat.svg"
-		},
-		"authors": {
-			"iconPath": "./emojis/assets/Identification card/Flat/identification_card_flat.svg"
-		},
-		"support": {
-			"iconPath": "./emojis/assets/Dollar banknote/Flat/dollar_banknote_flat.svg"
-		},
-		"security": {
-			"iconPath": "./emojis/assets/Shield/Flat/shield_flat.svg"
-		},
-		"code_of_conduct": {
-			"iconPath": "./emojis/assets/Passport control/Flat/passport_control_flat.svg"
-		},
-		"settings": {
-			"iconPath": "./emojis/assets/Gear/Flat/gear_flat.svg"
-		},
-		"android": {
-			"iconPath": "./emojis/assets/Robot/Flat/robot_flat.svg"
-		},
-		"spark": {
-			"iconPath": "./emojis/assets/High voltage/Flat/high_voltage_flat.svg"
-		},
-		"composer": {
-			"iconPath": "./emojis/assets/Violin/Flat/violin_flat.svg"
-		},
-		// folder
-		"docs": {
-			"iconPath": "./emojis/assets/Blue book/Flat/blue_book_flat.svg"
-		},
-		// open folder
-		"docs_open": {
-			"iconPath": "./emojis/assets/Open book/Flat/open_book_flat.svg"
-		}
-	},
-	"file": "file",
-	"folder": "folder",
-	"folderExpanded": "folder_open",
+	"file": "_page_facing_up",
 	"fileExtensions": {
-		"c": "c",
-		"h": "c",
-		"cpp": "c",
-		"hpp": "c",
-		"cs": "csharp",
-		"sql": "sql",
-		"graphql": "sql",
-		"sh": "shell",
-		"bat": "shell",
-		"ps1": "shell",
-		"lua": "lua",
-		"vsix": "vsix",
-		"sketch": "sketch",
-		"htaccess": "htaccess",
-		"exe": "exe",
-		"pug": "pug",
-		"php": "php",
-		"rb": "ruby",
-		"rs": "rust",
-		"b": "brainfuck",
-		"py": "python",
-		"ipynb": "python",
-		"hbs": "handlebars",
-		"hs": "haskell",
-		"go": "go",
-		"mod": "go",
-		"dart": "dart",
-		"html": "html",
-		"css": "css",
-		"less": "css",
-		"scss": "css",
-		"js": "javascript",
-		"jsx": "javascript",
-		"hx": "haxe",
-		"hxml": "haxe",
-		"zig": "zig",
-		"zon": "zig",
-		"nim": "nim",
-		"nims": "nim",
-		"jar": "jar",
-		"java": "java",
-		"md": "markdown",
-		"json": "json",
-		"toml": "json",
-		"yml": "json",
-		"iml": "json",
-		"lock": "json",
-		"yaml": "json",
-		"dist": "json",
-		"xml": "json",
-		"properties": "json",
-		"png": "img",
-		"jpg": "img",
-		"jpeg": "img",
-		"gif": "img",
-		"svg": "img",
-		"ico": "img",
-		"webp": "img",
-		"pdf": "pdf",
-		"log": "log",
-		"dll": "dll",
-		"env": "dll",
-		"ini": "dll",
-		"bin": "dll",
-		"dill": "dll",
-		"apk": "dll",
-		"zip": "zip",
-		"rar": "zip",
-		"7z": "zip",
-		"tar": "zip",
-		"gz": "zip",
-		"wim": "zip",
-		"ttf": "ttf",
-		"otf": "ttf",
-		"woff": "ttf",
-		"woff2": "ttf",
-		"kt": "kotlin",
-		"gradle": "gradle",
-		"vue": "vue",
-		"ts": "typescript",
-		"tsx": "typescript",
-		"godot": "android",
-		"tscn": "tscn",
-		"editorconfig": "dll",
-		"a": "dll",
-		"import": "import",
-		"gitignore": "git",
-		"gitattributes": "git",
-		"gitmodules": "git",
-		"gitkeep": "git",
-		"vscodeignore": "vscodeignore"
+		"7z": "_card_index_dividers",
+		"a": "_gear",
+		"adb": "_dove",
+		"ads": "_dove",
+		"apk": "_gear",
+		"asm": "_computer_disk",
+		"b": "_brain",
+		"bat": "_floppy_disk",
+		"bin": "_gear",
+		"C": "_infinity",
+		"c": "_infinity",
+		"c++": "_infinity",
+		"cake": "_shortcake",
+		"cc": "_infinity",
+		"cfg": "_gear",
+		"cgi": "_camel",
+		"cjs": "_ledger",
+		"class": "_gear",
+		"coffee": "_hot_beverage",
+		"cpp": "_infinity",
+		"cppm": "_infinity",
+		"cs": "_keycap_hashtag",
+		"css": "_blue_book",
+		"csx": "_keycap_hashtag",
+		"cxx": "_infinity",
+		"dart": "_luggage",
+		"dill": "_gear",
+		"dist": "_scroll",
+		"dll": "_gear",
+		"editorconfig": "_gear",
+		"env": "_gear",
+		"exe": "_toolbox",
+		"export": "_outbox_tray",
+		"f": "_heart_decoration",
+		"f90": "_heart_decoration",
+		"for": "_heart_decoration",
+		"gdignore": "_pushpin",
+		"gif": "_framed_picture",
+		"gitattributes": "_pushpin",
+		"gitignore": "_pushpin",
+		"gitkeep": "_pushpin",
+		"gitmodules": "_pushpin",
+		"go": "_billed_cap",
+		"godot": "_robot",
+		"gradle": "_mammoth",
+		"graphql": "_card_file_box",
+		"gz": "_card_index_dividers",
+		"h": "_infinity",
+		"H": "_infinity",
+		"h++": "_infinity",
+		"ha": "_rabbit",
+		"hbs": "_top_hat",
+		"hdr": "_framed_picture",
+		"hh": "_infinity",
+		"hl": "_link",
+		"hpp": "_infinity",
+		"hs": "_screwdriver",
+		"htaccess": "_feather",
+		"htaccess_local": "_feather",
+		"htaccess_notlive": "_feather",
+		"html": "_orange_book",
+		"htpasswd": "_feather",
+		"hx": "_anger_symbol",
+		"hxml": "_anger_symbol",
+		"hxx": "_infinity",
+		"ico": "_framed_picture",
+		"iml": "_scroll",
+		"import": "_inbox_tray",
+		"inc": "_computer_disk",
+		"ini": "_gear",
+		"ipynb": "_snake",
+		"ixx": "_infinity",
+		"jar": "_funeral_urn",
+		"java": "_hot_beverage",
+		"jmod": "_hot_beverage",
+		"jpeg": "_framed_picture",
+		"jpg": "_framed_picture",
+		"js": "_ledger",
+		"json": "_scroll",
+		"jsx": "_ledger",
+		"kexe": "_toolbox",
+		"klib": "_gear",
+		"kt": "_cupcake",
+		"kts": "_cupcake",
+		"less": "_blue_book",
+		"lhs": "_screwdriver",
+		"lib": "_gear",
+		"litcoffee": "_hot_beverage",
+		"lock": "_scroll",
+		"log": "_wood",
+		"lua": "_full_moon",
+		"md": "_newspaper",
+		"mjs": "_ledger",
+		"ml": "_two-hump_camel",
+		"mli": "_two-hump_camel",
+		"mod": "_billed_cap",
+		"nim": "_crown",
+		"nimble": "_crown",
+		"nims": "_crown",
+		"o": "_gear",
+		"obj": "_gear",
+		"otf": "_black_nib",
+		"pdf": "_closed_book",
+		"php": "_elephant",
+		"pl": "_camel",
+		"plx": "_camel",
+		"pm": "_camel",
+		"png": "_framed_picture",
+		"pod": "_camel",
+		"properties": "_scroll",
+		"ps1": "_floppy_disk",
+		"pug": "_dog_face",
+		"py": "_snake",
+		"pyc": "_gear",
+		"pyd": "_snake",
+		"pyi": "_snake",
+		"pyw": "_snake",
+		"pyz": "_snake",
+		"rar": "_card_index_dividers",
+		"rb": "_gem_stone",
+		"rlib": "_gear",
+		"rs": "_crab",
+		"ru": "_gem_stone",
+		"s": "_computer_disk",
+		"sc": "_scarf",
+		"scala": "_scarf",
+		"scss": "_blue_book",
+		"sh": "_floppy_disk",
+		"sketch": "_artist_palette",
+		"so": "_gear",
+		"sql": "_card_file_box",
+		"SRC": "_computer_disk",
+		"svg": "_framed_picture",
+		"swift": "_eagle",
+		"SWIFT": "_eagle",
+		"t": "_camel",
+		"tar": "_card_index_dividers",
+		"toml": "_scroll",
+		"ts": "_bucket",
+		"tscn": "_clapper_board",
+		"tsx": "_bucket",
+		"ttf": "_black_nib",
+		"vscodeignore": "_pushpin",
+		"vsix": "_puzzle_piece",
+		"vue": "_japanese_symbol_for_beginner",
+		"webp": "_framed_picture",
+		"wim": "_card_index_dividers",
+		"wla": "_computer_disk",
+		"woff": "_black_nib",
+		"woff2": "_black_nib",
+		"xml": "_scroll",
+		"xs": "_camel",
+		"yaml": "_scroll",
+		"yml": "_scroll",
+		"zig": "_high_voltage",
+		"zip": "_high_voltage",
+		"zir": "_high_voltage",
+		"zon": "_high_voltage"
 	},
 	"fileNames": {
-		"composer.json": "composer",
-		"composer.lock": "composer",
-		"spark": "spark",
-		"dockerfile": "dockerfile",
-		"AndroidManifest.json": "android",
-		"package.json": "package",
-		"settings.json": "settings",
-		"launch.json": "settings",
-		"task.json": "settings",
-		"README": "readme",
-		"README.md": "readme",
-		"README.txt": "readme",
-		"LICENSE": "license",
-		"LICENSE.md": "license",
-		"LICENSE.txt": "license",
-		"CHANGELOG": "changelog",
-		"CHANGELOG.md": "changelog",
-		"CHANGELOG.txt": "changelog",
-		"AUTHORS": "authors",
-		"AUTHORS.md": "authors",
-		"AUTHORS.txt": "authors",
-		"SUPPORT": "support",
-		"SUPPORT.md": "support",
-		"SUPPORT.txt": "support",
-		"SECURITY": "security",
-		"SECURITY.md": "security",
-		"SECURITY.txt": "security",
-		"CODE_OF_CONDUCT": "code_of_conduct",
-		"CODE_OF_CONDUCT.md": "code_of_conduct",
-		"CODE_OF_CONDUCT.txt": "code_of_conduct",
+		"AndroidManifest.xml": "_robot",
+		"AUTHORS": "_identification_card",
+		"AUTHORS.md": "_identification_card",
+		"AUTHORS.txt": "_identification_card",
+		"CHANGELOG": "_watch",
+		"CHANGELOG.md": "_watch",
+		"CHANGELOG.txt": "_watch",
+		"CODE_OF_CONDUCT": "_passport_control",
+		"CODE_OF_CONDUCT.md": "_passport_control",
+		"CODE_OF_CONDUCT.txt": "_passport_control",
+		"composer.json": "_violin",
+		"composer.lock": "_violin",
+		"dockerfile": "_whale",
+		"launch.json": "_gear",
+		"LICENSE": "_key",
+		"LICENSE.md": "_key",
+		"LICENSE.txt": "_key",
+		"package.json": "_package",
+		"README": "_memo",
+		"README.md": "_memo",
+		"README.txt": "_memo",
+		"SECURITY": "_shield",
+		"SECURITY.md": "_shield",
+		"SECURITY.txt": "_shield",
+		"settings.json": "_gear",
+		"spark": "_high_voltage",
+		"SUPPORT": "_dollar_banknote",
+		"SUPPORT.md": "_dollar_banknote",
+		"SUPPORT.txt": "_dollar_banknote",
+		"task.json": "_gear",
+		"TODO": "_clipboard",
+		"TODO.md": "_clipboard",
+		"TODO.txt": "_clipboard"
 	},
+	"folder": "_file_folder",
+	"folderExpanded": "_open_file_folder",
 	"folderNames": {
-		"docs": "docs"
+		"docs": "_blue_book"
 	},
 	"folderNamesExpanded": {
-		"docs": "docs_open"
+		"docs": "_open_book"
+	},
+	"iconDefinitions": {
+		"_anger_symbol": {
+			"iconPath": "./assets/Anger symbol/Flat/anger_symbol_flat.svg"
+		},
+		"_artist_palette": {
+			"iconPath": "./assets/Artist palette/Flat/artist_palette_flat.svg"
+		},
+		"_billed_cap": {
+			"iconPath": "./assets/Billed cap/Flat/billed_cap_flat.svg"
+		},
+		"_black_nib": {
+			"iconPath": "./assets/Black nib/Flat/black_nib_flat.svg"
+		},
+		"_blue_book": {
+			"iconPath": "./assets/Blue book/Flat/blue_book_flat.svg"
+		},
+		"_brain": {
+			"iconPath": "./assets/Brain/Flat/brain_flat.svg"
+		},
+		"_bucket": {
+			"iconPath": "./assets/Bucket/Flat/bucket_flat.svg"
+		},
+		"_camel": {
+			"iconPath": "./assets/Camel/Flat/camel_flat.svg"
+		},
+		"_card_file_box": {
+			"iconPath": "./assets/Card file box/Flat/card_file_box_flat.svg"
+		},
+		"_card_index_dividers": {
+			"iconPath": "./assets/Card index dividers/Flat/card_index_dividers_flat.svg"
+		},
+		"_clapper_board": {
+			"iconPath": "./assets/Clapper board/Flat/clapper_board_flat.svg"
+		},
+		"_clipboard": {
+			"iconPath": "./assets/Clipboard/Flat/clipboard_flat.svg"
+		},
+		"_closed_book": {
+			"iconPath": "./assets/Closed book/Flat/closed_book_flat.svg"
+		},
+		"_computer_disk": {
+			"iconPath": "./assets/Computer disk/Flat/computer_disk_flat.svg"
+		},
+		"_crab": {
+			"iconPath": "./assets/Crab/Flat/crab_flat.svg"
+		},
+		"_crown": {
+			"iconPath": "./assets/Crown/Flat/crown_flat.svg"
+		},
+		"_cupcake": {
+			"iconPath": "./assets/Cupcake/Flat/cupcake_flat.svg"
+		},
+		"_dog_face": {
+			"iconPath": "./assets/Dog face/Flat/dog_face_flat.svg"
+		},
+		"_dollar_banknote": {
+			"iconPath": "./assets/Dollar banknote/Flat/dollar_banknote_flat.svg"
+		},
+		"_dove": {
+			"iconPath": "./assets/Dove/Flat/dove_flat.svg"
+		},
+		"_eagle": {
+			"iconPath": "./assets/Eagle/Flat/eagle_flat.svg"
+		},
+		"_elephant": {
+			"iconPath": "./assets/Elephant/Flat/elephant_flat.svg"
+		},
+		"_feather": {
+			"iconPath": "./assets/Feather/Flat/feather_flat.svg"
+		},
+		"_file_folder": {
+			"iconPath": "./assets/File folder/Flat/file_folder_flat.svg"
+		},
+		"_floppy_disk": {
+			"iconPath": "./assets/Floppy disk/Flat/floppy_disk_flat.svg"
+		},
+		"_framed_picture": {
+			"iconPath": "./assets/Framed picture/Flat/framed_picture_flat.svg"
+		},
+		"_full_moon": {
+			"iconPath": "./assets/Full moon/Flat/full_moon_flat.svg"
+		},
+		"_funeral_urn": {
+			"iconPath": "./assets/Funeral urn/Flat/funeral_urn_flat.svg"
+		},
+		"_gear": {
+			"iconPath": "./assets/Gear/Flat/gear_flat.svg"
+		},
+		"_gem_stone": {
+			"iconPath": "./assets/Gem stone/Flat/gem_stone_flat.svg"
+		},
+		"_heart_decoration": {
+			"iconPath": "./assets/Heart decoration/Flat/heart_decoration_flat.svg"
+		},
+		"_high_voltage": {
+			"iconPath": "./assets/High voltage/Flat/high_voltage_flat.svg"
+		},
+		"_hot_beverage": {
+			"iconPath": "./assets/Hot beverage/Flat/hot_beverage_flat.svg"
+		},
+		"_identification_card": {
+			"iconPath": "./assets/Identification card/Flat/identification_card_flat.svg"
+		},
+		"_inbox_tray": {
+			"iconPath": "./assets/Inbox tray/Flat/inbox_tray_flat.svg"
+		},
+		"_infinity": {
+			"iconPath": "./assets/Infinity/Flat/infinity_flat.svg"
+		},
+		"_japanese_symbol_for_beginner": {
+			"iconPath": "./assets/Japanese symbol for beginner/Flat/japanese_symbol_for_beginner_flat.svg"
+		},
+		"_key": {
+			"iconPath": "./assets/Key/Flat/key_flat.svg"
+		},
+		"_keycap_hashtag": {
+			"iconPath": "./assets/Keycap hashtag/Flat/keycap_hashtag_flat.svg"
+		},
+		"_ledger": {
+			"iconPath": "./assets/Ledger/Flat/ledger_flat.svg"
+		},
+		"_link": {
+			"iconPath": "./assets/Link/Flat/link_flat.svg"
+		},
+		"_luggage": {
+			"iconPath": "./assets/Luggage/Flat/luggage_flat.svg"
+		},
+		"_mammoth": {
+			"iconPath": "./assets/Mammoth/Flat/mammoth_flat.svg"
+		},
+		"_memo": {
+			"iconPath": "./assets/Memo/Flat/memo_flat.svg"
+		},
+		"_newspaper": {
+			"iconPath": "./assets/Newspaper/Flat/newspaper_flat.svg"
+		},
+		"_open_book": {
+			"iconPath": "./assets/Open book/Flat/open_book_flat.svg"
+		},
+		"_open_file_folder": {
+			"iconPath": "./assets/Open file folder/Flat/open_file_folder_flat.svg"
+		},
+		"_orange_book": {
+			"iconPath": "./assets/Orange book/Flat/orange_book_flat.svg"
+		},
+		"_outbox_tray": {
+			"iconPath": "./assets/Outbox tray/Flat/outbox_tray_flat.svg"
+		},
+		"_package": {
+			"iconPath": "./assets/Package/Flat/package_flat.svg"
+		},
+		"_page_facing_up": {
+			"iconPath": "./assets/Page facing up/Flat/page_facing_up_flat.svg"
+		},
+		"_passport_control": {
+			"iconPath": "./assets/Passport control/Flat/passport_control_flat.svg"
+		},
+		"_pushpin": {
+			"iconPath": "./assets/Pushpin/Flat/pushpin_flat.svg"
+		},
+		"_puzzle_piece": {
+			"iconPath": "./assets/Puzzle piece/Flat/puzzle_piece_flat.svg"
+		},
+		"_rabbit": {
+			"iconPath": "./assets/Rabbit/Flat/rabbit_flat.svg"
+		},
+		"_robot": {
+			"iconPath": "./assets/Robot/Flat/robot_flat.svg"
+		},
+		"_scarf": {
+			"iconPath": "./assets/Scarf/Flat/scarf_flat.svg"
+		},
+		"_screwdriver": {
+			"iconPath": "./assets/Screwdriver/Flat/screwdriver_flat.svg"
+		},
+		"_scroll": {
+			"iconPath": "./assets/Scroll/Flat/scroll_flat.svg"
+		},
+		"_shield": {
+			"iconPath": "./assets/Shield/Flat/shield_flat.svg"
+		},
+		"_shortcake": {
+			"iconPath": "./assets/Shortcake/Flat/shortcake_flat.svg"
+		},
+		"_snake": {
+			"iconPath": "./assets/Snake/Flat/snake_flat.svg"
+		},
+		"_toolbox": {
+			"iconPath": "./assets/Toolbox/Flat/toolbox_flat.svg"
+		},
+		"_top_hat": {
+			"iconPath": "./assets/Top hat/Flat/top_hat_flat.svg"
+		},
+		"_two-hump_camel": {
+			"iconPath": "./assets/Two-hump camel/Flat/two-hump_camel_flat.svg"
+		},
+		"_violin": {
+			"iconPath": "./assets/Violin/Flat/violin_flat.svg"
+		},
+		"_watch": {
+			"iconPath": "./assets/Watch/Flat/watch_flat.svg"
+		},
+		"_whale": {
+			"iconPath": "./assets/Whale/Flat/whale_flat.svg"
+		},
+		"_wood": {
+			"iconPath": "./assets/Wood/Flat/wood_flat.svg"
+		}
 	}
 }
