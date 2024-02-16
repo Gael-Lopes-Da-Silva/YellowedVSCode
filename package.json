@@ -12,13 +12,13 @@
 		],
 		"themes": [
 			{
-				"label": "Yellowed",
-				"path": "./themes/yellowed.json",
+				"label": "Yellowed Reborn",
+				"path": "./themes/yellowed_reborn.json",
 				"uiTheme": "vs-dark"
 			},
 			{
-				"label": "Yellowed Reborn",
-				"path": "./themes/yellowed_reborn.json",
+				"label": "Yellowed",
+				"path": "./themes/yellowed.json",
 				"uiTheme": "vs-dark"
 			}
 		]
@@ -35,16 +35,19 @@
 	"homepage": "https://raw.githubusercontent.com/Gael-Lopes-Da-Silva/YellowedVSCode/main/README.md",
 	"icon": "resources/icon.png",
 	"keywords": [
-		"yellowed",
-		"yellow",
 		"dark",
-		"material",
-		"minimalist",
-		"minimal",
-		"gruber",
-		"jaune",
+		"flat",
+		"gold",
 		"golden",
-		"gold"
+		"gruber",
+		"icon",
+		"icons",
+		"jaune",
+		"material",
+		"minimal",
+		"minimalist",
+		"yellow",
+		"yellowed"
 	],
 	"license": "LICENSE.md",
 	"markdown": "github",
@@ -58,5 +61,5 @@
 		"package": "vsce package -o build",
 		"publish": "vsce publish"
 	},
-	"version": "2.2.8"
+	"version": "2.2.9"
 }

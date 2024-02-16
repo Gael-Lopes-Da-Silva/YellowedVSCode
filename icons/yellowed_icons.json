@@ -1,56 +1,83 @@
 {
 	"file": "_page_facing_up",
 	"fileExtensions": {
+		"3g2": "_video_camera",
+		"3gp": "_video_camera",
 		"7z": "_card_index_dividers",
 		"a": "_gear",
+		"acc": "_musical_note",
+		"accdb": "_card_file_box",
 		"adb": "_dove",
 		"ads": "_dove",
+		"adt": "_musical_note",
+		"adts": "_musical_note",
+		"aif": "_musical_note",
 		"apk": "_gear",
 		"asm": "_computer_disk",
+		"avi": "_video_camera",
+		"awk": "_owl",
 		"b": "_brain",
 		"bat": "_floppy_disk",
+		"bf": "_cut_of_meat",
 		"bin": "_gear",
-		"C": "_infinity",
+		"bmp": "_framed_picture",
 		"c": "_infinity",
 		"c++": "_infinity",
 		"cake": "_shortcake",
 		"cc": "_infinity",
+		"cda": "_musical_note",
 		"cfg": "_gear",
 		"cgi": "_camel",
-		"cjs": "_ledger",
+		"cjs": "_rocket",
 		"class": "_gear",
+		"cob": "_mantelpiece_clock",
 		"coffee": "_hot_beverage",
 		"cpp": "_infinity",
 		"cppm": "_infinity",
 		"cs": "_keycap_hashtag",
-		"css": "_blue_book",
+		"css": "_piñata",
+		"csv": "_calendar",
 		"csx": "_keycap_hashtag",
 		"cxx": "_infinity",
 		"dart": "_luggage",
+		"dat": "_card_file_box",
+		"db": "_card_file_box",
+		"dbf": "_card_file_box",
+		"dif": "_calendar",
 		"dill": "_gear",
 		"dist": "_scroll",
 		"dll": "_gear",
+		"doc": "_spiral_notepad",
+		"docm": "_spiral_notepad",
+		"docx": "_spiral_notepad",
+		"dot": "_spiral_notepad",
+		"dotx": "_spiral_notepad",
 		"editorconfig": "_gear",
+		"eml": "_e-mail",
 		"env": "_gear",
+		"ex": "_bubbles",
 		"exe": "_toolbox",
 		"export": "_outbox_tray",
 		"f": "_heart_decoration",
 		"f90": "_heart_decoration",
+		"flv": "_video_camera",
 		"for": "_heart_decoration",
+		"fs": "_keycap_hashtag",
 		"gdignore": "_pushpin",
 		"gif": "_framed_picture",
 		"gitattributes": "_pushpin",
 		"gitignore": "_pushpin",
 		"gitkeep": "_pushpin",
 		"gitmodules": "_pushpin",
-		"go": "_billed_cap",
+		"go": "_hamster",
 		"godot": "_robot",
 		"gradle": "_mammoth",
 		"graphql": "_card_file_box",
+		"groovy": "_microphone",
 		"gz": "_card_index_dividers",
 		"h": "_infinity",
-		"H": "_infinity",
 		"h++": "_infinity",
+		"h264": "_video_camera",
 		"ha": "_rabbit",
 		"hbs": "_top_hat",
 		"hdr": "_framed_picture",
@@ -61,7 +88,8 @@
 		"htaccess": "_feather",
 		"htaccess_local": "_feather",
 		"htaccess_notlive": "_feather",
-		"html": "_orange_book",
+		"htm": "_globe_with_meridians",
+		"html": "_globe_with_meridians",
 		"htpasswd": "_feather",
 		"hx": "_anger_symbol",
 		"hxml": "_anger_symbol",
@@ -72,37 +100,56 @@
 		"inc": "_computer_disk",
 		"ini": "_gear",
 		"ipynb": "_snake",
+		"iso": "_optical_disk",
 		"ixx": "_infinity",
 		"jar": "_funeral_urn",
 		"java": "_hot_beverage",
+		"jl": "_books",
 		"jmod": "_hot_beverage",
 		"jpeg": "_framed_picture",
 		"jpg": "_framed_picture",
-		"js": "_ledger",
+		"js": "_rocket",
 		"json": "_scroll",
-		"jsx": "_ledger",
+		"jsx": "_rocket",
 		"kexe": "_toolbox",
 		"klib": "_gear",
 		"kt": "_cupcake",
 		"kts": "_cupcake",
-		"less": "_blue_book",
+		"less": "_piñata",
 		"lhs": "_screwdriver",
 		"lib": "_gear",
 		"litcoffee": "_hot_beverage",
 		"lock": "_scroll",
 		"log": "_wood",
 		"lua": "_full_moon",
+		"m4a": "_video_camera",
+		"m4v": "_video_camera",
+		"mat": "_bar_chart",
 		"md": "_newspaper",
-		"mjs": "_ledger",
+		"mdb": "_card_file_box",
+		"mid": "_musical_notes",
+		"midi": "_musical_notes",
+		"mjs": "_rocket",
+		"mk": "_hammer_and_wrench",
+		"mkv": "_video_camera",
 		"ml": "_two-hump_camel",
 		"mli": "_two-hump_camel",
-		"mod": "_billed_cap",
+		"mod": "_hamster",
+		"mov": "_musical_note",
+		"mp3": "_musical_note",
+		"mp4": "_video_camera",
+		"mpa": "_musical_note",
+		"mpeg": "_video_camera",
+		"mpg": "_video_camera",
+		"msg": "_e-mail",
 		"nim": "_crown",
 		"nimble": "_crown",
 		"nims": "_crown",
 		"o": "_gear",
 		"obj": "_gear",
 		"otf": "_black_nib",
+		"oz": "_man_mage",
+		"pas": "_classical_building",
 		"pdf": "_closed_book",
 		"php": "_elephant",
 		"pl": "_camel",
@@ -122,35 +169,56 @@
 		"rar": "_card_index_dividers",
 		"rb": "_gem_stone",
 		"rlib": "_gear",
+		"rm": "_video_camera",
 		"rs": "_crab",
 		"ru": "_gem_stone",
 		"s": "_computer_disk",
 		"sc": "_scarf",
 		"scala": "_scarf",
-		"scss": "_blue_book",
-		"sh": "_floppy_disk",
+		"scss": "_piñata",
+		"sh": "_spiral_shell",
 		"sketch": "_artist_palette",
 		"so": "_gear",
 		"sql": "_card_file_box",
 		"SRC": "_computer_disk",
+		"st": "_locomotive",
 		"svg": "_framed_picture",
+		"swf": "_video_camera",
 		"swift": "_eagle",
-		"SWIFT": "_eagle",
 		"t": "_camel",
 		"tar": "_card_index_dividers",
+		"tif": "_framed_picture",
+		"tiff": "_framed_picture",
 		"toml": "_scroll",
 		"ts": "_bucket",
 		"tscn": "_clapper_board",
 		"tsx": "_bucket",
 		"ttf": "_black_nib",
+		"vbs": "_basketball",
+		"vi": "_test_tube",
+		"vod": "_video_camera",
 		"vscodeignore": "_pushpin",
 		"vsix": "_puzzle_piece",
 		"vue": "_japanese_symbol_for_beginner",
+		"wav": "_musical_note",
 		"webp": "_framed_picture",
 		"wim": "_card_index_dividers",
 		"wla": "_computer_disk",
+		"wma": "_musical_note",
+		"wmv": "_video_camera",
 		"woff": "_black_nib",
 		"woff2": "_black_nib",
+		"wpl": "_musical_note",
+		"xhtml": "_globe_with_meridians",
+		"xla": "_calendar",
+		"xlam": "_calendar",
+		"xlb": "_calendar",
+		"xll": "_gear",
+		"xlm": "_calendar",
+		"xls": "_calendar",
+		"xlsb": "_calendar",
+		"xlsm": "_calendar",
+		"xlsx": "_calendar",
 		"xml": "_scroll",
 		"xs": "_camel",
 		"yaml": "_scroll",
@@ -168,6 +236,7 @@
 		"CHANGELOG": "_watch",
 		"CHANGELOG.md": "_watch",
 		"CHANGELOG.txt": "_watch",
+		"CMakeLists.txt": "_hammer_and_wrench",
 		"CODE_OF_CONDUCT": "_passport_control",
 		"CODE_OF_CONDUCT.md": "_passport_control",
 		"CODE_OF_CONDUCT.txt": "_passport_control",
@@ -178,10 +247,13 @@
 		"LICENSE": "_key",
 		"LICENSE.md": "_key",
 		"LICENSE.txt": "_key",
+		"make": "_hammer_and_wrench",
+		"MAKEFILE": "_hammer_and_wrench",
 		"package.json": "_package",
 		"README": "_memo",
 		"README.md": "_memo",
 		"README.txt": "_memo",
+		"robots.txt": "_robot",
 		"SECURITY": "_shield",
 		"SECURITY.md": "_shield",
 		"SECURITY.txt": "_shield",
@@ -210,8 +282,11 @@
 		"_artist_palette": {
 			"iconPath": "./assets/Artist palette/Flat/artist_palette_flat.svg"
 		},
-		"_billed_cap": {
-			"iconPath": "./assets/Billed cap/Flat/billed_cap_flat.svg"
+		"_bar_chart": {
+			"iconPath": "./assets/Bar chart/Flat/bar_chart_flat.svg"
+		},
+		"_basketball": {
+			"iconPath": "./assets/Basketball/Flat/basketball_flat.svg"
 		},
 		"_black_nib": {
 			"iconPath": "./assets/Black nib/Flat/black_nib_flat.svg"
@@ -219,11 +294,20 @@
 		"_blue_book": {
 			"iconPath": "./assets/Blue book/Flat/blue_book_flat.svg"
 		},
+		"_books": {
+			"iconPath": "./assets/Books/Flat/books_flat.svg"
+		},
 		"_brain": {
 			"iconPath": "./assets/Brain/Flat/brain_flat.svg"
 		},
+		"_bubbles": {
+			"iconPath": "./assets/Bubbles/Flat/bubbles_flat.svg"
+		},
 		"_bucket": {
 			"iconPath": "./assets/Bucket/Flat/bucket_flat.svg"
+		},
+		"_calendar": {
+			"iconPath": "./assets/Calendar/Flat/calendar_flat.svg"
 		},
 		"_camel": {
 			"iconPath": "./assets/Camel/Flat/camel_flat.svg"
@@ -236,6 +320,9 @@
 		},
 		"_clapper_board": {
 			"iconPath": "./assets/Clapper board/Flat/clapper_board_flat.svg"
+		},
+		"_classical_building": {
+			"iconPath": "./assets/Classical building/Flat/classical_building_flat.svg"
 		},
 		"_clipboard": {
 			"iconPath": "./assets/Clipboard/Flat/clipboard_flat.svg"
@@ -255,6 +342,9 @@
 		"_cupcake": {
 			"iconPath": "./assets/Cupcake/Flat/cupcake_flat.svg"
 		},
+		"_cut_of_meat": {
+			"iconPath": "./assets/Cut of meat/Flat/cut_of_meat_flat.svg"
+		},
 		"_dog_face": {
 			"iconPath": "./assets/Dog face/Flat/dog_face_flat.svg"
 		},
@@ -263,6 +353,9 @@
 		},
 		"_dove": {
 			"iconPath": "./assets/Dove/Flat/dove_flat.svg"
+		},
+		"_e-mail": {
+			"iconPath": "./assets/E-mail/Flat/e-mail_flat.svg"
 		},
 		"_eagle": {
 			"iconPath": "./assets/Eagle/Flat/eagle_flat.svg"
@@ -294,6 +387,15 @@
 		"_gem_stone": {
 			"iconPath": "./assets/Gem stone/Flat/gem_stone_flat.svg"
 		},
+		"_globe_with_meridians": {
+			"iconPath": "./assets/Globe with meridians/Flat/globe_with_meridians_flat.svg"
+		},
+		"_hammer_and_wrench": {
+			"iconPath": "./assets/Hammer and wrench/Flat/hammer_and_wrench_flat.svg"
+		},
+		"_hamster": {
+			"iconPath": "./assets/Hamster/Flat/hamster_flat.svg"
+		},
 		"_heart_decoration": {
 			"iconPath": "./assets/Heart decoration/Flat/heart_decoration_flat.svg"
 		},
@@ -321,11 +423,11 @@
 		"_keycap_hashtag": {
 			"iconPath": "./assets/Keycap hashtag/Flat/keycap_hashtag_flat.svg"
 		},
-		"_ledger": {
-			"iconPath": "./assets/Ledger/Flat/ledger_flat.svg"
-		},
 		"_link": {
 			"iconPath": "./assets/Link/Flat/link_flat.svg"
+		},
+		"_locomotive": {
+			"iconPath": "./assets/Locomotive/Flat/locomotive_flat.svg"
 		},
 		"_luggage": {
 			"iconPath": "./assets/Luggage/Flat/luggage_flat.svg"
@@ -333,8 +435,23 @@
 		"_mammoth": {
 			"iconPath": "./assets/Mammoth/Flat/mammoth_flat.svg"
 		},
+		"_man_mage": {
+			"iconPath": "./assets/Man mage/Medium/Flat/man_mage_flat_medium.svg"
+		},
+		"_mantelpiece_clock": {
+			"iconPath": "./assets/Mantelpiece clock/Flat/mantelpiece_clock_flat.svg"
+		},
 		"_memo": {
 			"iconPath": "./assets/Memo/Flat/memo_flat.svg"
+		},
+		"_microphone": {
+			"iconPath": "./assets/Microphone/Flat/microphone_flat.svg"
+		},
+		"_musical_note": {
+			"iconPath": "./assets/Musical note/Flat/musical_note_flat.svg"
+		},
+		"_musical_notes": {
+			"iconPath": "./assets/Musical notes/Flat/musical_notes_flat.svg"
 		},
 		"_newspaper": {
 			"iconPath": "./assets/Newspaper/Flat/newspaper_flat.svg"
@@ -345,11 +462,14 @@
 		"_open_file_folder": {
 			"iconPath": "./assets/Open file folder/Flat/open_file_folder_flat.svg"
 		},
-		"_orange_book": {
-			"iconPath": "./assets/Orange book/Flat/orange_book_flat.svg"
+		"_optical_disk": {
+			"iconPath": "./assets/Optical disk/Flat/optical_disk_flat.svg"
 		},
 		"_outbox_tray": {
 			"iconPath": "./assets/Outbox tray/Flat/outbox_tray_flat.svg"
+		},
+		"_owl": {
+			"iconPath": "./assets/Owl/Flat/owl_flat.svg"
 		},
 		"_package": {
 			"iconPath": "./assets/Package/Flat/package_flat.svg"
@@ -359,6 +479,9 @@
 		},
 		"_passport_control": {
 			"iconPath": "./assets/Passport control/Flat/passport_control_flat.svg"
+		},
+		"_piñata": {
+			"iconPath": "./assets/Piñata/Flat/piñata_flat.svg"
 		},
 		"_pushpin": {
 			"iconPath": "./assets/Pushpin/Flat/pushpin_flat.svg"
@@ -371,6 +494,9 @@
 		},
 		"_robot": {
 			"iconPath": "./assets/Robot/Flat/robot_flat.svg"
+		},
+		"_rocket": {
+			"iconPath": "./assets/Rocket/Flat/rocket_flat.svg"
 		},
 		"_scarf": {
 			"iconPath": "./assets/Scarf/Flat/scarf_flat.svg"
@@ -390,6 +516,15 @@
 		"_snake": {
 			"iconPath": "./assets/Snake/Flat/snake_flat.svg"
 		},
+		"_spiral_notepad": {
+			"iconPath": "./assets/Spiral notepad/Flat/spiral_notepad_flat.svg"
+		},
+		"_spiral_shell": {
+			"iconPath": "./assets/Spiral shell/Flat/spiral_shell_flat.svg"
+		},
+		"_test_tube": {
+			"iconPath": "./assets/Test tube/Flat/test_tube_flat.svg"
+		},
 		"_toolbox": {
 			"iconPath": "./assets/Toolbox/Flat/toolbox_flat.svg"
 		},
@@ -398,6 +533,9 @@
 		},
 		"_two-hump_camel": {
 			"iconPath": "./assets/Two-hump camel/Flat/two-hump_camel_flat.svg"
+		},
+		"_video_camera": {
+			"iconPath": "./assets/Video camera/Flat/video_camera_flat.svg"
 		},
 		"_violin": {
 			"iconPath": "./assets/Violin/Flat/violin_flat.svg"

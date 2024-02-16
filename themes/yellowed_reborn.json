@@ -1,7 +1,6 @@
 {
-	"name": "Yellowed Reborn",
-	"type": "dark",
 	"colors": {
+		"activityBar.activeBorder": "#0078d4",
 		"activityBar.background": "#181818",
 		"activityBar.border": "#ffffff15",
 		"activityBar.foreground": "#d7d7d7",
@@ -26,9 +25,17 @@
 		"dropdown.foreground": "#cccccc",
 		"dropdown.listBackground": "#1f1f1f",
 		"editor.background": "#1f1f1f",
+		"editor.findMatchBackground": "#0d56ca99",
+		"editor.findMatchBorder": "#95c3fa88",
+		"editor.findMatchHighlightBackground": "#0d56ca66",
+		"editor.findRangeHighlightBackground": "#0d56ca22",
 		"editor.foreground": "#FFFFFF",
 		"editor.inactiveSelectionBackground": "#3a3d41",
+		"editor.lineHighlightBackground": "#303030",
+		"editor.selectionBackground": "#404040",
 		"editor.selectionHighlightBackground": "#add6ff26",
+		"editorCursor.background": "#000000",
+		"editorCursor.foreground": "#ffd900",
 		"editorGroup.border": "#ffffff17",
 		"editorGroupHeader.tabsBackground": "#181818",
 		"editorGroupHeader.tabsBorder": "#ffffff15",
@@ -46,6 +53,18 @@
 		"errorForeground": "#f85149",
 		"focusBorder": "#0078d4",
 		"foreground": "#cccccc",
+		"gitDecoration.addedResourceForeground": "#7bd88f",
+		"gitDecoration.conflictingResourceForeground": "#cca700",
+		"gitDecoration.deletedResourceForeground": "#c24038",
+		"gitDecoration.ignoredResourceForeground": "#777777",
+		"gitDecoration.modifiedResourceForeground": "#75c0fc",
+		"gitDecoration.submoduleResourceForeground": "#777777",
+		"gitDecoration.untrackedResourceForeground": "#777777",
+		"gitlens.gutterBackgroundColor": "#303030",
+		"gitlens.gutterForegroundColor": "#f6f6f666",
+		"gitlens.gutterUncommittedForegroundColor": "#666666",
+		"gitlens.lineHighlightBackgroundColor": "#7bd88f22",
+		"gitlens.lineHighlightOverviewRulerColor": "#7bd88f22",
 		"icon.foreground": "#cccccc",
 		"input.background": "#2a2a2a",
 		"input.border": "#ffffff1f",
@@ -83,6 +102,7 @@
 		"progressBar.background": "#0078d4",
 		"quickInput.background": "#1f1f1f",
 		"quickInput.foreground": "#cccccc",
+		"scrollbar.shadow": "#000000",
 		"scrollbarSlider.activeBackground": "#6e768187",
 		"scrollbarSlider.background": "#6e768133",
 		"scrollbarSlider.hoverBackground": "#6e768145",
@@ -108,6 +128,21 @@
 		"statusBarItem.prominentBackground": "#6e768166",
 		"statusBarItem.remoteBackground": "#0078d4",
 		"statusBarItem.remoteForeground": "#ffffff",
+		"symbolIcon.arrayForeground": "#f6f6f6",
+		"symbolIcon.booleanForeground": "#ff80f4",
+		"symbolIcon.classForeground": "#a6e22e",
+		"symbolIcon.constantForeground": "#ff80f4",
+		"symbolIcon.constructorForeground": "#65d7fd",
+		"symbolIcon.fieldForeground": "#fd971f",
+		"symbolIcon.functionForeground": "#a6e22e",
+		"symbolIcon.interfaceForeground": "#75c0fc",
+		"symbolIcon.methodForeground": "#a6e22e",
+		"symbolIcon.moduleForeground": "#f6f6f6",
+		"symbolIcon.namespaceForeground": "#f82e76",
+		"symbolIcon.propertyForeground": "#65d7fd",
+		"symbolIcon.stringForeground": "#ffee99",
+		"symbolIcon.structForeground": "#f6f6f6",
+		"symbolIcon.variableForeground": "#fd971f",
 		"tab.activeBackground": "#1f1f1f",
 		"tab.activeBorder": "#1f1f1f",
 		"tab.activeBorderTop": "#0078d4",
@@ -137,45 +172,9 @@
 		"welcomePage.progress.foreground": "#0078d4",
 		"welcomePage.tileBackground": "#ffffff0f",
 		"widget.border": "#ffffff15",
-		"activityBar.activeBorder": "#0078d4",
-		"editor.findMatchBackground": "#0d56ca99",
-		"editor.findMatchBorder": "#95c3fa88",
-		"editor.findMatchHighlightBackground": "#0d56ca66",
-		"editor.findRangeHighlightBackground": "#0d56ca22",
-		"editor.lineHighlightBackground": "#303030",
-		"editor.selectionBackground": "#404040",
-		"editorCursor.background": "#000000",
-		"editorCursor.foreground": "#ffd900",
-		"gitDecoration.addedResourceForeground": "#7bd88f",
-		"gitDecoration.conflictingResourceForeground": "#cca700",
-		"gitDecoration.deletedResourceForeground": "#c24038",
-		"gitDecoration.ignoredResourceForeground": "#777777",
-		"gitDecoration.modifiedResourceForeground": "#75c0fc",
-		"gitDecoration.submoduleResourceForeground": "#777777",
-		"gitDecoration.untrackedResourceForeground": "#777777",
-		"gitlens.gutterBackgroundColor": "#303030",
-		"gitlens.gutterForegroundColor": "#f6f6f666",
-		"gitlens.gutterUncommittedForegroundColor": "#666666",
-		"gitlens.lineHighlightBackgroundColor": "#7bd88f22",
-		"gitlens.lineHighlightOverviewRulerColor": "#7bd88f22",
-		"scrollbar.shadow": "#000000",
-		"symbolIcon.arrayForeground": "#f6f6f6",
-		"symbolIcon.booleanForeground": "#ff80f4",
-		"symbolIcon.classForeground": "#a6e22e",
-		"symbolIcon.constantForeground": "#ff80f4",
-		"symbolIcon.constructorForeground": "#65d7fd",
-		"symbolIcon.fieldForeground": "#fd971f",
-		"symbolIcon.functionForeground": "#a6e22e",
-		"symbolIcon.interfaceForeground": "#75c0fc",
-		"symbolIcon.methodForeground": "#a6e22e",
-		"symbolIcon.moduleForeground": "#f6f6f6",
-		"symbolIcon.namespaceForeground": "#f82e76",
-		"symbolIcon.propertyForeground": "#65d7fd",
-		"symbolIcon.stringForeground": "#ffee99",
-		"symbolIcon.structForeground": "#f6f6f6",
-		"symbolIcon.variableForeground": "#fd971f",
 		"widget.shadow": "#000000"
 	},
+	"name": "Yellowed Reborn",
 	"tokenColors": [
 		{
 			"name": "Gray",
@@ -186,8 +185,8 @@
 				"wildcard.comment"
 			],
 			"settings": {
-				"foreground": "#6b6b6b",
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#6b6b6b"
 			}
 		},
 		{
@@ -213,8 +212,8 @@
 				"punctuation.definition.string.template.end.ts",
 			],
 			"settings": {
-				"foreground": "#6b6b6b",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#6b6b6b"
 			}
 		},
 		{
@@ -229,8 +228,8 @@
 				"entity.name.section.group-title.ini",
 			],
 			"settings": {
-				"foreground": "#378b1d",
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#378b1d"
 			}
 		},
 		{
@@ -261,8 +260,8 @@
 				"punctuation.definition.evaluation.parens.end.shell"
 			],
 			"settings": {
-				"foreground": "#ff80f4",
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#ff80f4"
 			}
 		},
 		{
@@ -273,8 +272,8 @@
 				"support.constant.core.php"
 			],
 			"settings": {
-				"foreground": "#ff80f4",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#ff80f4"
 			}
 		},
 		{
@@ -307,8 +306,8 @@
 				"support.type.primitive.tsx"
 			],
 			"settings": {
-				"foreground": "#ffd900",
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#ffd900"
 			}
 		},
 		{
@@ -360,8 +359,8 @@
 				"storage.type.function.zig"
 			],
 			"settings": {
-				"foreground": "#ffd900",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#ffd900"
 			}
 		},
 		{
@@ -371,6 +370,7 @@
 				"entity.name.function",
 				"entity.other.attribute-name",
 				"support.function",
+				"constant.other.option",
 				// Css
 				"meta.property-value.css",
 				"support.constant.property-value.css",
@@ -405,8 +405,8 @@
 				"punctuation.definition.entity.ini"
 			],
 			"settings": {
-				"foreground": "#9b9b9b",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#9b9b9b"
 			}
 		},
 		{
@@ -414,6 +414,8 @@
 			"scope": [
 				"storage.modifier.import",
 				"storage.modifier.package",
+				// Shell
+				"string.unquoted.argument.shell",
 				// Dart
 				"string.interpolated.expression.dart",
 				// EditorConfig
@@ -421,6 +423,7 @@
 				// Csharp
 				"meta.interpolation.cs",
 				// Javascript
+				"meta.brace.round.js",
 				"meta.embedded.line.js",
 				// Json
 				"support.type.property-name.json",
@@ -430,6 +433,7 @@
 				// Php
 				"meta.embedded.block.php",
 				"meta.embedded.line.php",
+				"variable.other.php",
 				// Ruby
 				"constant.language.symbol.hashkey.ruby",
 				// Typescript
@@ -438,8 +442,8 @@
 				"keyword.other.definition.ini"
 			],
 			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -452,8 +456,8 @@
 				"punctuation.definition.constant.markdown"
 			],
 			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -467,8 +471,8 @@
 				"support.type.property-name.media.css"
 			],
 			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": "italic"
+				"fontStyle": "italic",
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -477,8 +481,8 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": "underline"
+				"fontStyle": "underline",
+				"foreground": "#FFFFFF"
 			}
 		},
 		{
@@ -512,5 +516,6 @@
 				"fontStyle": "strikethrough"
 			}
 		}
-	]
+	],
+	"type": "dark"
 }

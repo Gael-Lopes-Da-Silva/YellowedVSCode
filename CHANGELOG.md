@@ -8,8 +8,9 @@
 
 ---
 
-### 2.2.6 - 2.2.8
+### 2.2.6 - 2.2.9
 - Added icons to Yellowed Icons
+- Better support for Php
 
 ### 2.2.5
 - Added Yellowed Icons
