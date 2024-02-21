@@ -1,5 +1,5 @@
 <div align="center">
-	<font size="10">Yellowed</font>
+	<h1>Yellowed</h1>
 </div>
 
 <br>
