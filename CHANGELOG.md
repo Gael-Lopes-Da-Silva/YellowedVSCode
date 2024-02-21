@@ -1,5 +1,5 @@
 <div align="center">
-	<font size="10">Change Log</font>
+	<h1>Change Log</h1>
 </div>
 
 ---
