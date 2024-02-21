@@ -515,6 +515,8 @@
 				"storage.modifier.package",
 				// Shell
 				"string.unquoted.argument.shell",
+				// C
+				"storage.modifier.array.bracket.square.c",
 				// Dart
 				"string.interpolated.expression.dart",
 				// EditorConfig

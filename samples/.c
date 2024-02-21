@@ -35,6 +35,8 @@ static void hash_init(hash_ctx *const c, const byte t)
 {
 	SHA256_Init(c);
 
+	test = test[];
+
 	byte b[1];
 	b[0] = t;
 	hash_update(c, b, 1);

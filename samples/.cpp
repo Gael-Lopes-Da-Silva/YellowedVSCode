@@ -7,10 +7,10 @@
 // SPDX-License-Identifier: MIT
 // =============================================================
 
-#include <sycl/sycl.hpp>
 #include <chrono>
 #include <cstdlib>
 #include <iostream>
+#include <sycl/sycl.hpp>
 
 // dpc_common.hpp can be found in the dev-utilities include folder.
 // e.g., $ONEAPI_ROOT/dev-utilities/<version>/include/dpc_common.hpp
@@ -34,64 +34,84 @@ constexpr int infinite = (nodes * max_distance);
 constexpr int repetitions = 8;
 
 // Randomly initialize directed graph.
-void InitializeDirectedGraph(int *graph) {
-  for (int i = 0; i < nodes; i++) {
-    for (int j = 0; j < nodes; j++) {
-      int cell = i * nodes + j;
+void InitializeDirectedGraph(int *graph)
+{
+	for (int i = 0; i < nodes; i++)
+	{
+		for (int j = 0; j < nodes; j++)
+		{
+			int cell = i * nodes + j;
 
-      if (i == j) {
-        graph[cell] = 0;
-      } else if (rand() % 2) {
-        graph[cell] = infinite;
-      } else {
-        graph[cell] = rand() % max_distance + 1;
-      }
-    }
-  }
+			if (i == j)
+			{
+				graph[cell] = 0;
+			}
+			else if (rand() % 2)
+			{
+				graph[cell] = infinite;
+			}
+			else
+			{
+				graph[cell] = rand() % max_distance + 1;
+			}
+		}
+	}
 }
 
 // Copy graph.
-void CopyGraph(int *to, int *from) {
-  for (int i = 0; i < nodes; i++) {
-    for (int j = 0; j < nodes; j++) {
-      int cell = i * nodes + j;
-      to[cell] = from[cell];
-    }
-  }
+void CopyGraph(int *to, int *from)
+{
+	for (int i = 0; i < nodes; i++)
+	{
+		for (int j = 0; j < nodes; j++)
+		{
+			int cell = i * nodes + j;
+			to[cell] = from[cell];
+		}
+	}
 }
 
 // Check if two graphs are equal.
-bool VerifyGraphsAreEqual(int *graph, int *h) {
-  for (int i = 0; i < nodes; i++) {
-    for (int j = 0; j < nodes; j++) {
-      int cell = i * nodes + j;
+bool VerifyGraphsAreEqual(int *graph, int *h)
+{
+	for (int i = 0; i < nodes; i++)
+	{
+		for (int j = 0; j < nodes; j++)
+		{
+			int cell = i * nodes + j;
 
-      if (graph[cell] != h[cell]) {
-        return false;
-      }
-    }
-  }
+			if (graph[cell] != h[cell])
+			{
+				return false;
+			}
+		}
+	}
 
-  return true;
+	return true;
 }
 
 // The basic (sequential) implementation of Floyd Warshall algorithm for
 // computing all pairs shortest paths.
-void FloydWarshall(int *graph) {
-  for (int k = 0; k < nodes; k++) {
-    for (int i = 0; i < nodes; i++) {
-      for (int j = 0; j < nodes; j++) {
-        if (graph[i * nodes + j] >
-            graph[i * nodes + k] + graph[k * nodes + j]) {
-          graph[i * nodes + j] = graph[i * nodes + k] + graph[k * nodes + j];
-        }
-      }
-    }
-  }
+void FloydWarshall(int *graph)
+{
+	for (int k = 0; k < nodes; k++)
+	{
+		for (int i = 0; i < nodes; i++)
+		{
+			for (int j = 0; j < nodes; j++)
+			{
+				if (graph[i * nodes + j] >
+					graph[i * nodes + k] + graph[k * nodes + j])
+				{
+					graph[i * nodes + j] = graph[i * nodes + k] + graph[k * nodes + j];
+				}
+			}
+		}
+	}
 }
 
 typedef local_accessor<int, 2>
-    LocalBlock;
+	LocalBlock;
 
 // Inner loop of the blocked Floyd Warshall algorithm. A thread handles one cell
 // of a block. To complete the computation of a block, this function is invoked
@@ -101,26 +121,31 @@ typedef local_accessor<int, 2>
 // between them at the end of each iteration. This is required for correctness
 // as a following iteration depends on the previous iteration.
 void BlockedFloydWarshallCompute(nd_item<1> &item, const LocalBlock &C,
-                                 const LocalBlock &A, const LocalBlock &B,
-                                 int i, int j) {
-  for (int k = 0; k < block_length; k++) {
-    if (C[i][j] > A[i][k] + B[k][j]) {
-      C[i][j] = A[i][k] + B[k][j];
-    }
+								 const LocalBlock &A, const LocalBlock &B,
+								 int i, int j)
+{
+	for (int k = 0; k < block_length; k++)
+	{
+		if (C[i][j] > A[i][k] + B[k][j])
+		{
+			C[i][j] = A[i][k] + B[k][j];
+		}
 
-    item.barrier(access::fence_space::local_space);
-  }
+		item.barrier(access::fence_space::local_space);
+	}
 }
 
 // Phase 1 of blocked Floyd Warshall algorithm. It always operates on a block
 // on the diagonal of the adjacency matrix of the graph.
-void BlockedFloydWarshallPhase1(queue &q, int *graph, int round) {
-  // Each group will process one block.
-  constexpr auto blocks = 1;
-  // Each item/thread in a group will handle one cell of the block.
-  constexpr auto block_size = block_length * block_length;
+void BlockedFloydWarshallPhase1(queue &q, int *graph, int round)
+{
+	// Each group will process one block.
+	constexpr auto blocks = 1;
+	// Each item/thread in a group will handle one cell of the block.
+	constexpr auto block_size = block_length * block_length;
 
-  q.submit([&](handler &h) {
+	q.submit([&](handler &h)
+			 {
     LocalBlock block(range<2>(block_length, block_length), h);
 
     h.parallel_for<class KernelPhase1>(
@@ -141,21 +166,22 @@ void BlockedFloydWarshallPhase1(queue &q, int *graph, int round) {
           graph[(round * block_length + i) * nodes +
                 (round * block_length + j)] = block[i][j];
           item.barrier(access::fence_space::local_space);
-        });
-  });
+        }); });
 
-  q.wait();
+	q.wait();
 }
 
 // Phase 2 of blocked Floyd Warshall algorithm. It always operates on blocks
 // that are either on the same row or on the same column of a diagonal block.
-void BlockedFloydWarshallPhase2(queue &q, int *graph, int round) {
-  // Each group will process one block.
-  constexpr auto blocks = block_count;
-  // Each item/thread in a group will handle one cell of the block.
-  constexpr auto block_size = block_length * block_length;
+void BlockedFloydWarshallPhase2(queue &q, int *graph, int round)
+{
+	// Each group will process one block.
+	constexpr auto blocks = block_count;
+	// Each item/thread in a group will handle one cell of the block.
+	constexpr auto block_size = block_length * block_length;
 
-  q.submit([&](handler &h) {
+	q.submit([&](handler &h)
+			 {
     LocalBlock diagonal(range<2>(block_length, block_length), h);
     LocalBlock off_diag(range<2>(block_length, block_length), h);
 
@@ -198,21 +224,22 @@ void BlockedFloydWarshallPhase2(queue &q, int *graph, int round) {
                   (index * block_length + j)] = off_diag[i][j];
             item.barrier(access::fence_space::local_space);
           }
-        });
-  });
+        }); });
 
-  q.wait();
+	q.wait();
 }
 
 // Phase 3 of blocked Floyd Warshall algorithm. It operates on all blocks except
 // the ones that are handled in phase 1 and in phase 2 of the algorithm.
-void BlockedFloydWarshallPhase3(queue &q, int *graph, int round) {
-  // Each group will process one block.
-  constexpr auto blocks = block_count * block_count;
-  // Each item/thread in a group will handle one cell of the block.
-  constexpr auto block_size = block_length * block_length;
+void BlockedFloydWarshallPhase3(queue &q, int *graph, int round)
+{
+	// Each group will process one block.
+	constexpr auto blocks = block_count * block_count;
+	// Each item/thread in a group will handle one cell of the block.
+	constexpr auto block_size = block_length * block_length;
 
-  q.submit([&](handler &h) {
+	q.submit([&](handler &h)
+			 {
     LocalBlock A(range<2>(block_length, block_length), h);
     LocalBlock B(range<2>(block_length, block_length), h);
     LocalBlock C(range<2>(block_length, block_length), h);
@@ -248,10 +275,9 @@ void BlockedFloydWarshallPhase3(queue &q, int *graph, int round) {
                 C[i][j];
             item.barrier(access::fence_space::local_space);
           }
-        });
-  });
+        }); });
 
-  q.wait();
+	q.wait();
 }
 
 // Parallel implementation of blocked Floyd Warshall algorithm. It has three
@@ -266,104 +292,118 @@ void BlockedFloydWarshallPhase3(queue &q, int *graph, int round) {
 // kth row, g[k][j] of the graph. Phase 1 handles g[k][k], phase 2 handles
 // g[*][k] and g[k][*], and phase 3 handles g[*][*] in that sequence. This cell
 // level observations largely propagate to the blocks as well.
-void BlockedFloydWarshall(queue &q, int *graph) {
-  for (int round = 0; round < block_count; round++) {
-    BlockedFloydWarshallPhase1(q, graph, round);
-    BlockedFloydWarshallPhase2(q, graph, round);
-    BlockedFloydWarshallPhase3(q, graph, round);
-  }
+void BlockedFloydWarshall(queue &q, int *graph)
+{
+	for (int round = 0; round < block_count; round++)
+	{
+		BlockedFloydWarshallPhase1(q, graph, round);
+		BlockedFloydWarshallPhase2(q, graph, round);
+		BlockedFloydWarshallPhase3(q, graph, round);
+	}
 }
 
-int main() {
-  try {
-    queue q{default_selector_v};
-    auto device = q.get_device();
-    auto work_group_size = device.get_info<info::device::max_work_group_size>();
-    auto block_size = block_length * block_length;
+int main()
+{
+	try
+	{
+		queue q{default_selector_v};
+		auto device = q.get_device();
+		auto work_group_size = device.get_info<info::device::max_work_group_size>();
+		auto block_size = block_length * block_length;
 
-    cout << "Device: " << device.get_info<info::device::name>() << "\n";
+		cout << "Device: " << device.get_info<info::device::name>() << "\n";
 
-    if (work_group_size < block_size) {
-      cout << "Work group size " << work_group_size
-           << " is less than required size " << block_size << "\n";
-      return -1;
-    }
+		if (work_group_size < block_size)
+		{
+			cout << "Work group size " << work_group_size
+				 << " is less than required size " << block_size << "\n";
+			return -1;
+		}
 
-    // Allocate unified shared memory so that graph data is accessible to both
-    // the CPU and the device (e.g., a GPU).
-    int *graph = (int *)malloc(sizeof(int) * nodes * nodes);
-    int *sequential = malloc_shared<int>(nodes * nodes, q);
-    int *parallel = malloc_shared<int>(nodes * nodes, q);
+		// Allocate unified shared memory so that graph data is accessible to both
+		// the CPU and the device (e.g., a GPU).
+		int *graph = (int *)malloc(sizeof(int) * nodes * nodes);
+		int *sequential = malloc_shared<int>(nodes * nodes, q);
+		int *parallel = malloc_shared<int>(nodes * nodes, q);
 
-    if ((graph == nullptr) || (sequential == nullptr) ||
-        (parallel == nullptr)) {
-      if (graph != nullptr) free(graph);
-      if (sequential != nullptr) free(sequential, q);
-      if (parallel != nullptr) free(parallel, q);
+		if ((graph == nullptr) || (sequential == nullptr) ||
+			(parallel == nullptr))
+		{
+			if (graph != nullptr)
+				free(graph);
+			if (sequential != nullptr)
+				free(sequential, q);
+			if (parallel != nullptr)
+				free(parallel, q);
 
-      cout << "Memory allocation failure.\n";
-      return -1;
-    }
+			cout << "Memory allocation failure.\n";
+			return -1;
+		}
 
-    // Initialize directed graph.
-    InitializeDirectedGraph(graph);
+		// Initialize directed graph.
+		InitializeDirectedGraph(graph);
 
-    // Warm up the JIT.
-    CopyGraph(parallel, graph);
-    BlockedFloydWarshall(q, parallel);
+		// Warm up the JIT.
+		CopyGraph(parallel, graph);
+		BlockedFloydWarshall(q, parallel);
 
-    // Measure execution times.
-    double elapsed_s = 0;
-    double elapsed_p = 0;
-    int i;
+		// Measure execution times.
+		double elapsed_s = 0;
+		double elapsed_p = 0;
+		int i;
 
-    cout << "Repeating computation " << repetitions
-         << " times to measure run time ...\n";
+		cout << "Repeating computation " << repetitions
+			 << " times to measure run time ...\n";
 
-    for (i = 0; i < repetitions; i++) {
-      cout << "Iteration: " << (i + 1) << "\n";
+		for (i = 0; i < repetitions; i++)
+		{
+			cout << "Iteration: " << (i + 1) << "\n";
 
-      // Sequential all pairs shortest paths.
-      CopyGraph(sequential, graph);
+			// Sequential all pairs shortest paths.
+			CopyGraph(sequential, graph);
 
-      dpc_common::TimeInterval timer_s;
+			dpc_common::TimeInterval timer_s;
 
-      FloydWarshall(sequential);
-      elapsed_s += timer_s.Elapsed();
+			FloydWarshall(sequential);
+			elapsed_s += timer_s.Elapsed();
 
-      // Parallel all pairs shortest paths.
-      CopyGraph(parallel, graph);
+			// Parallel all pairs shortest paths.
+			CopyGraph(parallel, graph);
 
-      dpc_common::TimeInterval timer_p;
+			dpc_common::TimeInterval timer_p;
 
-      BlockedFloydWarshall(q, parallel);
-      elapsed_p += timer_p.Elapsed();
+			BlockedFloydWarshall(q, parallel);
+			elapsed_p += timer_p.Elapsed();
 
-      // Verify two results are equal.
-      if (!VerifyGraphsAreEqual(sequential, parallel)) {
-        cout << "Failed to correctly compute all pairs shortest paths!\n";
-        break;
-      }
-    }
+			// Verify two results are equal.
+			if (!VerifyGraphsAreEqual(sequential, parallel))
+			{
+				cout << "Failed to correctly compute all pairs shortest paths!\n";
+				break;
+			}
+		}
 
-    if (i == repetitions) {
-      cout << "Successfully computed all pairs shortest paths in parallel!\n";
+		if (i == repetitions)
+		{
+			cout << "Successfully computed all pairs shortest paths in parallel!\n";
 
-      elapsed_s /= repetitions;
-      elapsed_p /= repetitions;
+			elapsed_s /= repetitions;
+			elapsed_p /= repetitions;
 
-      cout << "Time sequential: " << elapsed_s << " sec\n";
-      cout << "Time parallel: " << elapsed_p << " sec\n";
-    }
+			cout << "Time sequential: " << elapsed_s << " sec\n";
+			cout << "Time parallel: " << elapsed_p << " sec\n";
+		}
 
-    // Free unified shared memory.
-    free(graph);
-    free(sequential, q);
-    free(parallel, q);
-  } catch (std::exception const &e) {
-    cout << "An exception is caught while computing on device.\n";
-    terminate();
-  }
+		// Free unified shared memory.
+		free(graph);
+		free(sequential, q);
+		free(parallel, q);
+	}
+	catch (std::exception const &e)
+	{
+		cout << "An exception is caught while computing on device.\n";
+		terminate();
+	}
 
-  return 0;
+	return 0;
 }

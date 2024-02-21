@@ -1,12 +1,17 @@
-## Change Log
+<div align="center">
+	<font size="10">Change Log</font>
+</div>
 
 ---
 
-<p align="center">
-    🗒️ All changes related to Yellowed will be writen here.
-</p>
+### 🗒️ All changes related to Yellowed will be writen here.
 
 ---
+
+### 2.3.0
+- New logo
+- Enhanced README
+- New icons
 
 ### 2.2.6 - 2.2.9
 - Added icons to Yellowed Icons
