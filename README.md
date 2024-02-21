@@ -2,8 +2,6 @@
 	<h1>Yellowed</h1>
 </div>
 
-<br>
-
 <div align="center">
 	<img width="400px" src="./resources/logo.png" alt="">
 </div>
@@ -32,6 +30,8 @@
 ### ❗ If you find any weird syntax highlighting, try disabling semantic highlighting. If it doesn't work, then please report it [here](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose). This would help me a lot since I can't cover all the languages.
 
 ### ❗ If you want to help me add more icons, you can suggest things to me [here](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose).
+
+---
 
 ## 🖼️ Screenshots
 <details> <summary>Yellowed Reborn</summary>
