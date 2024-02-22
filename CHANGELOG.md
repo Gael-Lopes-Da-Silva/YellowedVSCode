@@ -8,6 +8,10 @@
 
 ---
 
+### 2.3.1
+- Some new icons
+- Update README
+
 ### 2.3.0
 - New logo
 - Enhanced README

@@ -73,6 +73,8 @@
 		"export": "_outbox_tray",
 		"f": "_heart_decoration",
 		"f90": "_heart_decoration",
+		"flutter-plugins": "_mobile_phone",
+		"flutter-plugins-dependencies": "_mobile_phone",
 		"flv": "_video_camera",
 		"for": "_heart_decoration",
 		"fs": "_keycap_hashtag",
@@ -178,6 +180,7 @@
 		"pak": "_gear",
 		"pas": "_classical_building",
 		"pb": "_dvd",
+		"pck": "_gear",
 		"pdf": "_closed_book",
 		"php": "_elephant",
 		"pl": "_camel",
@@ -289,6 +292,7 @@
 		"AUTHORS.md": "_identification_card",
 		"AUTHORS.rtf": "_identification_card",
 		"AUTHORS.txt": "_identification_card",
+		"builds": "_hammer_and_wrench",
 		"CHANGELOG": "_watch",
 		"CHANGELOG.md": "_watch",
 		"CHANGELOG.rtf": "_watch",
@@ -535,6 +539,9 @@
 		},
 		"_microphone": {
 			"iconPath": "./assets/Microphone/Flat/microphone_flat.svg"
+		},
+		"_mobile_phone": {
+			"iconPath": "./assets/Mobile phone/Flat/mobile_phone_flat.svg"
 		},
 		"_money_bag": {
 			"iconPath": "./assets/Money bag/Flat/money_bag_flat.svg"
