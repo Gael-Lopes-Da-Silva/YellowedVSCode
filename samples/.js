@@ -1,6 +1,6 @@
 /**
  * JavaScript: Shades of purple can be genius
- *
+ * 
  * @param String hello Hello.
  * @since 1.0.0
  */
@@ -12,7 +12,7 @@ const sop = '🦄 Shades of Purple is an awesome syntax highlighting theme.';
 console.log('sop', sop);
 
 // Class.
-class vsc extends React.Component {}
+class vsc extends React.Component { }
 console.log(vsc);
 
 // Const.
@@ -132,20 +132,20 @@ render(VSCode, document.getElementById('root'));
 
 function compareName(a, b) {
 
-    // converting to uppercase to have case-insensitive comparison
-    const name1 = a.name.toUpperCase();
-    const name2 = b.name.toUpperCase();
+	// converting to uppercase to have case-insensitive comparison
+	const name1 = a.name.toUpperCase();
+	const name2 = b.name.toUpperCase();
 
-    let comparison = 0;
+	let comparison = 0;
 
-    if (name1 > name2) {
-        comparison = 1;
-    } else if (name1 < name2) {
-        comparison = -1;
-    }
-    return comparison;
+	if (name1 > name2) {
+		comparison = 1;
+	} else if (name1 < name2) {
+		comparison = -1;
+	}
+	return comparison;
 }
 
-const students = [{name: 'Sara', age:24},{name: 'John', age:24}, {name: 'Jack', age:25}];
+const students = [{ name: 'Sara', age: 24 }, { name: 'John', age: 24 }, { name: 'Jack', age: 25 }];
 
 console.log(students.sort(compareName));

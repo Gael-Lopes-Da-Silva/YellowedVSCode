@@ -23,6 +23,8 @@ def hash_primitive(t, b):
     #print '=', hexify(t)
     return t
 
+# TODO: test
+
 # We need this class because otherwise we can't put a list in a set.
 class FrozenList(object):
     def __init__(self, l):
