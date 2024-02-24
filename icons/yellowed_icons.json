@@ -138,6 +138,7 @@
 		"lhs": "_screwdriver",
 		"lib": "_gear",
 		"litcoffee": "_hot_beverage",
+		"lobster": "_lobster",
 		"lock": "_locked",
 		"lockfile": "_locked",
 		"log": "_wood",
@@ -512,6 +513,9 @@
 		},
 		"_litter_in_bin_sign": {
 			"iconPath": "./assets/Litter in bin sign/Flat/litter_in_bin_sign_flat.svg"
+		},
+		"_lobster": {
+			"iconPath": "./assets/Lobster/Flat/lobster_flat.svg"
 		},
 		"_locked": {
 			"iconPath": "./assets/Locked/Flat/locked_flat.svg"
