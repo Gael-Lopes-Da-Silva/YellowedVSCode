@@ -8,9 +8,10 @@
 
 ---
 
-### 2.3.1
+### 2.3.1 - 2.3.2
 - Some new icons
 - Update README
+- Better Rust support
 
 ### 2.3.0
 - New logo
