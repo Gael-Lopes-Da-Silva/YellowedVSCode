@@ -70,4 +70,4 @@ keywords     = "#FFD900"
 function     = "#9B9B9B"
 ~~~
 
-### 🗒️ You can find my Visual Studio Code configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyVscodeConfig).
+#### 🗒️ You can find my Visual Studio Code configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyVscodeConfig).
