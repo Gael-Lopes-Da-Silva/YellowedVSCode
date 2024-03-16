@@ -8,6 +8,9 @@
 
 ---
 
+### 2.3.4
+- Added more icons
+
 ### 2.3.1 - 2.3.2
 - Some new icons
 - Update README
