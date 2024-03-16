@@ -1,663 +1,670 @@
 {
-    "file": "_page_facing_up",
-    "fileExtensions": {
-        "1": "_spiral_notepad",
-        "3g2": "_video_camera",
-        "3gp": "_video_camera",
-        "7z": "_card_index_dividers",
-        "a": "_gear",
-        "acc": "_musical_note",
-        "accdb": "_card_file_box",
-        "adb": "_dove",
-        "ads": "_dove",
-        "adt": "_musical_note",
-        "adts": "_musical_note",
-        "aif": "_musical_note",
-        "apk": "_gear",
-        "asm": "_computer_disk",
-        "avi": "_video_camera",
-        "awk": "_owl",
-        "b": "_brain",
-        "bash": "_floppy_disk",
-        "bash_history": "_floppy_disk",
-        "bash_logout": "_floppy_disk",
-        "bashrc": "_floppy_disk",
-        "bat": "_floppy_disk",
-        "bf": "_cut_of_meat",
-        "bin": "_gear",
-        "bmp": "_framed_picture",
-        "bz2": "_card_index_dividers",
-        "c": "_infinity",
-        "c++": "_infinity",
-        "cache": "_gear",
-        "cake": "_shortcake",
-        "cc": "_infinity",
-        "cda": "_musical_note",
-        "cfg": "_gear",
-        "cgi": "_camel",
-        "cjs": "_rocket",
-        "class": "_gear",
-        "cob": "_mantelpiece_clock",
-        "coffee": "_hot_beverage",
-        "conf": "_scroll",
-        "cpp": "_infinity",
-        "cppm": "_infinity",
-        "crl": "_locked_with_key",
-        "cs": "_keycap_hashtag",
-        "css": "_piñata",
-        "csv": "_calendar",
-        "csx": "_keycap_hashtag",
-        "cxx": "_infinity",
-        "dart": "_luggage",
-        "dartignore": "_pushpin",
-        "dat": "_card_file_box",
-        "db": "_card_file_box",
-        "dbf": "_card_file_box",
-        "dex": "_gear",
-        "dif": "_calendar",
-        "dill": "_gear",
-        "directory": "_card_index_dividers",
-        "dist": "_scroll",
-        "dll": "_gear",
-        "doc": "_spiral_notepad",
-        "docm": "_spiral_notepad",
-        "docx": "_spiral_notepad",
-        "dot": "_spiral_notepad",
-        "dotx": "_spiral_notepad",
-        "editorconfig": "_gear",
-        "eml": "_e-mail",
-        "enc": "_locked_with_key",
-        "env": "_gear",
-        "ex": "_bubbles",
-        "exe": "_toolbox",
-        "export": "_outbox_tray",
-        "f": "_heart_decoration",
-        "f90": "_heart_decoration",
-        "flutter-plugins": "_mobile_phone",
-        "flutter-plugins-dependencies": "_mobile_phone",
-        "flv": "_video_camera",
-        "for": "_heart_decoration",
-        "fs": "_keycap_hashtag",
-        "gdignore": "_pushpin",
-        "gif": "_framed_picture",
-        "gitattributes": "_pushpin",
-        "gitignore": "_pushpin",
-        "gitkeep": "_pushpin",
-        "gitmodules": "_pushpin",
-        "go": "_hamster",
-        "godot": "_robot",
-        "gradle": "_mammoth",
-        "graphql": "_card_file_box",
-        "groovy": "_microphone",
-        "gz": "_card_index_dividers",
-        "h": "_infinity",
-        "h++": "_infinity",
-        "h264": "_video_camera",
-        "ha": "_rabbit",
-        "hbs": "_top_hat",
-        "hdr": "_framed_picture",
-        "hh": "_infinity",
-        "hl": "_link",
-        "hpp": "_infinity",
-        "hs": "_screwdriver",
-        "htaccess": "_feather",
-        "htaccess_local": "_feather",
-        "htaccess_notlive": "_feather",
-        "htm": "_globe_with_meridians",
-        "html": "_globe_with_meridians",
-        "htpasswd": "_feather",
-        "hx": "_anger_symbol",
-        "hxml": "_anger_symbol",
-        "hxx": "_infinity",
-        "ico": "_framed_picture",
-        "idx": "_pencil",
-        "img": "_framed_picture",
-        "iml": "_scroll",
-        "import": "_inbox_tray",
-        "inc": "_computer_disk",
-        "ini": "_gear",
-        "ipynb": "_snake",
-        "iso": "_optical_disk",
-        "ixx": "_infinity",
-        "jar": "_funeral_urn",
-        "java": "_hot_beverage",
-        "jl": "_books",
-        "jmod": "_hot_beverage",
-        "jpeg": "_framed_picture",
-        "jpg": "_framed_picture",
-        "js": "_rocket",
-        "json": "_scroll",
-        "jsx": "_rocket",
-        "kexe": "_toolbox",
-        "key": "_key",
-        "keystore": "_key",
-        "klib": "_gear",
-        "kt": "_cupcake",
-        "kts": "_cupcake",
-        "less": "_piñata",
-        "lhs": "_screwdriver",
-        "lib": "_gear",
-        "litcoffee": "_hot_beverage",
-        "lobster": "_lobster",
-        "lock": "_locked",
-        "lockfile": "_locked",
-        "log": "_wood",
-        "lua": "_full_moon",
-        "m4a": "_video_camera",
-        "m4v": "_video_camera",
-        "manifest": "_label",
-        "mat": "_bar_chart",
-        "md": "_newspaper",
-        "md2": "_locked_with_key",
-        "md4": "_locked_with_key",
-        "md5": "_locked_with_key",
-        "md6": "_locked_with_key",
-        "mdb": "_card_file_box",
-        "metadata": "_nut_and_bolt",
-        "mid": "_musical_notes",
-        "midi": "_musical_notes",
-        "mjs": "_rocket",
-        "mk": "_hammer_and_wrench",
-        "mkv": "_video_camera",
-        "ml": "_two-hump_camel",
-        "mli": "_two-hump_camel",
-        "mod": "_hamster",
-        "mov": "_musical_note",
-        "mp3": "_musical_note",
-        "mp4": "_video_camera",
-        "mpa": "_musical_note",
-        "mpeg": "_video_camera",
-        "mpg": "_video_camera",
-        "msg": "_e-mail",
-        "nim": "_crown",
-        "nimble": "_crown",
-        "nims": "_crown",
-        "nix": "_snowflake",
-        "node": "_package",
-        "o": "_gear",
-        "obj": "_gear",
-        "otf": "_black_nib",
-        "out": "_toolbox",
-        "oz": "_man_mage",
-        "pak": "_gear",
-        "pas": "_classical_building",
-        "pb": "_dvd",
-        "pck": "_gear",
-        "pdf": "_closed_book",
-        "php": "_elephant",
-        "pl": "_camel",
-        "plist": "_scroll",
-        "plx": "_camel",
-        "pm": "_camel",
-        "png": "_framed_picture",
-        "pod": "_camel",
-        "policy": "_passport_control",
-        "pro": "_shield",
-        "probe": "_gear",
-        "properties": "_scroll",
-        "ps1": "_floppy_disk",
-        "pub": "_newspaper",
-        "pug": "_dog_face",
-        "py": "_snake",
-        "pyc": "_gear",
-        "pyd": "_snake",
-        "pyi": "_snake",
-        "pyw": "_snake",
-        "pyz": "_snake",
-        "qcow2": "_framed_picture",
-        "rar": "_card_index_dividers",
-        "rb": "_gem_stone",
-        "rc": "_floppy_disk",
-        "readme": "_memo",
-        "reg": "_calendar",
-        "rlib": "_gear",
-        "rm": "_video_camera",
-        "rs": "_crab",
-        "ru": "_gem_stone",
-        "s": "_computer_disk",
-        "sav": "_floppy_disk",
-        "save": "_floppy_disk",
-        "sc": "_scarf",
-        "scala": "_scarf",
-        "scss": "_piñata",
-        "sh": "_spiral_shell",
-        "sha1": "_locked_with_key",
-        "sha224": "_locked_with_key",
-        "sha256": "_locked_with_key",
-        "sha384": "_locked_with_key",
-        "sha512": "_locked_with_key",
-        "sketch": "_artist_palette",
-        "so": "_gear",
-        "sql": "_card_file_box",
-        "SRC": "_computer_disk",
-        "st": "_locomotive",
-        "stamp": "_envelope_with_arrow",
-        "storyboard": "_clapper_board",
-        "sum": "_link",
-        "svg": "_framed_picture",
-        "swf": "_video_camera",
-        "swift": "_eagle",
-        "t": "_camel",
-        "tar": "_card_index_dividers",
-        "tif": "_framed_picture",
-        "tiff": "_framed_picture",
-        "toml": "_scroll",
-        "ts": "_bucket",
-        "tscn": "_clapper_board",
-        "tsx": "_bucket",
-        "ttf": "_black_nib",
-        "uuid": "_input_numbers",
-        "vbox": "_package",
-        "vbox-prev": "_package",
-        "vbs": "_basketball",
-        "vdi": "_optical_disk",
-        "vendor": "_money_bag",
-        "vi": "_test_tube",
-        "vmoptions": "_gear",
-        "vod": "_video_camera",
-        "vscodeignore": "_pushpin",
-        "vsix": "_puzzle_piece",
-        "vue": "_japanese_symbol_for_beginner",
-        "wasm": "_computer_disk",
-        "wav": "_musical_note",
-        "webp": "_framed_picture",
-        "wim": "_card_index_dividers",
-        "wla": "_computer_disk",
-        "wma": "_musical_note",
-        "wmv": "_video_camera",
-        "woff": "_black_nib",
-        "woff2": "_black_nib",
-        "wpl": "_musical_note",
-        "xcconfig": "_scroll",
-        "xhtml": "_globe_with_meridians",
-        "xla": "_calendar",
-        "xlam": "_calendar",
-        "xlb": "_calendar",
-        "xll": "_gear",
-        "xlm": "_calendar",
-        "xls": "_calendar",
-        "xlsb": "_calendar",
-        "xlsm": "_calendar",
-        "xlsx": "_calendar",
-        "xml": "_scroll",
-        "xs": "_camel",
-        "yaml": "_scroll",
-        "yml": "_scroll",
-        "zig": "_high_voltage",
-        "zip": "_card_index_dividers",
-        "zir": "_high_voltage",
-        "zon": "_high_voltage"
-    },
-    "fileNames": {
-        "AndroidManifest.xml": "_robot",
-        "AUTHORS": "_identification_card",
-        "AUTHORS.md": "_identification_card",
-        "AUTHORS.rtf": "_identification_card",
-        "AUTHORS.txt": "_identification_card",
-        "builds": "_hammer_and_wrench",
-        "CHANGELOG": "_watch",
-        "CHANGELOG.md": "_watch",
-        "CHANGELOG.rtf": "_watch",
-        "CHANGELOG.txt": "_watch",
-        "CMakeLists.txt": "_hammer_and_wrench",
-        "CODE_OF_CONDUCT": "_passport_control",
-        "CODE_OF_CONDUCT.md": "_passport_control",
-        "CODE_OF_CONDUCT.rtf": "_passport_control",
-        "CODE_OF_CONDUCT.txt": "_passport_control",
-        "composer.json": "_violin",
-        "composer.lock": "_violin",
-        "CONTRIBUTING": "_litter_in_bin_sign",
-        "CONTRIBUTING.md": "_litter_in_bin_sign",
-        "CONTRIBUTING.rtf": "_litter_in_bin_sign",
-        "CONTRIBUTING.txt": "_litter_in_bin_sign",
-        "dockerfile": "_whale",
-        "gradlew": "_mammoth",
-        "launch.json": "_gear",
-        "LICENSE": "_key",
-        "LICENSE.md": "_key",
-        "LICENSE.rtf": "_key",
-        "LICENSE.txt": "_key",
-        "make": "_hammer_and_wrench",
-        "MAKEFILE": "_hammer_and_wrench",
-        "NOTICE": "_bookmark_tabs",
-        "NOTICE.md": "_bookmark_tabs",
-        "NOTICE.rtf": "_bookmark_tabs",
-        "NOTICE.txt": "_bookmark_tabs",
-        "package.json": "_package",
-        "README": "_memo",
-        "README.md": "_memo",
-        "README.rtf": "_memo",
-        "README.txt": "_memo",
-        "robots.txt": "_robot",
-        "SECURITY": "_shield",
-        "SECURITY.md": "_shield",
-        "SECURITY.rtf": "_shield",
-        "SECURITY.txt": "_shield",
-        "settings.json": "_gear",
-        "spark": "_high_voltage",
-        "SUPPORT": "_dollar_banknote",
-        "SUPPORT.md": "_dollar_banknote",
-        "SUPPORT.rtf": "_dollar_banknote",
-        "SUPPORT.txt": "_dollar_banknote",
-        "task.json": "_gear",
-        "TODO": "_clipboard",
-        "TODO.md": "_clipboard",
-        "TODO.rtf": "_clipboard",
-        "TODO.txt": "_clipboard",
-        "uuid.txt": "_input_numbers",
-        "version": "_watch"
-    },
-    "folder": "_file_folder",
-    "folderExpanded": "_open_file_folder",
-    "iconDefinitions": {
-        "_anger_symbol": {
-            "iconPath": "./assets/Anger symbol/Flat/anger_symbol_flat.svg"
-        },
-        "_artist_palette": {
-            "iconPath": "./assets/Artist palette/Flat/artist_palette_flat.svg"
-        },
-        "_bar_chart": {
-            "iconPath": "./assets/Bar chart/Flat/bar_chart_flat.svg"
-        },
-        "_basketball": {
-            "iconPath": "./assets/Basketball/Flat/basketball_flat.svg"
-        },
-        "_black_nib": {
-            "iconPath": "./assets/Black nib/Flat/black_nib_flat.svg"
-        },
-        "_bookmark_tabs": {
-            "iconPath": "./assets/Bookmark tabs/Flat/bookmark_tabs_flat.svg"
-        },
-        "_books": {
-            "iconPath": "./assets/Books/Flat/books_flat.svg"
-        },
-        "_brain": {
-            "iconPath": "./assets/Brain/Flat/brain_flat.svg"
-        },
-        "_bubbles": {
-            "iconPath": "./assets/Bubbles/Flat/bubbles_flat.svg"
-        },
-        "_bucket": {
-            "iconPath": "./assets/Bucket/Flat/bucket_flat.svg"
-        },
-        "_calendar": {
-            "iconPath": "./assets/Calendar/Flat/calendar_flat.svg"
-        },
-        "_camel": {
-            "iconPath": "./assets/Camel/Flat/camel_flat.svg"
-        },
-        "_card_file_box": {
-            "iconPath": "./assets/Card file box/Flat/card_file_box_flat.svg"
-        },
-        "_card_index_dividers": {
-            "iconPath": "./assets/Card index dividers/Flat/card_index_dividers_flat.svg"
-        },
-        "_clapper_board": {
-            "iconPath": "./assets/Clapper board/Flat/clapper_board_flat.svg"
-        },
-        "_classical_building": {
-            "iconPath": "./assets/Classical building/Flat/classical_building_flat.svg"
-        },
-        "_clipboard": {
-            "iconPath": "./assets/Clipboard/Flat/clipboard_flat.svg"
-        },
-        "_closed_book": {
-            "iconPath": "./assets/Closed book/Flat/closed_book_flat.svg"
-        },
-        "_computer_disk": {
-            "iconPath": "./assets/Computer disk/Flat/computer_disk_flat.svg"
-        },
-        "_crab": {
-            "iconPath": "./assets/Crab/Flat/crab_flat.svg"
-        },
-        "_crown": {
-            "iconPath": "./assets/Crown/Flat/crown_flat.svg"
-        },
-        "_cupcake": {
-            "iconPath": "./assets/Cupcake/Flat/cupcake_flat.svg"
-        },
-        "_cut_of_meat": {
-            "iconPath": "./assets/Cut of meat/Flat/cut_of_meat_flat.svg"
-        },
-        "_dog_face": {
-            "iconPath": "./assets/Dog face/Flat/dog_face_flat.svg"
-        },
-        "_dollar_banknote": {
-            "iconPath": "./assets/Dollar banknote/Flat/dollar_banknote_flat.svg"
-        },
-        "_dove": {
-            "iconPath": "./assets/Dove/Flat/dove_flat.svg"
-        },
-        "_dvd": {
-            "iconPath": "./assets/Dvd/Flat/dvd_flat.svg"
-        },
-        "_e-mail": {
-            "iconPath": "./assets/E-mail/Flat/e-mail_flat.svg"
-        },
-        "_eagle": {
-            "iconPath": "./assets/Eagle/Flat/eagle_flat.svg"
-        },
-        "_elephant": {
-            "iconPath": "./assets/Elephant/Flat/elephant_flat.svg"
-        },
-        "_envelope_with_arrow": {
-            "iconPath": "./assets/Envelope with arrow/Flat/envelope_with_arrow_flat.svg"
-        },
-        "_feather": {
-            "iconPath": "./assets/Feather/Flat/feather_flat.svg"
-        },
-        "_file_folder": {
-            "iconPath": "./assets/File folder/Flat/file_folder_flat.svg"
-        },
-        "_floppy_disk": {
-            "iconPath": "./assets/Floppy disk/Flat/floppy_disk_flat.svg"
-        },
-        "_framed_picture": {
-            "iconPath": "./assets/Framed picture/Flat/framed_picture_flat.svg"
-        },
-        "_full_moon": {
-            "iconPath": "./assets/Full moon/Flat/full_moon_flat.svg"
-        },
-        "_funeral_urn": {
-            "iconPath": "./assets/Funeral urn/Flat/funeral_urn_flat.svg"
-        },
-        "_gear": {
-            "iconPath": "./assets/Gear/Flat/gear_flat.svg"
-        },
-        "_gem_stone": {
-            "iconPath": "./assets/Gem stone/Flat/gem_stone_flat.svg"
-        },
-        "_globe_with_meridians": {
-            "iconPath": "./assets/Globe with meridians/Flat/globe_with_meridians_flat.svg"
-        },
-        "_hammer_and_wrench": {
-            "iconPath": "./assets/Hammer and wrench/Flat/hammer_and_wrench_flat.svg"
-        },
-        "_hamster": {
-            "iconPath": "./assets/Hamster/Flat/hamster_flat.svg"
-        },
-        "_heart_decoration": {
-            "iconPath": "./assets/Heart decoration/Flat/heart_decoration_flat.svg"
-        },
-        "_high_voltage": {
-            "iconPath": "./assets/High voltage/Flat/high_voltage_flat.svg"
-        },
-        "_hot_beverage": {
-            "iconPath": "./assets/Hot beverage/Flat/hot_beverage_flat.svg"
-        },
-        "_identification_card": {
-            "iconPath": "./assets/Identification card/Flat/identification_card_flat.svg"
-        },
-        "_inbox_tray": {
-            "iconPath": "./assets/Inbox tray/Flat/inbox_tray_flat.svg"
-        },
-        "_infinity": {
-            "iconPath": "./assets/Infinity/Flat/infinity_flat.svg"
-        },
-        "_input_numbers": {
-            "iconPath": "./assets/Input numbers/Flat/input_numbers_flat.svg"
-        },
-        "_japanese_symbol_for_beginner": {
-            "iconPath": "./assets/Japanese symbol for beginner/Flat/japanese_symbol_for_beginner_flat.svg"
-        },
-        "_key": {
-            "iconPath": "./assets/Key/Flat/key_flat.svg"
-        },
-        "_keycap_hashtag": {
-            "iconPath": "./assets/Keycap hashtag/Flat/keycap_hashtag_flat.svg"
-        },
-        "_label": {
-            "iconPath": "./assets/Label/Flat/label_flat.svg"
-        },
-        "_link": {
-            "iconPath": "./assets/Link/Flat/link_flat.svg"
-        },
-        "_litter_in_bin_sign": {
-            "iconPath": "./assets/Litter in bin sign/Flat/litter_in_bin_sign_flat.svg"
-        },
-        "_lobster": {
-            "iconPath": "./assets/Lobster/Flat/lobster_flat.svg"
-        },
-        "_locked": {
-            "iconPath": "./assets/Locked/Flat/locked_flat.svg"
-        },
-        "_locked_with_key": {
-            "iconPath": "./assets/Locked with key/Flat/locked_with_key_flat.svg"
-        },
-        "_locomotive": {
-            "iconPath": "./assets/Locomotive/Flat/locomotive_flat.svg"
-        },
-        "_luggage": {
-            "iconPath": "./assets/Luggage/Flat/luggage_flat.svg"
-        },
-        "_mammoth": {
-            "iconPath": "./assets/Mammoth/Flat/mammoth_flat.svg"
-        },
-        "_man_mage": {
-            "iconPath": "./assets/Man mage/Medium/Flat/man_mage_flat_medium.svg"
-        },
-        "_mantelpiece_clock": {
-            "iconPath": "./assets/Mantelpiece clock/Flat/mantelpiece_clock_flat.svg"
-        },
-        "_memo": {
-            "iconPath": "./assets/Memo/Flat/memo_flat.svg"
-        },
-        "_microphone": {
-            "iconPath": "./assets/Microphone/Flat/microphone_flat.svg"
-        },
-        "_mobile_phone": {
-            "iconPath": "./assets/Mobile phone/Flat/mobile_phone_flat.svg"
-        },
-        "_money_bag": {
-            "iconPath": "./assets/Money bag/Flat/money_bag_flat.svg"
-        },
-        "_musical_note": {
-            "iconPath": "./assets/Musical note/Flat/musical_note_flat.svg"
-        },
-        "_musical_notes": {
-            "iconPath": "./assets/Musical notes/Flat/musical_notes_flat.svg"
-        },
-        "_newspaper": {
-            "iconPath": "./assets/Newspaper/Flat/newspaper_flat.svg"
-        },
-        "_nut_and_bolt": {
-            "iconPath": "./assets/Nut and bolt/Flat/nut_and_bolt_flat.svg"
-        },
-        "_open_file_folder": {
-            "iconPath": "./assets/Open file folder/Flat/open_file_folder_flat.svg"
-        },
-        "_optical_disk": {
-            "iconPath": "./assets/Optical disk/Flat/optical_disk_flat.svg"
-        },
-        "_outbox_tray": {
-            "iconPath": "./assets/Outbox tray/Flat/outbox_tray_flat.svg"
-        },
-        "_owl": {
-            "iconPath": "./assets/Owl/Flat/owl_flat.svg"
-        },
-        "_package": {
-            "iconPath": "./assets/Package/Flat/package_flat.svg"
-        },
-        "_page_facing_up": {
-            "iconPath": "./assets/Page facing up/Flat/page_facing_up_flat.svg"
-        },
-        "_passport_control": {
-            "iconPath": "./assets/Passport control/Flat/passport_control_flat.svg"
-        },
-        "_pencil": {
-            "iconPath": "./assets/Pencil/Flat/pencil_flat.svg"
-        },
-        "_piñata": {
-            "iconPath": "./assets/Piñata/Flat/piñata_flat.svg"
-        },
-        "_pushpin": {
-            "iconPath": "./assets/Pushpin/Flat/pushpin_flat.svg"
-        },
-        "_puzzle_piece": {
-            "iconPath": "./assets/Puzzle piece/Flat/puzzle_piece_flat.svg"
-        },
-        "_rabbit": {
-            "iconPath": "./assets/Rabbit/Flat/rabbit_flat.svg"
-        },
-        "_robot": {
-            "iconPath": "./assets/Robot/Flat/robot_flat.svg"
-        },
-        "_rocket": {
-            "iconPath": "./assets/Rocket/Flat/rocket_flat.svg"
-        },
-        "_scarf": {
-            "iconPath": "./assets/Scarf/Flat/scarf_flat.svg"
-        },
-        "_screwdriver": {
-            "iconPath": "./assets/Screwdriver/Flat/screwdriver_flat.svg"
-        },
-        "_scroll": {
-            "iconPath": "./assets/Scroll/Flat/scroll_flat.svg"
-        },
-        "_shield": {
-            "iconPath": "./assets/Shield/Flat/shield_flat.svg"
-        },
-        "_shortcake": {
-            "iconPath": "./assets/Shortcake/Flat/shortcake_flat.svg"
-        },
-        "_snake": {
-            "iconPath": "./assets/Snake/Flat/snake_flat.svg"
-        },
-        "_snowflake": {
-            "iconPath": "./assets/Snowflake/Flat/snowflake_flat.svg"
-        },
-        "_spiral_notepad": {
-            "iconPath": "./assets/Spiral notepad/Flat/spiral_notepad_flat.svg"
-        },
-        "_spiral_shell": {
-            "iconPath": "./assets/Spiral shell/Flat/spiral_shell_flat.svg"
-        },
-        "_test_tube": {
-            "iconPath": "./assets/Test tube/Flat/test_tube_flat.svg"
-        },
-        "_toolbox": {
-            "iconPath": "./assets/Toolbox/Flat/toolbox_flat.svg"
-        },
-        "_top_hat": {
-            "iconPath": "./assets/Top hat/Flat/top_hat_flat.svg"
-        },
-        "_two-hump_camel": {
-            "iconPath": "./assets/Two-hump camel/Flat/two-hump_camel_flat.svg"
-        },
-        "_video_camera": {
-            "iconPath": "./assets/Video camera/Flat/video_camera_flat.svg"
-        },
-        "_violin": {
-            "iconPath": "./assets/Violin/Flat/violin_flat.svg"
-        },
-        "_watch": {
-            "iconPath": "./assets/Watch/Flat/watch_flat.svg"
-        },
-        "_whale": {
-            "iconPath": "./assets/Whale/Flat/whale_flat.svg"
-        },
-        "_wood": {
-            "iconPath": "./assets/Wood/Flat/wood_flat.svg"
-        }
-    }
+	"file": "_page_facing_up",
+	"fileExtensions": {
+		"1": "_spiral_notepad",
+		"3g2": "_video_camera",
+		"3gp": "_video_camera",
+		"7z": "_card_index_dividers",
+		"a": "_gear",
+		"acc": "_musical_note",
+		"accdb": "_card_file_box",
+		"adb": "_dove",
+		"ads": "_dove",
+		"adt": "_musical_note",
+		"adts": "_musical_note",
+		"aif": "_musical_note",
+		"apk": "_gear",
+		"asm": "_computer_disk",
+		"avi": "_video_camera",
+		"awk": "_owl",
+		"b": "_brain",
+		"bash": "_floppy_disk",
+		"bash_history": "_floppy_disk",
+		"bash_logout": "_floppy_disk",
+		"bashrc": "_floppy_disk",
+		"bat": "_floppy_disk",
+		"bf": "_cut_of_meat",
+		"bin": "_gear",
+		"bmp": "_framed_picture",
+		"bz2": "_card_index_dividers",
+		"c": "_infinity",
+		"c++": "_infinity",
+		"cache": "_gear",
+		"cake": "_shortcake",
+		"cc": "_infinity",
+		"cda": "_musical_note",
+		"cfg": "_gear",
+		"cgi": "_camel",
+		"cjs": "_rocket",
+		"class": "_gear",
+		"cob": "_mantelpiece_clock",
+		"coffee": "_hot_beverage",
+		"conf": "_scroll",
+		"cpp": "_infinity",
+		"cppm": "_infinity",
+		"crl": "_locked_with_key",
+		"cs": "_keycap_hashtag",
+		"csproj": "_package",
+		"css": "_piñata",
+		"csv": "_calendar",
+		"csx": "_keycap_hashtag",
+		"cxx": "_infinity",
+		"dart": "_luggage",
+		"dartignore": "_pushpin",
+		"dat": "_card_file_box",
+		"db": "_card_file_box",
+		"dbf": "_card_file_box",
+		"dex": "_gear",
+		"dif": "_calendar",
+		"dill": "_gear",
+		"directory": "_card_index_dividers",
+		"dist": "_scroll",
+		"dll": "_gear",
+		"doc": "_spiral_notepad",
+		"docm": "_spiral_notepad",
+		"docx": "_spiral_notepad",
+		"dot": "_spiral_notepad",
+		"dotx": "_spiral_notepad",
+		"editorconfig": "_gear",
+		"eml": "_e-mail",
+		"enc": "_locked_with_key",
+		"env": "_gear",
+		"ex": "_bubbles",
+		"exe": "_toolbox",
+		"export": "_outbox_tray",
+		"f": "_heart_decoration",
+		"f90": "_heart_decoration",
+		"flutter-plugins": "_mobile_phone",
+		"flutter-plugins-dependencies": "_mobile_phone",
+		"flv": "_video_camera",
+		"for": "_heart_decoration",
+		"fs": "_keycap_hashtag",
+		"gdignore": "_pushpin",
+		"gif": "_framed_picture",
+		"gitattributes": "_pushpin",
+		"gitignore": "_pushpin",
+		"gitkeep": "_pushpin",
+		"gitmodules": "_pushpin",
+		"go": "_hamster",
+		"godot": "_robot",
+		"gradle": "_mammoth",
+		"graphql": "_card_file_box",
+		"groovy": "_microphone",
+		"gz": "_card_index_dividers",
+		"h": "_infinity",
+		"h++": "_infinity",
+		"h264": "_video_camera",
+		"ha": "_rabbit",
+		"hbs": "_top_hat",
+		"hdr": "_framed_picture",
+		"hh": "_infinity",
+		"hl": "_link",
+		"hpp": "_infinity",
+		"hs": "_screwdriver",
+		"htaccess": "_feather",
+		"htaccess_local": "_feather",
+		"htaccess_notlive": "_feather",
+		"htm": "_globe_with_meridians",
+		"html": "_globe_with_meridians",
+		"htpasswd": "_feather",
+		"hx": "_anger_symbol",
+		"hxml": "_anger_symbol",
+		"hxx": "_infinity",
+		"ico": "_framed_picture",
+		"idx": "_pencil",
+		"img": "_framed_picture",
+		"iml": "_scroll",
+		"import": "_inbox_tray",
+		"inc": "_computer_disk",
+		"ini": "_gear",
+		"ipynb": "_snake",
+		"iso": "_optical_disk",
+		"ixx": "_infinity",
+		"jar": "_funeral_urn",
+		"java": "_hot_beverage",
+		"jl": "_books",
+		"jmod": "_hot_beverage",
+		"jpeg": "_framed_picture",
+		"jpg": "_framed_picture",
+		"js": "_rocket",
+		"json": "_scroll",
+		"jsx": "_rocket",
+		"kexe": "_toolbox",
+		"key": "_key",
+		"keystore": "_key",
+		"klib": "_gear",
+		"kt": "_cupcake",
+		"kts": "_cupcake",
+		"less": "_piñata",
+		"lhs": "_screwdriver",
+		"lib": "_gear",
+		"litcoffee": "_hot_beverage",
+		"lobster": "_lobster",
+		"lock": "_locked",
+		"lockfile": "_locked",
+		"log": "_wood",
+		"lua": "_full_moon",
+		"m4a": "_video_camera",
+		"m4v": "_video_camera",
+		"manifest": "_label",
+		"mat": "_bar_chart",
+		"md": "_newspaper",
+		"md2": "_locked_with_key",
+		"md4": "_locked_with_key",
+		"md5": "_locked_with_key",
+		"md6": "_locked_with_key",
+		"mdb": "_card_file_box",
+		"metadata": "_nut_and_bolt",
+		"mid": "_musical_notes",
+		"midi": "_musical_notes",
+		"mjs": "_rocket",
+		"mk": "_hammer_and_wrench",
+		"mkv": "_video_camera",
+		"ml": "_two-hump_camel",
+		"mli": "_two-hump_camel",
+		"mod": "_hamster",
+		"mov": "_musical_note",
+		"mp3": "_musical_note",
+		"mp4": "_video_camera",
+		"mpa": "_musical_note",
+		"mpeg": "_video_camera",
+		"mpg": "_video_camera",
+		"msg": "_e-mail",
+		"nim": "_crown",
+		"nimble": "_crown",
+		"nims": "_crown",
+		"nix": "_snowflake",
+		"node": "_package",
+		"o": "_gear",
+		"obj": "_gear",
+		"otf": "_black_nib",
+		"out": "_toolbox",
+		"oz": "_man_mage",
+		"pak": "_gear",
+		"pas": "_classical_building",
+		"pb": "_dvd",
+		"pck": "_gear",
+		"pdb": "_receipt",
+		"pdf": "_closed_book",
+		"php": "_elephant",
+		"pl": "_camel",
+		"plist": "_scroll",
+		"plx": "_camel",
+		"pm": "_camel",
+		"png": "_framed_picture",
+		"pod": "_camel",
+		"policy": "_passport_control",
+		"pro": "_shield",
+		"probe": "_gear",
+		"properties": "_scroll",
+		"props": "_scroll",
+		"ps1": "_floppy_disk",
+		"pub": "_newspaper",
+		"pug": "_dog_face",
+		"py": "_snake",
+		"pyc": "_gear",
+		"pyd": "_snake",
+		"pyi": "_snake",
+		"pyw": "_snake",
+		"pyz": "_snake",
+		"qcow2": "_framed_picture",
+		"rar": "_card_index_dividers",
+		"rb": "_gem_stone",
+		"rc": "_floppy_disk",
+		"readme": "_memo",
+		"reg": "_calendar",
+		"rlib": "_gear",
+		"rm": "_video_camera",
+		"rs": "_crab",
+		"ru": "_gem_stone",
+		"s": "_computer_disk",
+		"sav": "_floppy_disk",
+		"save": "_floppy_disk",
+		"sc": "_scarf",
+		"scala": "_scarf",
+		"scss": "_piñata",
+		"sh": "_spiral_shell",
+		"sha1": "_locked_with_key",
+		"sha224": "_locked_with_key",
+		"sha256": "_locked_with_key",
+		"sha384": "_locked_with_key",
+		"sha512": "_locked_with_key",
+		"sketch": "_artist_palette",
+		"so": "_gear",
+		"sql": "_card_file_box",
+		"SRC": "_computer_disk",
+		"st": "_locomotive",
+		"stamp": "_envelope_with_arrow",
+		"storyboard": "_clapper_board",
+		"sum": "_link",
+		"svg": "_framed_picture",
+		"swf": "_video_camera",
+		"swift": "_eagle",
+		"t": "_camel",
+		"tar": "_card_index_dividers",
+		"targets": "_scroll",
+		"tif": "_framed_picture",
+		"tiff": "_framed_picture",
+		"toml": "_scroll",
+		"ts": "_bucket",
+		"tscn": "_clapper_board",
+		"tsx": "_bucket",
+		"ttf": "_black_nib",
+		"uuid": "_input_numbers",
+		"vbox": "_package",
+		"vbox-prev": "_package",
+		"vbs": "_basketball",
+		"vdi": "_optical_disk",
+		"vendor": "_money_bag",
+		"vi": "_test_tube",
+		"vmoptions": "_gear",
+		"vod": "_video_camera",
+		"vscodeignore": "_pushpin",
+		"vsix": "_puzzle_piece",
+		"vue": "_japanese_symbol_for_beginner",
+		"wasm": "_computer_disk",
+		"wav": "_musical_note",
+		"webp": "_framed_picture",
+		"wim": "_card_index_dividers",
+		"wla": "_computer_disk",
+		"wma": "_musical_note",
+		"wmv": "_video_camera",
+		"woff": "_black_nib",
+		"woff2": "_black_nib",
+		"wpl": "_musical_note",
+		"xcconfig": "_scroll",
+		"xhtml": "_globe_with_meridians",
+		"xla": "_calendar",
+		"xlam": "_calendar",
+		"xlb": "_calendar",
+		"xll": "_gear",
+		"xlm": "_calendar",
+		"xls": "_calendar",
+		"xlsb": "_calendar",
+		"xlsm": "_calendar",
+		"xlsx": "_calendar",
+		"xml": "_scroll",
+		"xs": "_camel",
+		"yaml": "_scroll",
+		"yml": "_scroll",
+		"zig": "_high_voltage",
+		"zip": "_card_index_dividers",
+		"zir": "_high_voltage",
+		"zon": "_high_voltage"
+	},
+	"fileNames": {
+		"AndroidManifest.xml": "_robot",
+		"AUTHORS": "_identification_card",
+		"AUTHORS.md": "_identification_card",
+		"AUTHORS.rtf": "_identification_card",
+		"AUTHORS.txt": "_identification_card",
+		"builds": "_hammer_and_wrench",
+		"CHANGELOG": "_watch",
+		"CHANGELOG.md": "_watch",
+		"CHANGELOG.rtf": "_watch",
+		"CHANGELOG.txt": "_watch",
+		"CMakeLists.txt": "_hammer_and_wrench",
+		"CODE_OF_CONDUCT": "_passport_control",
+		"CODE_OF_CONDUCT.md": "_passport_control",
+		"CODE_OF_CONDUCT.rtf": "_passport_control",
+		"CODE_OF_CONDUCT.txt": "_passport_control",
+		"composer.json": "_violin",
+		"composer.lock": "_violin",
+		"CONTRIBUTING": "_litter_in_bin_sign",
+		"CONTRIBUTING.md": "_litter_in_bin_sign",
+		"CONTRIBUTING.rtf": "_litter_in_bin_sign",
+		"CONTRIBUTING.txt": "_litter_in_bin_sign",
+		"dockerfile": "_whale",
+		"gradlew": "_mammoth",
+		"launch.json": "_gear",
+		"LICENSE": "_key",
+		"LICENSE.md": "_key",
+		"LICENSE.rtf": "_key",
+		"LICENSE.txt": "_key",
+		"make": "_hammer_and_wrench",
+		"MAKEFILE": "_hammer_and_wrench",
+		"NOTICE": "_bookmark_tabs",
+		"NOTICE.md": "_bookmark_tabs",
+		"NOTICE.rtf": "_bookmark_tabs",
+		"NOTICE.txt": "_bookmark_tabs",
+		"package.json": "_package",
+		"README": "_memo",
+		"README.md": "_memo",
+		"README.rtf": "_memo",
+		"README.txt": "_memo",
+		"robots.txt": "_robot",
+		"SECURITY": "_shield",
+		"SECURITY.md": "_shield",
+		"SECURITY.rtf": "_shield",
+		"SECURITY.txt": "_shield",
+		"settings.json": "_gear",
+		"spark": "_high_voltage",
+		"SUPPORT": "_dollar_banknote",
+		"SUPPORT.md": "_dollar_banknote",
+		"SUPPORT.rtf": "_dollar_banknote",
+		"SUPPORT.txt": "_dollar_banknote",
+		"task.json": "_gear",
+		"TODO": "_clipboard",
+		"TODO.md": "_clipboard",
+		"TODO.rtf": "_clipboard",
+		"TODO.txt": "_clipboard",
+		"uuid.txt": "_input_numbers",
+		"version": "_watch"
+	},
+	"folder": "_file_folder",
+	"folderExpanded": "_open_file_folder",
+	"iconDefinitions": {
+		"_anger_symbol": {
+			"iconPath": "./assets/Anger symbol/Flat/anger_symbol_flat.svg"
+		},
+		"_artist_palette": {
+			"iconPath": "./assets/Artist palette/Flat/artist_palette_flat.svg"
+		},
+		"_bar_chart": {
+			"iconPath": "./assets/Bar chart/Flat/bar_chart_flat.svg"
+		},
+		"_basketball": {
+			"iconPath": "./assets/Basketball/Flat/basketball_flat.svg"
+		},
+		"_black_nib": {
+			"iconPath": "./assets/Black nib/Flat/black_nib_flat.svg"
+		},
+		"_bookmark_tabs": {
+			"iconPath": "./assets/Bookmark tabs/Flat/bookmark_tabs_flat.svg"
+		},
+		"_books": {
+			"iconPath": "./assets/Books/Flat/books_flat.svg"
+		},
+		"_brain": {
+			"iconPath": "./assets/Brain/Flat/brain_flat.svg"
+		},
+		"_bubbles": {
+			"iconPath": "./assets/Bubbles/Flat/bubbles_flat.svg"
+		},
+		"_bucket": {
+			"iconPath": "./assets/Bucket/Flat/bucket_flat.svg"
+		},
+		"_calendar": {
+			"iconPath": "./assets/Calendar/Flat/calendar_flat.svg"
+		},
+		"_camel": {
+			"iconPath": "./assets/Camel/Flat/camel_flat.svg"
+		},
+		"_card_file_box": {
+			"iconPath": "./assets/Card file box/Flat/card_file_box_flat.svg"
+		},
+		"_card_index_dividers": {
+			"iconPath": "./assets/Card index dividers/Flat/card_index_dividers_flat.svg"
+		},
+		"_clapper_board": {
+			"iconPath": "./assets/Clapper board/Flat/clapper_board_flat.svg"
+		},
+		"_classical_building": {
+			"iconPath": "./assets/Classical building/Flat/classical_building_flat.svg"
+		},
+		"_clipboard": {
+			"iconPath": "./assets/Clipboard/Flat/clipboard_flat.svg"
+		},
+		"_closed_book": {
+			"iconPath": "./assets/Closed book/Flat/closed_book_flat.svg"
+		},
+		"_computer_disk": {
+			"iconPath": "./assets/Computer disk/Flat/computer_disk_flat.svg"
+		},
+		"_crab": {
+			"iconPath": "./assets/Crab/Flat/crab_flat.svg"
+		},
+		"_crown": {
+			"iconPath": "./assets/Crown/Flat/crown_flat.svg"
+		},
+		"_cupcake": {
+			"iconPath": "./assets/Cupcake/Flat/cupcake_flat.svg"
+		},
+		"_cut_of_meat": {
+			"iconPath": "./assets/Cut of meat/Flat/cut_of_meat_flat.svg"
+		},
+		"_dog_face": {
+			"iconPath": "./assets/Dog face/Flat/dog_face_flat.svg"
+		},
+		"_dollar_banknote": {
+			"iconPath": "./assets/Dollar banknote/Flat/dollar_banknote_flat.svg"
+		},
+		"_dove": {
+			"iconPath": "./assets/Dove/Flat/dove_flat.svg"
+		},
+		"_dvd": {
+			"iconPath": "./assets/Dvd/Flat/dvd_flat.svg"
+		},
+		"_e-mail": {
+			"iconPath": "./assets/E-mail/Flat/e-mail_flat.svg"
+		},
+		"_eagle": {
+			"iconPath": "./assets/Eagle/Flat/eagle_flat.svg"
+		},
+		"_elephant": {
+			"iconPath": "./assets/Elephant/Flat/elephant_flat.svg"
+		},
+		"_envelope_with_arrow": {
+			"iconPath": "./assets/Envelope with arrow/Flat/envelope_with_arrow_flat.svg"
+		},
+		"_feather": {
+			"iconPath": "./assets/Feather/Flat/feather_flat.svg"
+		},
+		"_file_folder": {
+			"iconPath": "./assets/File folder/Flat/file_folder_flat.svg"
+		},
+		"_floppy_disk": {
+			"iconPath": "./assets/Floppy disk/Flat/floppy_disk_flat.svg"
+		},
+		"_framed_picture": {
+			"iconPath": "./assets/Framed picture/Flat/framed_picture_flat.svg"
+		},
+		"_full_moon": {
+			"iconPath": "./assets/Full moon/Flat/full_moon_flat.svg"
+		},
+		"_funeral_urn": {
+			"iconPath": "./assets/Funeral urn/Flat/funeral_urn_flat.svg"
+		},
+		"_gear": {
+			"iconPath": "./assets/Gear/Flat/gear_flat.svg"
+		},
+		"_gem_stone": {
+			"iconPath": "./assets/Gem stone/Flat/gem_stone_flat.svg"
+		},
+		"_globe_with_meridians": {
+			"iconPath": "./assets/Globe with meridians/Flat/globe_with_meridians_flat.svg"
+		},
+		"_hammer_and_wrench": {
+			"iconPath": "./assets/Hammer and wrench/Flat/hammer_and_wrench_flat.svg"
+		},
+		"_hamster": {
+			"iconPath": "./assets/Hamster/Flat/hamster_flat.svg"
+		},
+		"_heart_decoration": {
+			"iconPath": "./assets/Heart decoration/Flat/heart_decoration_flat.svg"
+		},
+		"_high_voltage": {
+			"iconPath": "./assets/High voltage/Flat/high_voltage_flat.svg"
+		},
+		"_hot_beverage": {
+			"iconPath": "./assets/Hot beverage/Flat/hot_beverage_flat.svg"
+		},
+		"_identification_card": {
+			"iconPath": "./assets/Identification card/Flat/identification_card_flat.svg"
+		},
+		"_inbox_tray": {
+			"iconPath": "./assets/Inbox tray/Flat/inbox_tray_flat.svg"
+		},
+		"_infinity": {
+			"iconPath": "./assets/Infinity/Flat/infinity_flat.svg"
+		},
+		"_input_numbers": {
+			"iconPath": "./assets/Input numbers/Flat/input_numbers_flat.svg"
+		},
+		"_japanese_symbol_for_beginner": {
+			"iconPath": "./assets/Japanese symbol for beginner/Flat/japanese_symbol_for_beginner_flat.svg"
+		},
+		"_key": {
+			"iconPath": "./assets/Key/Flat/key_flat.svg"
+		},
+		"_keycap_hashtag": {
+			"iconPath": "./assets/Keycap hashtag/Flat/keycap_hashtag_flat.svg"
+		},
+		"_label": {
+			"iconPath": "./assets/Label/Flat/label_flat.svg"
+		},
+		"_link": {
+			"iconPath": "./assets/Link/Flat/link_flat.svg"
+		},
+		"_litter_in_bin_sign": {
+			"iconPath": "./assets/Litter in bin sign/Flat/litter_in_bin_sign_flat.svg"
+		},
+		"_lobster": {
+			"iconPath": "./assets/Lobster/Flat/lobster_flat.svg"
+		},
+		"_locked": {
+			"iconPath": "./assets/Locked/Flat/locked_flat.svg"
+		},
+		"_locked_with_key": {
+			"iconPath": "./assets/Locked with key/Flat/locked_with_key_flat.svg"
+		},
+		"_locomotive": {
+			"iconPath": "./assets/Locomotive/Flat/locomotive_flat.svg"
+		},
+		"_luggage": {
+			"iconPath": "./assets/Luggage/Flat/luggage_flat.svg"
+		},
+		"_mammoth": {
+			"iconPath": "./assets/Mammoth/Flat/mammoth_flat.svg"
+		},
+		"_man_mage": {
+			"iconPath": "./assets/Man mage/Medium/Flat/man_mage_flat_medium.svg"
+		},
+		"_mantelpiece_clock": {
+			"iconPath": "./assets/Mantelpiece clock/Flat/mantelpiece_clock_flat.svg"
+		},
+		"_memo": {
+			"iconPath": "./assets/Memo/Flat/memo_flat.svg"
+		},
+		"_microphone": {
+			"iconPath": "./assets/Microphone/Flat/microphone_flat.svg"
+		},
+		"_mobile_phone": {
+			"iconPath": "./assets/Mobile phone/Flat/mobile_phone_flat.svg"
+		},
+		"_money_bag": {
+			"iconPath": "./assets/Money bag/Flat/money_bag_flat.svg"
+		},
+		"_musical_note": {
+			"iconPath": "./assets/Musical note/Flat/musical_note_flat.svg"
+		},
+		"_musical_notes": {
+			"iconPath": "./assets/Musical notes/Flat/musical_notes_flat.svg"
+		},
+		"_newspaper": {
+			"iconPath": "./assets/Newspaper/Flat/newspaper_flat.svg"
+		},
+		"_nut_and_bolt": {
+			"iconPath": "./assets/Nut and bolt/Flat/nut_and_bolt_flat.svg"
+		},
+		"_open_file_folder": {
+			"iconPath": "./assets/Open file folder/Flat/open_file_folder_flat.svg"
+		},
+		"_optical_disk": {
+			"iconPath": "./assets/Optical disk/Flat/optical_disk_flat.svg"
+		},
+		"_outbox_tray": {
+			"iconPath": "./assets/Outbox tray/Flat/outbox_tray_flat.svg"
+		},
+		"_owl": {
+			"iconPath": "./assets/Owl/Flat/owl_flat.svg"
+		},
+		"_package": {
+			"iconPath": "./assets/Package/Flat/package_flat.svg"
+		},
+		"_page_facing_up": {
+			"iconPath": "./assets/Page facing up/Flat/page_facing_up_flat.svg"
+		},
+		"_passport_control": {
+			"iconPath": "./assets/Passport control/Flat/passport_control_flat.svg"
+		},
+		"_pencil": {
+			"iconPath": "./assets/Pencil/Flat/pencil_flat.svg"
+		},
+		"_piñata": {
+			"iconPath": "./assets/Piñata/Flat/piñata_flat.svg"
+		},
+		"_pushpin": {
+			"iconPath": "./assets/Pushpin/Flat/pushpin_flat.svg"
+		},
+		"_puzzle_piece": {
+			"iconPath": "./assets/Puzzle piece/Flat/puzzle_piece_flat.svg"
+		},
+		"_rabbit": {
+			"iconPath": "./assets/Rabbit/Flat/rabbit_flat.svg"
+		},
+		"_receipt": {
+			"iconPath": "./assets/Receipt/Flat/receipt_flat.svg"
+		},
+		"_robot": {
+			"iconPath": "./assets/Robot/Flat/robot_flat.svg"
+		},
+		"_rocket": {
+			"iconPath": "./assets/Rocket/Flat/rocket_flat.svg"
+		},
+		"_scarf": {
+			"iconPath": "./assets/Scarf/Flat/scarf_flat.svg"
+		},
+		"_screwdriver": {
+			"iconPath": "./assets/Screwdriver/Flat/screwdriver_flat.svg"
+		},
+		"_scroll": {
+			"iconPath": "./assets/Scroll/Flat/scroll_flat.svg"
+		},
+		"_shield": {
+			"iconPath": "./assets/Shield/Flat/shield_flat.svg"
+		},
+		"_shortcake": {
+			"iconPath": "./assets/Shortcake/Flat/shortcake_flat.svg"
+		},
+		"_snake": {
+			"iconPath": "./assets/Snake/Flat/snake_flat.svg"
+		},
+		"_snowflake": {
+			"iconPath": "./assets/Snowflake/Flat/snowflake_flat.svg"
+		},
+		"_spiral_notepad": {
+			"iconPath": "./assets/Spiral notepad/Flat/spiral_notepad_flat.svg"
+		},
+		"_spiral_shell": {
+			"iconPath": "./assets/Spiral shell/Flat/spiral_shell_flat.svg"
+		},
+		"_test_tube": {
+			"iconPath": "./assets/Test tube/Flat/test_tube_flat.svg"
+		},
+		"_toolbox": {
+			"iconPath": "./assets/Toolbox/Flat/toolbox_flat.svg"
+		},
+		"_top_hat": {
+			"iconPath": "./assets/Top hat/Flat/top_hat_flat.svg"
+		},
+		"_two-hump_camel": {
+			"iconPath": "./assets/Two-hump camel/Flat/two-hump_camel_flat.svg"
+		},
+		"_video_camera": {
+			"iconPath": "./assets/Video camera/Flat/video_camera_flat.svg"
+		},
+		"_violin": {
+			"iconPath": "./assets/Violin/Flat/violin_flat.svg"
+		},
+		"_watch": {
+			"iconPath": "./assets/Watch/Flat/watch_flat.svg"
+		},
+		"_whale": {
+			"iconPath": "./assets/Whale/Flat/whale_flat.svg"
+		},
+		"_wood": {
+			"iconPath": "./assets/Wood/Flat/wood_flat.svg"
+		}
+	}
 }

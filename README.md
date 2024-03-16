@@ -9,18 +9,18 @@
 <br>
 
 <div align="center">
-    <img src="https://img.shields.io/visual-studio-marketplace/r/gael-lopes-da-silva.yellowed?style=for-the-badge&labelColor=000000" alt="">
-    <img src="https://img.shields.io/visual-studio-marketplace/d/gael-lopes-da-silva.yellowed?style=for-the-badge&labelColor=000000" alt="">
-    <img src="https://img.shields.io/visual-studio-marketplace/v/gael-lopes-da-silva.yellowed?style=for-the-badge&labelColor=000000" alt="">
+	<img src="https://img.shields.io/visual-studio-marketplace/r/gael-lopes-da-silva.yellowed?style=for-the-badge&labelColor=000000" alt="">
+	<img src="https://img.shields.io/visual-studio-marketplace/d/gael-lopes-da-silva.yellowed?style=for-the-badge&labelColor=000000" alt="">
+	<img src="https://img.shields.io/visual-studio-marketplace/v/gael-lopes-da-silva.yellowed?style=for-the-badge&labelColor=000000" alt="">
 </div>
 
 <div align="center">
 	<a href="./LICENSE.md">
-        <img src="https://img.shields.io/badge/license-BSD%203--Clause-blue?style=for-the-badge&labelColor=000000" alt="">
-    </a>
-    <a href="https://vscodethemes.com/e/gael-lopes-da-silva.yellowed/yellowed-reborn?language=javascript">
-        <img src="https://img.shields.io/badge/preview-click_here_to_see_a_web_preview-blue?style=for-the-badge&labelColor=000000" alt="">
-    </a>
+		<img src="https://img.shields.io/badge/license-BSD%203--Clause-blue?style=for-the-badge&labelColor=000000" alt="">
+	</a>
+	<a href="https://vscodethemes.com/e/gael-lopes-da-silva.yellowed/yellowed-reborn?language=javascript">
+		<img src="https://img.shields.io/badge/preview-click_here_to_see_a_web_preview-blue?style=for-the-badge&labelColor=000000" alt="">
+	</a>
 </div>
 
 ### 🗒️ Yellowed is a simple material dark theme wich focus his syntax color on the golden yellow. Its syntax is inspired by the [gruber-darker](https://github.com/rexim/gruber-darker-theme) theme for emacs.
