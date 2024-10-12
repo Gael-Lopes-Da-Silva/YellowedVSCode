@@ -1,64 +1,67 @@
 {
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"iconThemes": [
-			{
-				"id": "yellowed_icons",
-				"label": "Yellowed Icons",
-				"path": "./icons/yellowed_icons.json"
-			}
-		],
-		"themes": [
-			{
-				"label": "Yellowed Reborn",
-				"path": "./themes/yellowed_reborn.json",
-				"uiTheme": "vs-dark"
-			},
-			{
-				"label": "Yellowed",
-				"path": "./themes/yellowed.json",
-				"uiTheme": "vs-dark"
-			}
-		]
-	},
-	"description": "A lemon like theme for vscode.",
-	"displayName": "Yellowed",
-	"engines": {
-		"vscode": "^1.81.1"
-	},
-	"galleryBanner": {
-		"color": "#ffd900",
-		"theme": "dark"
-	},
-	"icon": "resources/logo.png",
-	"keywords": [
-		"dark",
-		"flat",
-		"gold",
-		"golden",
-		"gruber",
-		"icon",
-		"icons",
-		"jaune",
-		"material",
-		"minimal",
-		"minimalist",
-		"yellow",
-		"yellowed"
-	],
-	"license": "LICENSE.md",
-	"markdown": "github",
-	"name": "yellowed",
-	"publisher": "gael-lopes-da-silva",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode"
-	},
-	"scripts": {
-		"package": "vsce package -o build",
-		"publish": "vsce publish"
-	},
-	"version": "2.3.4"
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "iconThemes": [
+            {
+                "id": "yellowed_icons",
+                "label": "Yellowed Icons",
+                "path": "./icons/yellowed_icons.json"
+            }
+        ],
+        "themes": [
+            {
+                "label": "Yellowed Reborn",
+                "path": "./themes/yellowed_reborn.json",
+                "uiTheme": "vs-dark"
+            },
+            {
+                "label": "Yellowed",
+                "path": "./themes/yellowed.json",
+                "uiTheme": "vs-dark"
+            }
+        ]
+    },
+    "description": "A lemon like theme for vscode.",
+    "displayName": "Yellowed",
+    "engines": {
+        "vscode": "^1.81.1"
+    },
+    "galleryBanner": {
+        "color": "#ffd900",
+        "theme": "dark"
+    },
+    "icon": "resources/logo.png",
+    "keywords": [
+        "dark",
+        "flat",
+        "gold",
+        "golden",
+        "gruber",
+        "icon",
+        "icons",
+        "jaune",
+        "material",
+        "minimal",
+        "minimalist",
+        "yellow",
+        "yellowed"
+    ],
+    "license": "LICENSE.md",
+    "markdown": "github",
+    "name": "yellowed",
+    "publisher": "gael-lopes-da-silva",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode"
+    },
+    "scripts": {
+        "package": "vsce package -o build",
+        "publish": "vsce publish"
+    },
+    "version": "2.3.4",
+    "dependencies": {
+        "vsce": "^1.97.0"
+    }
 }

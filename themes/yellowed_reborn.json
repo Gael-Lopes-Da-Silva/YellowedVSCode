@@ -294,6 +294,8 @@
 				// Rust
 				"entity.name.type.numeric.rust",
 				"storage.modifier.mut.rust",
+                // Haxe
+                "support.class.builtin",
 				// Java
 				"punctuation.definition.annotation.java",
 				// Typescript
