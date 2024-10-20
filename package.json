@@ -12,11 +12,13 @@
         ],
         "themes": [
             {
+                "id": "yellowed_reborn",
                 "label": "Yellowed Reborn",
                 "path": "./themes/yellowed_reborn.json",
                 "uiTheme": "vs-dark"
             },
             {
+                "id": "yellowed",
                 "label": "Yellowed",
                 "path": "./themes/yellowed.json",
                 "uiTheme": "vs-dark"
