@@ -61,7 +61,7 @@
         "publish": "vsce publish"
     },
     "version": "2.3.4",
-    "dependencies": {
+    "devDependencies": {
         "vsce": "^1.97.0"
     }
 }

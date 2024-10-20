@@ -337,24 +337,19 @@
 		{
 			"name": "Gray Bold",
 			"scope": [
+				"fenced_code.block.language.markdown",
+				"markup.inline.raw.string.markdown",
+				"punctuation.definition.char.begin.cs",
+				"punctuation.definition.char.end.cs",
+				"punctuation.definition.char.rust",
 				"punctuation.definition.comment",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
-				// Markdown
-				"fenced_code.block.language.markdown",
-				"markup.inline.raw.string.markdown",
-				// Csharp
-				"punctuation.definition.char.begin.cs",
-				"punctuation.definition.char.end.cs",
-				// Javascript
-				"punctuation.definition.string.template.begin.js",
-				"punctuation.definition.string.template.end.js",
-				// Rust
-				"punctuation.definition.char.rust",
 				"punctuation.definition.string.rust",
-				// Typescript
+				"punctuation.definition.string.template.begin.js",
 				"punctuation.definition.string.template.begin.ts",
-				"punctuation.definition.string.template.end.ts",
+				"punctuation.definition.string.template.end.js",
+				"punctuation.definition.string.template.end.ts"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -364,13 +359,11 @@
 		{
 			"name": "Green",
 			"scope": [
-				"string.template",
-				"string",
-				// Css
+				"entity.name.section.group-title.ini",
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
-				// Ini
-				"entity.name.section.group-title.ini",
+				"string.template",
+				"string"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -383,26 +376,19 @@
 				"constant.character",
 				"constant.language",
 				"constant.regexp",
-				// Csharp
-				"punctuation.definition.interpolation.begin.cs",
-				"punctuation.definition.interpolation.end.cs",
-				// Javascript
-				"punctuation.definition.template-expression.begin.js",
-				"punctuation.definition.template-expression.end.js",
-				// Ruby
-				"punctuation.section.embedded.begin.ruby",
-				"punctuation.section.embedded.end.ruby",
-				// Rust
-				"punctuation.definition.interpolation.rust",
-				// Zig
 				"keyword.constant.bool.zig",
 				"keyword.constant.default.zig",
-				// Typescript
-				"punctuation.definition.template-expression.begin.ts",
-				"punctuation.definition.template-expression.end.ts",
-				// Shellscript
 				"punctuation.definition.evaluation.parens.begin.shell",
-				"punctuation.definition.evaluation.parens.end.shell"
+				"punctuation.definition.evaluation.parens.end.shell",
+				"punctuation.definition.interpolation.begin.cs",
+				"punctuation.definition.interpolation.end.cs",
+				"punctuation.definition.interpolation.rust",
+				"punctuation.definition.template-expression.begin.js",
+				"punctuation.definition.template-expression.begin.ts",
+				"punctuation.definition.template-expression.end.js",
+				"punctuation.definition.template-expression.end.ts",
+				"punctuation.section.embedded.begin.ruby",
+				"punctuation.section.embedded.end.ruby"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -413,7 +399,6 @@
 			"name": "Purple bold",
 			"scope": [
 				"constant.other",
-				// Php
 				"support.constant.core.php"
 			],
 			"settings": {
@@ -426,31 +411,20 @@
 			"scope": [
 				"constant.numeric",
 				"entity.name.tag",
-				"keyword",
-				"storage.type",
-				// EditorConfig
-				"punctuation.separator.key-value.editorconfig",
-				// Html
-				"punctuation.separator.key-value.html",
-				// Lua
-				"punctuation.definition.block.tag.ldoc",
-				// Php
-				"keyword.other.type.php",
-				// Rust
 				"entity.name.type.numeric.rust",
-				"storage.modifier.mut.rust",
-                // Haxe
-                "support.class.builtin",
-				// Java
+				"keyword.other.type.php",
+				"keyword",
 				"punctuation.definition.annotation.java",
-				// Typescript
-				"support.type.primitive.ts",
-				// Ini
+				"punctuation.definition.block.tag.ldoc",
+				"punctuation.separator.key-value.editorconfig",
+				"punctuation.separator.key-value.html",
 				"punctuation.separator.key-value.ini",
-				// Jsx
+				"storage.modifier.mut.rust",
+				"storage.type",
 				"support.type.primitive.js.jsx",
-				// Tsx
-				"support.type.primitive.tsx"
+				"support.type.primitive.ts",
+				"support.type.primitive.tsx",
+                "support.class.builtin"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -460,33 +434,17 @@
 		{
 			"name": "Yellow Bold",
 			"scope": [
-				"keyword.control",
-				"keyword.operator.constructor",
-				"keyword.other",
-				"storage.modifier",
-				// C
-				"storage.type.enum.c",
-				"storage.type.struct.c",
-				// Dart
-				"keyword.declaration.dart",
-				// Go
+				"entity.name.function.decorator.python",
 				"keyword.const.go",
+				"keyword.control",
+				"keyword.declaration.dart",
 				"keyword.function.go",
 				"keyword.import.go",
+				"keyword.operator.constructor",
+				"keyword.other",
 				"keyword.package.go",
+				"keyword.storage.zig",
 				"keyword.type.go",
-				// Python
-				"entity.name.function.decorator.python",
-				"storage.type.class.python",
-				"storage.type.function.python",
-				// Javascript
-				"storage.type.function.js",
-				// Php
-				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php",
-				"storage.type.class.php",
-				"storage.type.function.php",
-				// Markdown
 				"markup.heading.setext.1.markdown",
 				"markup.heading.setext.2.markdown",
 				"meta.separator.markdown",
@@ -498,12 +456,19 @@
 				"punctuation.definition.quote.begin.markdown",
 				"punctuation.definition.raw.markdown",
 				"punctuation.definition.strikethrough.markdown",
-				// Shell
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php",
+				"storage.modifier",
 				"storage.type.alias.shell",
+				"storage.type.class.php",
+				"storage.type.class.python",
+				"storage.type.enum.c",
+				"storage.type.function.js",
+				"storage.type.function.php",
+				"storage.type.function.python",
 				"storage.type.function.shell",
-				// Zig
-				"keyword.storage.zig",
-				"storage.type.function.zig"
+				"storage.type.function.zig",
+				"storage.type.struct.c"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -513,38 +478,25 @@
 		{
 			"name": "White",
 			"scope": [
+				"constant.language.symbol.hashkey.ruby",
+				"keyword.other.definition.ini",
+				"markup.underline.link.image.markdown",
+				"meta.brace.round.js",
+				"meta.embedded.block.php",
+				"meta.embedded.line.js",
+				"meta.embedded.line.php",
+				"meta.embedded.line.ts",
+				"meta.interpolation.cs",
+				"meta.interpolation.rust",
+				"meta.section.editorconfig",
+				"punctuation.definition.metadata.markdown",
+				"storage.modifier.array.bracket.square.c",
 				"storage.modifier.import",
 				"storage.modifier.package",
-				// Shell
-				"string.unquoted.argument.shell",
-				// C
-				"storage.modifier.array.bracket.square.c",
-				// Dart
 				"string.interpolated.expression.dart",
-				// EditorConfig
-				"meta.section.editorconfig",
-				// Csharp
-				"meta.interpolation.cs",
-				// Javascript
-				"meta.brace.round.js",
-				"meta.embedded.line.js",
-				// Json
+				"string.unquoted.argument.shell",
 				"support.type.property-name.json",
-				// Markdown
-				"markup.underline.link.image.markdown",
-				"punctuation.definition.metadata.markdown",
-				// Php
-				"meta.embedded.block.php",
-				"meta.embedded.line.php",
-				"variable.other.php",
-				// Ruby
-				"constant.language.symbol.hashkey.ruby",
-				// Rust
-				"meta.interpolation.rust",
-				// Typescript
-				"meta.embedded.line.ts",
-				// Ini
-				"keyword.other.definition.ini"
+				"variable.other.php"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -554,46 +506,35 @@
 		{
 			"name": "White Bold",
 			"scope": [
+				"constant.other.option",
 				"entity.name.function-call",
 				"entity.name.function",
-				"entity.other.attribute-name",
-				"support.function",
-				"constant.other.option",
-				// Go
 				"entity.name.package.go",
-				"support.function.go",
-				"support.function.builtin.go",
-				// Markdown
 				"entity.name.section.markdown",
+				"entity.name.tag.yaml",
+				"entity.name.type.zig",
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name",
+				"invalid.deprecated.entity.other.attribute-name.html",
+				"meta.function-call.generic.python",
+				"meta.property-value.css",
+				"punctuation.brackets.attribute.rust",
+				"punctuation.definition.attribute.rust",
 				"punctuation.definition.constant.markdown",
+				"punctuation.definition.entity.ini",
 				"punctuation.definition.link.description.begin.markdown",
 				"punctuation.definition.link.description.end.markdown",
 				"punctuation.definition.link.title.begin.markdown",
 				"punctuation.definition.link.title.end.markdown",
-				// Css
-				"meta.property-value.css",
 				"support.constant.property-value.css",
-				// Python
-				"meta.function-call.generic.python",
-				"support.function.builtin.python",
-				"support.function.magic.python",
-				// Html
-				"entity.other.attribute-name.html",
-				"invalid.deprecated.entity.other.attribute-name.html",
-				// Lua
 				"support.function.any-method.lua",
-				// Ruby
-				"support.function.kernel.ruby",
-				// Rust
-				"punctuation.brackets.attribute.rust",
-				"punctuation.definition.attribute.rust",
-				// Yaml
-				"entity.name.tag.yaml",
-				// Zig
-				"entity.name.type.zig",
+				"support.function.builtin.go",
+				"support.function.builtin.python",
 				"support.function.builtin.zig",
-				// Ini
-				"punctuation.definition.entity.ini"
+				"support.function.go",
+				"support.function.kernel.ruby",
+				"support.function.magic.python",
+				"support.function"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -603,12 +544,10 @@
 		{
 			"name": "White Italic",
 			"scope": [
-				"entity.name.variable.parameter",
-				"variable.parameter",
-				// Ruby
 				"constant.other.symbol.hashkey.parameter.function.ruby",
-				// Css
-				"support.type.property-name.media.css"
+				"entity.name.variable.parameter",
+				"support.type.property-name.media.css",
+				"variable.parameter"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -628,7 +567,6 @@
 		{
 			"name": "Bold",
 			"scope": [
-				// Markdown
 				"markup.bold.markdown"
 			],
 			"settings": {
@@ -638,7 +576,6 @@
 		{
 			"name": "Italic",
 			"scope": [
-				// Markdown
 				"markup.italic.markdown",
 				"markup.italic"
 			],
@@ -649,7 +586,6 @@
 		{
 			"name": "Strikethrough",
 			"scope": [
-				// Markdown
 				"markup.strikethrough.markdown"
 			],
 			"settings": {
