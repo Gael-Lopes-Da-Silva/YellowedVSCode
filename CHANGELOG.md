@@ -4,7 +4,7 @@
 
 ---
 
-### 🗒️ All changes related to Yellowed will be writen here.
+### All changes related to Yellowed will be writen here.
 
 ---
 
