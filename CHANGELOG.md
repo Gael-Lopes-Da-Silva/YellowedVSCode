@@ -8,6 +8,10 @@
 
 ---
 
+### 2.3.5
+- Changed extension README and added some icons
+- Better support for Haxe programming language
+
 ### 2.3.4
 - Added more icons
 
