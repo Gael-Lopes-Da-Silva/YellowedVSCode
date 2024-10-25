@@ -1,6 +1,6 @@
 {
     "command-runner.commands": {
         "npm package": "npm run package",
-        "npm publish": "npm run",
+        "npm publish": "npm run publish",
     }
 }
