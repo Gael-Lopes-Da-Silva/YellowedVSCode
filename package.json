@@ -62,7 +62,7 @@
         "package": "vsce package -o build",
         "publish": "vsce publish"
     },
-    "version": "2.3.5",
+    "version": "2.3.6",
     "devDependencies": {
         "vsce": "^1.97.0"
     }

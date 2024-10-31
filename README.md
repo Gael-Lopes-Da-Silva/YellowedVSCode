@@ -6,6 +6,10 @@
 	<img width="400px" src="./resources/logo.png" alt="">
 </div>
 
+<div align="center">
+    <a href="https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode">https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode</a>
+</div>
+
 <br>
 
 <div align="center">
@@ -23,23 +27,35 @@
 	</a>
 </div>
 
-### Yellowed is a simple material dark theme wich focus his syntax color on the golden yellow. Its syntax is inspired by the [gruber-darker](https://github.com/rexim/gruber-darker-theme) theme for emacs.
+Description
+------------------------------------------------------------------
 
-### If you find any weird syntax highlighting, try disabling semantic highlighting. If it doesn't work, then please report it [here](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose). This would help me a lot since I can't cover all the languages.
+Yellowed is a simple material dark theme wich focus his syntax color on the golden yellow. Its syntax is inspired by the [gruber-darker](https://github.com/rexim/gruber-darker-theme) theme for emacs.
 
-### If you want to help me add more icons, you can suggest things to me [here](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose).
+If you find any weird syntax highlighting, try disabling semantic highlighting. If it doesn't work, then please report it [here](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose). This would help me a lot since I can't cover all the languages.
 
-## Screenshots
-### Yellowed Reborn
-<img src="./screenshots/yellowed_reborn_1.png" alt="">
-<img src="./screenshots/yellowed_reborn_2.png" alt="">
+If you want to help me add more icons, you can suggest things to me [here](https://github.com/Gael-Lopes-Da-Silva/YellowedVSCode/issues/new/choose).
 
-### Yellowed
-<img src="./screenshots/yellowed_1.png" alt="">
-<img src="./screenshots/yellowed_2.png" alt="">
 
-## How to build ?
+Screenshots
+------------------------------------------------------------------
+
+> ### Yellowed Reborn
+> <img src="./screenshots/yellowed_reborn_1.png" alt="">
+> <img src="./screenshots/yellowed_reborn_2.png" alt="">
+
+> ### Yellowed
+> <img src="./screenshots/yellowed_1.png" alt="">
+> <img src="./screenshots/yellowed_2.png" alt="">
+
+
+How to build
+------------------------------------------------------------------
+
 If you want a build of Yellowed you can find it in the release section or in the [build](./build/) folder. Else use `vsce package` in the project folder.
 
-## How to install ?
+
+How to install
+------------------------------------------------------------------
+
 To install, open visual studio code and go to the extention menu. Click on the three dots and click on `Install from VSIX` and choose the `yellowed-X.X.X.vsix` file. Or just install it on the market place.
