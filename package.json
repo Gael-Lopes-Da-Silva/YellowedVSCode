@@ -26,6 +26,9 @@
         ]
     },
     "description": "A yellow theme for vscode",
+    "devDependencies": {
+        "@vscode/vsce": "^3.2.1"
+    },
     "displayName": "Yellowed",
     "engines": {
         "vscode": "^1.81.1"
@@ -62,8 +65,5 @@
         "package": "vsce package -o build",
         "publish": "vsce publish"
     },
-    "version": "2.3.6",
-    "devDependencies": {
-        "@vscode/vsce": "^3.2.1"
-    }
+    "version": "2.3.6"
 }
