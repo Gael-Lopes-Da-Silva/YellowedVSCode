@@ -48,7 +48,7 @@
         "cppm": "_infinity",
         "crl": "_locked_with_key",
         "cs": "_keycap_hashtag",
-        "csproj": "_assetage",
+        "csproj": "_package",
         "css": "_piñata",
         "csv": "_calendar",
         "csx": "_keycap_hashtag",
@@ -192,7 +192,7 @@
         "nimble": "_crown",
         "nims": "_crown",
         "nix": "_snowflake",
-        "node": "_assetage",
+        "node": "_package",
         "nojekyll": "_gear",
         "npmignore": "_pushpin",
         "nvmrc": "_gear",
@@ -278,8 +278,8 @@
         "tsx": "_bucket",
         "ttf": "_black_nib",
         "uuid": "_input_numbers",
-        "vbox": "_assetage",
-        "vbox-prev": "_assetage",
+        "vbox": "_package",
+        "vbox-prev": "_package",
         "vbs": "_basketball",
         "vdi": "_optical_disk",
         "vendor": "_money_bag",
@@ -350,7 +350,7 @@
         "COPYRIGHT.md": "_key",
         "COPYRIGHT.rtf": "_key",
         "COPYRIGHT.txt": "_key",
-        "Cargo.toml": "_assetage",
+        "Cargo.toml": "_package",
         "HISTORY": "_watch",
         "HISTORY.md": "_watch",
         "HISTORY.rtf": "_watch",
@@ -395,17 +395,17 @@
         "ThirdPartyNotice.txt": "_bookmark_tabs",
         "builds": "_hammer_and_wrench",
         "composer.json": "_violin",
+        "config": "_gear",
         "dockerfile": "_whale",
-        "gleam.toml": "_assetage",
+        "gleam.toml": "_package",
         "gradlew": "_mammoth",
         "launch.json": "_gear",
         "make": "_hammer_and_wrench",
-        "assetage-lock.json": "_locked",
-        "assetage.json": "_assetage",
+        "package-lock.json": "_locked",
+        "package.json": "_package",
         "requirements.txt": "_wrench",
         "robots.txt": "_robot",
         "settings.json": "_gear",
-        "config": "_gear",
         "spark": "_high_voltage",
         "task.json": "_gear",
         "uuid.txt": "_input_numbers",
@@ -636,8 +636,8 @@
         "_owl": {
             "iconPath": "./asset/owl_flat.svg"
         },
-        "_assetage": {
-            "iconPath": "./asset/assetage_flat.svg"
+        "_package": {
+            "iconPath": "./asset/package_flat.svg"
         },
         "_page_facing_up": {
             "iconPath": "./asset/page_facing_up_flat.svg"

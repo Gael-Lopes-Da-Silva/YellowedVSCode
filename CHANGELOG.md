@@ -8,6 +8,9 @@
 
 ---
 
+### 2.3.8
+- Fix icons with wrong path
+
 ### 2.3.7
 - Reduction of extension size by excluding unused svg icons
 
