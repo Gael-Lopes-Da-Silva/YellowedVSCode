@@ -65,5 +65,5 @@
         "package": "vsce package -o build",
         "publish": "vsce publish"
     },
-    "version": "2.3.6"
+    "version": "2.3.7"
 }

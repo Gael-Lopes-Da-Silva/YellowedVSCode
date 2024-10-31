@@ -1,7 +1,8 @@
 .github/
-.vscode/**
 .gitignore
+.vscode/**
 build/
-samples/
+icons/pack/
 node_modules/
 package-lock.json
+samples/

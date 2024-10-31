@@ -48,7 +48,7 @@
         "cppm": "_infinity",
         "crl": "_locked_with_key",
         "cs": "_keycap_hashtag",
-        "csproj": "_package",
+        "csproj": "_assetage",
         "css": "_piñata",
         "csv": "_calendar",
         "csx": "_keycap_hashtag",
@@ -192,7 +192,7 @@
         "nimble": "_crown",
         "nims": "_crown",
         "nix": "_snowflake",
-        "node": "_package",
+        "node": "_assetage",
         "nojekyll": "_gear",
         "npmignore": "_pushpin",
         "nvmrc": "_gear",
@@ -278,8 +278,8 @@
         "tsx": "_bucket",
         "ttf": "_black_nib",
         "uuid": "_input_numbers",
-        "vbox": "_package",
-        "vbox-prev": "_package",
+        "vbox": "_assetage",
+        "vbox-prev": "_assetage",
         "vbs": "_basketball",
         "vdi": "_optical_disk",
         "vendor": "_money_bag",
@@ -350,7 +350,7 @@
         "COPYRIGHT.md": "_key",
         "COPYRIGHT.rtf": "_key",
         "COPYRIGHT.txt": "_key",
-        "Cargo.toml": "_package",
+        "Cargo.toml": "_assetage",
         "HISTORY": "_watch",
         "HISTORY.md": "_watch",
         "HISTORY.rtf": "_watch",
@@ -396,12 +396,12 @@
         "builds": "_hammer_and_wrench",
         "composer.json": "_violin",
         "dockerfile": "_whale",
-        "gleam.toml": "_package",
+        "gleam.toml": "_assetage",
         "gradlew": "_mammoth",
         "launch.json": "_gear",
         "make": "_hammer_and_wrench",
-        "package-lock.json": "_locked",
-        "package.json": "_package",
+        "assetage-lock.json": "_locked",
+        "assetage.json": "_assetage",
         "requirements.txt": "_wrench",
         "robots.txt": "_robot",
         "settings.json": "_gear",
@@ -415,322 +415,322 @@
     "folderExpanded": "_open_file_folder",
     "iconDefinitions": {
         "_anger_symbol": {
-            "iconPath": "./pack/anger_symbol_flat.svg"
+            "iconPath": "./asset/anger_symbol_flat.svg"
         },
         "_artist_palette": {
-            "iconPath": "./pack/artist_palette_flat.svg"
+            "iconPath": "./asset/artist_palette_flat.svg"
         },
         "_bar_chart": {
-            "iconPath": "./pack/bar_chart_flat.svg"
+            "iconPath": "./asset/bar_chart_flat.svg"
         },
         "_basketball": {
-            "iconPath": "./pack/basketball_flat.svg"
+            "iconPath": "./asset/basketball_flat.svg"
         },
         "_black_nib": {
-            "iconPath": "./pack/black_nib_flat.svg"
+            "iconPath": "./asset/black_nib_flat.svg"
         },
         "_bookmark_tabs": {
-            "iconPath": "./pack/bookmark_tabs_flat.svg"
+            "iconPath": "./asset/bookmark_tabs_flat.svg"
         },
         "_books": {
-            "iconPath": "./pack/books_flat.svg"
+            "iconPath": "./asset/books_flat.svg"
         },
         "_brain": {
-            "iconPath": "./pack/brain_flat.svg"
+            "iconPath": "./asset/brain_flat.svg"
         },
         "_bubbles": {
-            "iconPath": "./pack/bubbles_flat.svg"
+            "iconPath": "./asset/bubbles_flat.svg"
         },
         "_bucket": {
-            "iconPath": "./pack/bucket_flat.svg"
+            "iconPath": "./asset/bucket_flat.svg"
         },
         "_calendar": {
-            "iconPath": "./pack/calendar_flat.svg"
+            "iconPath": "./asset/calendar_flat.svg"
         },
         "_camel": {
-            "iconPath": "./pack/camel_flat.svg"
+            "iconPath": "./asset/camel_flat.svg"
         },
         "_card_file_box": {
-            "iconPath": "./pack/card_file_box_flat.svg"
+            "iconPath": "./asset/card_file_box_flat.svg"
         },
         "_card_index_dividers": {
-            "iconPath": "./pack/card_index_dividers_flat.svg"
+            "iconPath": "./asset/card_index_dividers_flat.svg"
         },
         "_clapper_board": {
-            "iconPath": "./pack/clapper_board_flat.svg"
+            "iconPath": "./asset/clapper_board_flat.svg"
         },
         "_classical_building": {
-            "iconPath": "./pack/classical_building_flat.svg"
+            "iconPath": "./asset/classical_building_flat.svg"
         },
         "_clipboard": {
-            "iconPath": "./pack/clipboard_flat.svg"
+            "iconPath": "./asset/clipboard_flat.svg"
         },
         "_closed_book": {
-            "iconPath": "./pack/closed_book_flat.svg"
+            "iconPath": "./asset/closed_book_flat.svg"
         },
         "_computer_disk": {
-            "iconPath": "./pack/computer_disk_flat.svg"
+            "iconPath": "./asset/computer_disk_flat.svg"
         },
         "_crab": {
-            "iconPath": "./pack/crab_flat.svg"
+            "iconPath": "./asset/crab_flat.svg"
         },
         "_crown": {
-            "iconPath": "./pack/crown_flat.svg"
+            "iconPath": "./asset/crown_flat.svg"
         },
         "_cupcake": {
-            "iconPath": "./pack/cupcake_flat.svg"
+            "iconPath": "./asset/cupcake_flat.svg"
         },
         "_cut_of_meat": {
-            "iconPath": "./pack/cut_of_meat_flat.svg"
+            "iconPath": "./asset/cut_of_meat_flat.svg"
         },
         "_dog_face": {
-            "iconPath": "./pack/dog_face_flat.svg"
+            "iconPath": "./asset/dog_face_flat.svg"
         },
         "_dollar_banknote": {
-            "iconPath": "./pack/dollar_banknote_flat.svg"
+            "iconPath": "./asset/dollar_banknote_flat.svg"
         },
         "_dove": {
-            "iconPath": "./pack/dove_flat.svg"
+            "iconPath": "./asset/dove_flat.svg"
         },
         "_dvd": {
-            "iconPath": "./pack/dvd_flat.svg"
+            "iconPath": "./asset/dvd_flat.svg"
         },
         "_e-mail": {
-            "iconPath": "./pack/e-mail_flat.svg"
+            "iconPath": "./asset/e-mail_flat.svg"
         },
         "_eagle": {
-            "iconPath": "./pack/eagle_flat.svg"
+            "iconPath": "./asset/eagle_flat.svg"
         },
         "_elephant": {
-            "iconPath": "./pack/elephant_flat.svg"
+            "iconPath": "./asset/elephant_flat.svg"
         },
         "_envelope_with_arrow": {
-            "iconPath": "./pack/envelope_with_arrow_flat.svg"
+            "iconPath": "./asset/envelope_with_arrow_flat.svg"
         },
         "_feather": {
-            "iconPath": "./pack/feather_flat.svg"
+            "iconPath": "./asset/feather_flat.svg"
         },
         "_file_folder": {
-            "iconPath": "./pack/file_folder_flat.svg"
+            "iconPath": "./asset/file_folder_flat.svg"
         },
         "_floppy_disk": {
-            "iconPath": "./pack/floppy_disk_flat.svg"
+            "iconPath": "./asset/floppy_disk_flat.svg"
         },
         "_framed_picture": {
-            "iconPath": "./pack/framed_picture_flat.svg"
+            "iconPath": "./asset/framed_picture_flat.svg"
         },
         "_full_moon": {
-            "iconPath": "./pack/full_moon_flat.svg"
+            "iconPath": "./asset/full_moon_flat.svg"
         },
         "_funeral_urn": {
-            "iconPath": "./pack/funeral_urn_flat.svg"
+            "iconPath": "./asset/funeral_urn_flat.svg"
         },
         "_gear": {
-            "iconPath": "./pack/gear_flat.svg"
+            "iconPath": "./asset/gear_flat.svg"
         },
         "_gem_stone": {
-            "iconPath": "./pack/gem_stone_flat.svg"
+            "iconPath": "./asset/gem_stone_flat.svg"
         },
         "_hammer_and_wrench": {
-            "iconPath": "./pack/hammer_and_wrench_flat.svg"
+            "iconPath": "./asset/hammer_and_wrench_flat.svg"
         },
         "_hamster": {
-            "iconPath": "./pack/hamster_flat.svg"
+            "iconPath": "./asset/hamster_flat.svg"
         },
         "_heart_decoration": {
-            "iconPath": "./pack/heart_decoration_flat.svg"
+            "iconPath": "./asset/heart_decoration_flat.svg"
         },
         "_high_voltage": {
-            "iconPath": "./pack/high_voltage_flat.svg"
+            "iconPath": "./asset/high_voltage_flat.svg"
         },
         "_hot_beverage": {
-            "iconPath": "./pack/hot_beverage_flat.svg"
+            "iconPath": "./asset/hot_beverage_flat.svg"
         },
         "_identification_card": {
-            "iconPath": "./pack/identification_card_flat.svg"
+            "iconPath": "./asset/identification_card_flat.svg"
         },
         "_inbox_tray": {
-            "iconPath": "./pack/inbox_tray_flat.svg"
+            "iconPath": "./asset/inbox_tray_flat.svg"
         },
         "_infinity": {
-            "iconPath": "./pack/infinity_flat.svg"
+            "iconPath": "./asset/infinity_flat.svg"
         },
         "_input_numbers": {
-            "iconPath": "./pack/input_numbers_flat.svg"
+            "iconPath": "./asset/input_numbers_flat.svg"
         },
         "_japanese_symbol_for_beginner": {
-            "iconPath": "./pack/japanese_symbol_for_beginner_flat.svg"
+            "iconPath": "./asset/japanese_symbol_for_beginner_flat.svg"
         },
         "_key": {
-            "iconPath": "./pack/key_flat.svg"
+            "iconPath": "./asset/key_flat.svg"
         },
         "_keycap_hashtag": {
-            "iconPath": "./pack/keycap_hashtag_flat.svg"
+            "iconPath": "./asset/keycap_hashtag_flat.svg"
         },
         "_label": {
-            "iconPath": "./pack/label_flat.svg"
+            "iconPath": "./asset/label_flat.svg"
         },
         "_link": {
-            "iconPath": "./pack/link_flat.svg"
+            "iconPath": "./asset/link_flat.svg"
         },
         "_litter_in_bin_sign": {
-            "iconPath": "./pack/litter_in_bin_sign_flat.svg"
+            "iconPath": "./asset/litter_in_bin_sign_flat.svg"
         },
         "_lobster": {
-            "iconPath": "./pack/lobster_flat.svg"
+            "iconPath": "./asset/lobster_flat.svg"
         },
         "_locked": {
-            "iconPath": "./pack/locked_flat.svg"
+            "iconPath": "./asset/locked_flat.svg"
         },
         "_locked_with_key": {
-            "iconPath": "./pack/locked_with_key_flat.svg"
+            "iconPath": "./asset/locked_with_key_flat.svg"
         },
         "_locomotive": {
-            "iconPath": "./pack/locomotive_flat.svg"
+            "iconPath": "./asset/locomotive_flat.svg"
         },
         "_luggage": {
-            "iconPath": "./pack/luggage_flat.svg"
+            "iconPath": "./asset/luggage_flat.svg"
         },
         "_mammoth": {
-            "iconPath": "./pack/mammoth_flat.svg"
+            "iconPath": "./asset/mammoth_flat.svg"
         },
         "_man_mage": {
-            "iconPath": "./pack/man_mage_flat_medium.svg"
+            "iconPath": "./asset/man_mage_flat_medium.svg"
         },
         "_mantelpiece_clock": {
-            "iconPath": "./pack/mantelpiece_clock_flat.svg"
+            "iconPath": "./asset/mantelpiece_clock_flat.svg"
         },
         "_memo": {
-            "iconPath": "./pack/memo_flat.svg"
+            "iconPath": "./asset/memo_flat.svg"
         },
         "_microphone": {
-            "iconPath": "./pack/microphone_flat.svg"
+            "iconPath": "./asset/microphone_flat.svg"
         },
         "_mobile_phone": {
-            "iconPath": "./pack/mobile_phone_flat.svg"
+            "iconPath": "./asset/mobile_phone_flat.svg"
         },
         "_money_bag": {
-            "iconPath": "./pack/money_bag_flat.svg"
+            "iconPath": "./asset/money_bag_flat.svg"
         },
         "_musical_note": {
-            "iconPath": "./pack/musical_note_flat.svg"
+            "iconPath": "./asset/musical_note_flat.svg"
         },
         "_musical_notes": {
-            "iconPath": "./pack/musical_notes_flat.svg"
+            "iconPath": "./asset/musical_notes_flat.svg"
         },
         "_newspaper": {
-            "iconPath": "./pack/newspaper_flat.svg"
+            "iconPath": "./asset/newspaper_flat.svg"
         },
         "_nut_and_bolt": {
-            "iconPath": "./pack/nut_and_bolt_flat.svg"
+            "iconPath": "./asset/nut_and_bolt_flat.svg"
         },
         "_open_file_folder": {
-            "iconPath": "./pack/open_file_folder_flat.svg"
+            "iconPath": "./asset/open_file_folder_flat.svg"
         },
         "_optical_disk": {
-            "iconPath": "./pack/optical_disk_flat.svg"
+            "iconPath": "./asset/optical_disk_flat.svg"
         },
         "_outbox_tray": {
-            "iconPath": "./pack/outbox_tray_flat.svg"
+            "iconPath": "./asset/outbox_tray_flat.svg"
         },
         "_owl": {
-            "iconPath": "./pack/owl_flat.svg"
+            "iconPath": "./asset/owl_flat.svg"
         },
-        "_package": {
-            "iconPath": "./pack/package_flat.svg"
+        "_assetage": {
+            "iconPath": "./asset/assetage_flat.svg"
         },
         "_page_facing_up": {
-            "iconPath": "./pack/page_facing_up_flat.svg"
+            "iconPath": "./asset/page_facing_up_flat.svg"
         },
         "_passport_control": {
-            "iconPath": "./pack/passport_control_flat.svg"
+            "iconPath": "./asset/passport_control_flat.svg"
         },
         "_pencil": {
-            "iconPath": "./pack/pencil_flat.svg"
+            "iconPath": "./asset/pencil_flat.svg"
         },
         "_piñata": {
-            "iconPath": "./pack/piñata_flat.svg"
+            "iconPath": "./asset/piñata_flat.svg"
         },
         "_pushpin": {
-            "iconPath": "./pack/pushpin_flat.svg"
+            "iconPath": "./asset/pushpin_flat.svg"
         },
         "_puzzle_piece": {
-            "iconPath": "./pack/puzzle_piece_flat.svg"
+            "iconPath": "./asset/puzzle_piece_flat.svg"
         },
         "_rabbit": {
-            "iconPath": "./pack/rabbit_flat.svg"
+            "iconPath": "./asset/rabbit_flat.svg"
         },
         "_receipt": {
-            "iconPath": "./pack/receipt_flat.svg"
+            "iconPath": "./asset/receipt_flat.svg"
         },
         "_robot": {
-            "iconPath": "./pack/robot_flat.svg"
+            "iconPath": "./asset/robot_flat.svg"
         },
         "_rocket": {
-            "iconPath": "./pack/rocket_flat.svg"
+            "iconPath": "./asset/rocket_flat.svg"
         },
         "_scarf": {
-            "iconPath": "./pack/scarf_flat.svg"
+            "iconPath": "./asset/scarf_flat.svg"
         },
         "_screwdriver": {
-            "iconPath": "./pack/screwdriver_flat.svg"
+            "iconPath": "./asset/screwdriver_flat.svg"
         },
         "_scroll": {
-            "iconPath": "./pack/scroll_flat.svg"
+            "iconPath": "./asset/scroll_flat.svg"
         },
         "_shield": {
-            "iconPath": "./pack/shield_flat.svg"
+            "iconPath": "./asset/shield_flat.svg"
         },
         "_shortcake": {
-            "iconPath": "./pack/shortcake_flat.svg"
+            "iconPath": "./asset/shortcake_flat.svg"
         },
         "_snake": {
-            "iconPath": "./pack/snake_flat.svg"
+            "iconPath": "./asset/snake_flat.svg"
         },
         "_snowflake": {
-            "iconPath": "./pack/snowflake_flat.svg"
+            "iconPath": "./asset/snowflake_flat.svg"
         },
         "_spiral_notepad": {
-            "iconPath": "./pack/spiral_notepad_flat.svg"
+            "iconPath": "./asset/spiral_notepad_flat.svg"
         },
         "_spiral_shell": {
-            "iconPath": "./pack/spiral_shell_flat.svg"
+            "iconPath": "./asset/spiral_shell_flat.svg"
         },
         "_star": {
-            "iconPath": "./pack/star_flat.svg"
+            "iconPath": "./asset/star_flat.svg"
         },
         "_test_tube": {
-            "iconPath": "./pack/test_tube_flat.svg"
+            "iconPath": "./asset/test_tube_flat.svg"
         },
         "_toolbox": {
-            "iconPath": "./pack/toolbox_flat.svg"
+            "iconPath": "./asset/toolbox_flat.svg"
         },
         "_top_hat": {
-            "iconPath": "./pack/top_hat_flat.svg"
+            "iconPath": "./asset/top_hat_flat.svg"
         },
         "_two-hump_camel": {
-            "iconPath": "./pack/two-hump_camel_flat.svg"
+            "iconPath": "./asset/two-hump_camel_flat.svg"
         },
         "_video_camera": {
-            "iconPath": "./pack/video_camera_flat.svg"
+            "iconPath": "./asset/video_camera_flat.svg"
         },
         "_violin": {
-            "iconPath": "./pack/violin_flat.svg"
+            "iconPath": "./asset/violin_flat.svg"
         },
         "_watch": {
-            "iconPath": "./pack/watch_flat.svg"
+            "iconPath": "./asset/watch_flat.svg"
         },
         "_whale": {
-            "iconPath": "./pack/whale_flat.svg"
+            "iconPath": "./asset/whale_flat.svg"
         },
         "_wood": {
-            "iconPath": "./pack/wood_flat.svg"
+            "iconPath": "./asset/wood_flat.svg"
         },
         "_world_map_flat": {
-            "iconPath": "./pack/world_map_flat.svg"
+            "iconPath": "./asset/world_map_flat.svg"
         },
         "_wrench": {
-            "iconPath": "./pack/wrench_flat.svg"
+            "iconPath": "./asset/wrench_flat.svg"
         }
     }
 }

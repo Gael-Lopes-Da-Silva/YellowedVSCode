@@ -8,6 +8,9 @@
 
 ---
 
+### 2.3.7
+- Reduction of extension size by excluding unused svg icons
+
 ### 2.3.6
 - Changed extension README
 
