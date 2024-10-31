@@ -41,12 +41,12 @@ Screenshots
 ------------------------------------------------------------------
 
 > ### Yellowed Reborn
-> <img src="./screenshots/yellowed_reborn_1.png" alt="">
-> <img src="./screenshots/yellowed_reborn_2.png" alt="">
+> ![](./screenshots/yellowed_reborn_1.png)
+> ![](./screenshots/yellowed_reborn_2.png)
 
 > ### Yellowed
-> <img src="./screenshots/yellowed_1.png" alt="">
-> <img src="./screenshots/yellowed_2.png" alt="">
+> ![](./screenshots/yellowed_1.png)
+> ![](./screenshots/yellowed_2.png)
 
 
 How to build
