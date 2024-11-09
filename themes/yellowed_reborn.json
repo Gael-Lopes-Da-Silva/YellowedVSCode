@@ -243,6 +243,7 @@
                 "punctuation.definition.template-expression.end.js",
                 "punctuation.definition.template-expression.end.ts",
                 "punctuation.section.embedded.begin.ruby",
+                "punctuation.definition.variable.shell",
                 "punctuation.section.embedded.end.ruby"
             ],
             "settings": {
@@ -386,6 +387,10 @@
                 "string.interpolated.expression.dart",
                 "string.unquoted.argument.shell",
                 "support.type.property-name.json",
+                "variable.other.normal.shell",
+                "constant.other.option",
+                "constant.other.option.dash.shell",
+                "keyword.operator.pattern.case.shell",
                 "variable.other.php"
             ],
             "settings": {

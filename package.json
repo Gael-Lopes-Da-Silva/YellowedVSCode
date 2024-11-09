@@ -1,4 +1,9 @@
 {
+    "author": {
+        "email": "gael.lopes-da-silva@outlook.fr",
+        "name": "Gaël Lopes Da Silva",
+        "url": "https://github.com/Gael-Lopes-Da-Silva"
+    },
     "categories": [
         "Themes"
     ],
@@ -65,5 +70,5 @@
         "package": "vsce package -o build",
         "publish": "vsce publish"
     },
-    "version": "2.3.8"
+    "version": "2.3.9"
 }

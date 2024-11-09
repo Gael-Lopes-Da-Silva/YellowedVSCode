@@ -8,6 +8,11 @@
 
 ---
 
+### 2.3.9
+- Update publish config
+- Better sh support
+- Added some icons (diff, nu)
+
 ### 2.3.8
 - Fix icons with wrong path
 
