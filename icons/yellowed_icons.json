@@ -60,7 +60,7 @@
         "dbf": "_card_file_box",
         "dex": "_gear",
         "dif": "_calendar",
-        "diff": "_file_cabinet_flat",
+        "diff": "_calendar",
         "dill": "_gear",
         "directory": "_card_index_dividers",
         "dist": "_scroll",
@@ -119,8 +119,8 @@
         "htaccess": "_feather",
         "htaccess_local": "_feather",
         "htaccess_notlive": "_feather",
-        "htm": "_world_map_flat",
-        "html": "_world_map_flat",
+        "htm": "_world_map",
+        "html": "_world_map",
         "htpasswd": "_feather",
         "hx": "_anger_symbol",
         "hxml": "_anger_symbol",
@@ -145,6 +145,7 @@
         "js": "_rocket",
         "json": "_scroll",
         "jsx": "_rocket",
+        "kbd": "_keyboard",
         "keep": "_pushpin",
         "kexe": "_toolbox",
         "key": "_key",
@@ -196,7 +197,7 @@
         "node": "_package",
         "nojekyll": "_gear",
         "npmignore": "_pushpin",
-        "nu": "_chestnut_flat",
+        "nu": "_chestnut",
         "nvmrc": "_gear",
         "nycrc": "_scroll",
         "o": "_gear",
@@ -304,7 +305,7 @@
         "woff2": "_black_nib",
         "wpl": "_musical_note",
         "xcconfig": "_scroll",
-        "xhtml": "_world_map_flat",
+        "xhtml": "_world_map",
         "xla": "_calendar",
         "xlam": "_calendar",
         "xlb": "_calendar",
@@ -458,7 +459,7 @@
         "_card_index_dividers": {
             "iconPath": "./asset/card_index_dividers_flat.svg"
         },
-        "_chestnut_flat": {
+        "_chestnut": {
             "iconPath": "./asset/chestnut_flat.svg"
         },
         "_clapper_board": {
@@ -515,9 +516,6 @@
         "_feather": {
             "iconPath": "./asset/feather_flat.svg"
         },
-        "_file_cabinet_flat": {
-            "iconPath": "./asset/file_cabinet_flat.svg"
-        },
         "_file_folder": {
             "iconPath": "./asset/file_folder_flat.svg"
         },
@@ -571,6 +569,9 @@
         },
         "_key": {
             "iconPath": "./asset/key_flat.svg"
+        },
+        "_keyboard": {
+            "iconPath": "./asset/keyboard_flat.svg"
         },
         "_keycap_hashtag": {
             "iconPath": "./asset/keycap_hashtag_flat.svg"
@@ -734,7 +735,7 @@
         "_wood": {
             "iconPath": "./asset/wood_flat.svg"
         },
-        "_world_map_flat": {
+        "_world_map": {
             "iconPath": "./asset/world_map_flat.svg"
         },
         "_wrench": {

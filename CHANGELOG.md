@@ -8,6 +8,9 @@
 
 ---
 
+### 2.4.0
+- Added more icons
+
 ### 2.3.9
 - Update publish config
 - Better sh support
